@@ -39,11 +39,10 @@ In case you don't manage to install docker on your machine. You can follow the s
 
 #### 3. Configure GOAT
 
-There is one key configuration file for setting up GOAT. You can find this file at `your-GOAT-directory/app/config/goat_config.yaml`.
+In case you want to customize GOAT, there is one key configuration file for setting up GOAT. You can find this file at `your-GOAT-directory/app/config/goat_config.yaml`.
 At the moment not all configuration possibilities are in here but it is targeted to move more and more of the configuration in here.
 
-It is recommended to open the files with a proper editor such as [Visual Studio Code](https://code.visualstudio.com/).
-
+It is recommended to open the files with a proper editor such as [Visual Studio Code](https://code.visualstudio.com/). 
 #### 4. Prepare your data
 
 If you want to apply the tool to your own study area or adjust the input data, follow the description at [Data Preparation](../data_preparation/).
