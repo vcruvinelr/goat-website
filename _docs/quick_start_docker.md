@@ -58,7 +58,7 @@ Install all the software and start services:
 
 Fill and prepare the goat-database:
 
-`docker exec -it goat-database python3 /opt/setup_goat.py` 
+`docker exec -it goat-database python3 /opt/setup_goat.py -t new_setup` 
 
 GOAT allows you to use pre-calculated matrices that are used to visualize the dynamic heatmaps. 
 In order to start the pre-calculation you currently have to start the script manually with the following command:
@@ -129,7 +129,7 @@ In case you want an immediate backup you can simply run:
 
 In case you want to update all your data you can simply run the following from your project directory:
 
-`docker exec -it goat-database python3 /opt/setup_goat.py` 
+`docker exec -it goat-database python3 /opt/setup_goat.py -t new_setup` 
 
 <b><font color="red">!!Note this will drop your database and create a new database.!!</font><b>
 
