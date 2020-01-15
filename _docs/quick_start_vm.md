@@ -37,7 +37,7 @@ It was only tested with the version mentioned above. Accordingly if you want to 
 
 #### 3. Configure GOAT
 
-There is one key configuration file for setting up GOAT. You can find this file at `your-GOAT-directory/app/database/goat_config.yaml`.
+There is one key configuration file for setting up GOAT. You can find this file at `your-GOAT-directory/app/config/goat_config.yaml`.
 At the moment not all configuration possibilities are in here but it is targeted to move more and more of the configuration in here.
 
 It is recommended to open the files with a proper editor such as [Visual Studio Code](https://code.visualstudio.com/).
@@ -62,7 +62,7 @@ Go into your VM:
 
 `vagrant ssh` (run on your <span style="color:#07d">host</span>)
 
-Install all the software and start services:
+Install all the software and start services (Note: Docker is installed on your VM):
 
 `sudo docker-compose up -d` (run on your <span style="color:#FE9A2E">VM</span>)(This will start all service you need for docker)
 
