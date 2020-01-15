@@ -39,7 +39,7 @@ In case you don't manage to install docker on your machine. You can follow the s
 
 #### 3. Configure GOAT
 
-There is one key configuration file for setting up GOAT. You can find this file at `your-GOAT-directory/app/database/goat_config.yaml`.
+There is one key configuration file for setting up GOAT. You can find this file at `your-GOAT-directory/app/config/goat_config.yaml`.
 At the moment not all configuration possibilities are in here but it is targeted to move more and more of the configuration in here.
 
 It is recommended to open the files with a proper editor such as [Visual Studio Code](https://code.visualstudio.com/).
