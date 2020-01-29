@@ -123,7 +123,7 @@ The default password for your Geoserver instance is:
 
 User: admin
 
-Password : geoserver
+Password : earlmanigault
 
 You can access Geoserver by typing the following into your browser:
 
