@@ -88,7 +88,7 @@ Fill and prepare the goat-database:
 GOAT allows you to use pre-calculated matrices that are used to visualize the dynamic heatmaps. 
 In order to start the pre-calculation you currently have to start the script manually with the following command:
 
-`sudo docker exec -it goat-database python3 /opt/data_preparation/Python/precalculate_grid_thematic.py` (run on your <span style="color:#FE9A2E">VM</span>)
+`sudo docker exec -it goat-database python3 /opt/scripts/precalculate_heatmap.py` (run on your <span style="color:#FE9A2E">VM</span>)
 
 Depending on the size of your study-area this can take some time. For Munich approx. 20 minutes.
 
