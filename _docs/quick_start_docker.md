@@ -134,4 +134,4 @@ In case you want to update all your data you can simply run the following from y
 
 Furthermore you need to run the pre-calculation script again in order to be able to use the heatmaps:
 
-`docker exec -it goat-database python3 /opt/data_preparation/Python/precalculate_grid_thematic.py`
+`docker exec -it goat-database python3 /opt/scripts/precalculate_heatmap.py`
