@@ -122,7 +122,7 @@ Per default the database is configured to run every day a backup at 11 PM. In ca
 
 In case you want an immediate backup you can simply run:
 
-`docker exec -it goat-database-backup /bin/bash backups.sh`
+`docker exec -it goat-database python3 /opt/manage_dump.py -n your_namespace -b`
 
 ##### 11. Update data
 
