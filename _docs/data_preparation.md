@@ -10,7 +10,7 @@ study_area.shp
 
 There is one folder (your-GOAT-directory/app/database/data) in which you can organize the data you want to load into the database. 
 The setup-script will search for shapefiles in this directory and upload all of them into your database. The only file that is essential for setting up GOAT is a shapefile defining your study area. Other data is optional, however especially landuse data or custom population data can improve data quality.
-As high-resolution population data is one of most important data source for GOAT there are three different ways for you to feed the data into the system. Depending on your data availability you can pick one approach in the `your-GOAT-directory/app/database/goat_config.yaml`.
+As high-resolution population data is one of most important data source for GOAT there are three different ways for you to feed the data into the system. Depending on your data availability you can pick one approach in the `your-GOAT-directory/app/config/goat_config.yaml`.
 
 You can get administrative boundaries from different sources:
 
@@ -21,7 +21,15 @@ You can get administrative boundaries from different sources:
 [Worldwide - OpenStreetMap (via overpass turbo)](https://overpass-turbo.eu/) 
 
 Example query for requesting the city area of München in Overpass:
-<img class="img-responsive" src="../../img/overpass-query.png" alt="Overpass query for request the city area of München" title="Overpass query for request the city area of München">
+    
+{% raw %}
+```  
+[out:json][timeout:25];
+(relation["boundary"="administrative"]["name"="München"]({{bbox}}););
+out body;>;
+out skel qt;
+``` 
+{% endraw %}
 
 
 ##### Population disaggregation
