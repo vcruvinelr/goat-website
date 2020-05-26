@@ -9,7 +9,7 @@ lang: en-US
 
 baseurl: "/goat-website" # the subpath of your site, e.g. /blog/
 url: "https://goat-community.github.io" # the base hostname & protocol for your site
-
+destination: "./build"
 
 git_address: https://github.com/goat-community/goat
 linkedin_address: https://www.linkedin.com/company/goat-tool/
