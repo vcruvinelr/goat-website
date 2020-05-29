@@ -74,19 +74,19 @@ If you have population data as point source you can upload the same into the dat
 
 The automated way the scripts process the data make it necessary that the your custom data is labelled correctly. It is important that the filename and certain attributes are labelled as in the following examples. It is possible to import shapefiles with additional columns however the folowing conventions must be followed.
 
-<img class="img-responsive" src="../../img/shapefile_study_area.png" alt="how your study area shapefile has to be for GOAT" title="Shapefile study area">
+<img class="img-responsive" src="../../img/Docs/technical_documentation/data_preparation/shapefile_study_area.png" alt="how your study area shapefile has to be for GOAT" title="Shapefile study area">
 
 <b>Name the file <font color="red">study_area.shp</font> and make sure the columns <font color="red">sum_pop</font> and <font color="red">name</font> are existing!<b>
 
-<img class="img-responsive" src="../../img/shapefile_landuse.png" alt="how your landuse shapefile has to be for GOAT" title="Shapefile landuse">
+<img class="img-responsive" src="../../img/Docs/technical_documentation/data_preparation/shapefile_landuse.png" alt="how your landuse shapefile has to be for GOAT" title="Shapefile landuse">
 
 <b>Name the file <font color="red">landuse.shp</font> and make sure the column <font color="red">landuse</font> is existing!<b>
 
-<img class="img-responsive" src="../../img/shapefile_census.png" alt="how your census shapefile has to be for GOAT" title="Shapefile census">
+<img class="img-responsive" src="../../img/Docs/technical_documentation/data_preparation/shapefile_census.png" alt="how your census shapefile has to be for GOAT" title="Shapefile census">
 
 <b>Name the file <font color="red">census.shp</font> and make sure the column <font color="red">pop</font> is existing!<b>
 
-<img class="img-responsive" src="../../img/shapefile_population.png" alt="how your population shapefile has to be for GOAT" title="Shapefile population">
+<img class="img-responsive" src="../../img/Docs/technical_documentation/data_preparation/shapefile_population.png" alt="how your population shapefile has to be for GOAT" title="Shapefile population">
 
 <b>Name the file <font color="red">population.shp</font> and make sure the column <font color="red">population</font> is existing!<b>
 

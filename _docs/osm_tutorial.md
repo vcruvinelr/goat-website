@@ -15,14 +15,14 @@ Visit OpenStreetMap: [https://www.openstreetmap.org/](https://www.openstreetmap.
 
 And log in / create an account. 
 
-<img class="img-responsive" src="../../img/OSM_log_in.png" alt="log in to OSM" title="Log in to OSM">
+<img class="img-responsive" src="../../img/Docs/contribute_to_OSM/OSM_log_in.png" alt="log in to OSM" title="Log in to OSM">
 
 
 #### 2. Activate edit mode 
 
 Press the "Edit" button to start editing.
 
-<img class="img-responsive" src="../../img/OSM_start_editing.png" alt="start editing in OSM" title="Start editing in OSM">
+<img class="img-responsive" src="../../img/Docs/contribute_to_OSM/OSM_start_editing.png" alt="start editing in OSM" title="Start editing in OSM">
 
 
 #### 3. Familiarize with the OSM structure
@@ -40,7 +40,7 @@ Before starting with editing it makes sense to familiarize yourself with the pro
 
 Select the object you want to adjust (e.g. building, street, POI). To add a tag, press the "+" button, select the desired key and choose the correct value from the drop-down list or type it manually. If the key already exists but is associated with a wrong value, you can easily adjust it by selecting the right one. 
 
-<img class="img-responsive" src="../../img/OSM_tags.png" alt="OSM tags" title="Specific features are defined via tags">
+<img class="img-responsive" src="../../img/Docs/contribute_to_OSM/OSM_tags.png" alt="OSM tags" title="Specific features are defined via tags">
 
 If the spatial extent of an object is incorrect, you can move the nodes to the correct position by clicking and dragging.
 
