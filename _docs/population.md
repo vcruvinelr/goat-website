@@ -24,7 +24,7 @@ the script furthermore extracts building levels for the residential buildings, i
 <span style="color:red">Note: these building levels are used for the census extrapolation or the population disaggregation.</span>
 
 The output of this function is a table called <span style="color:blue">buildings_residential</span>. It should contain only residential buildings. But as always the accuracy very much depends on the data quality.
-<td> <img class="img-responsive" src="../../img/buildings_residential.png" title="Residential buildings"> </td>
+<td> <img class="img-responsive" src="../../img/Docs/technical_documentation/population/buildings_residential.png" title="Residential buildings"> </td>
 
 The script buildings_residential.sql is the basis for the census extrapolation. 
 
@@ -61,4 +61,4 @@ For grid cells for which no population was recorded in the census, the additiona
 
 
 This script delivers the following output:
-<td> <img class="img-responsive" src="../../img/census.png" title="Output of the script"> </td>
+<td> <img class="img-responsive" src="../../img/Docs/technical_documentation/population/census.png" title="Output of the script"> </td>
