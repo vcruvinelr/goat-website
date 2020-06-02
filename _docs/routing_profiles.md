@@ -54,7 +54,7 @@ For Pedelecs, slopes are considered with a lower impedance than for Standard bic
 
 #### Wheelchair
 
-The wheelchair-routing is based on the walking routing, but considers only barrier-free paths. Stairs, unpaved paths and paths with high slopes are excluded from the routing.
+The wheelchair-routing is based on the walking routing, but considers only barrier-free paths and destinations. Stairs, unpaved paths and paths with high slopes are excluded from the routing. POIs that are not barrier-free are visualised with grey icons and are regarded as not accessible if the wheelchair routing profile is selected. 
 
 Via the layer "Wheelchair Usability" (to be found in the Street Level Quality layers), the conditions regarding the freedom from barriers of the paths can be displayed. 
 

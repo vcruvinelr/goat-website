@@ -12,7 +12,7 @@ The following steps show one possible workflow to contribute to the website.
 
 To make changes to the GOAT repository the easiest way is to first get a personal copy (called <i>fork</i>) of it. In your personal fork you can freely experiment and also push your changes to your own GitHub account.
 
-Go to [https://github.com/goat-community/goat](https://github.com/goat-community/goat) and press the "Fork" button. 
+Go to [https://github.com/goat-community/goat-website](https://github.com/goat-community/goat-website) and press the "Fork" button. 
 
 <img class="img-responsive" src="../../img/Docs/contribute_to_GOAT/git_fork.png" alt="how to get a fork of GOAT" title="Get a fork of GOAT"/>
 
@@ -26,27 +26,27 @@ Navigate to your fork of the GOAT repository. Press the "Clone or download" butt
 
 Open Git Bash, go to the directory where you want to store the repository and clone it using the copied URL:
 
-`git clone https://github.com/YOUR_USERNAME/goat.git`
+`git clone https://github.com/YOUR_USERNAME/goat-website.git`
 
 #### 3. Define your git remote origin and upstream
 
-In order to fetch changes done by other users frequently, it is recommended to add the original repository as remote. Direct to the GOAT folder you just downloaded and check the stored origin and upstream addresses:
+In order to fetch changes done by other users frequently, it is recommended to add the original repository as remote. Direct to the GOAT-website folder you just downloaded and check the stored origin and upstream addresses:
 
-`cd goat`
+`cd goat-website`
 
 `git remote -v`
 
-So far, the GitHub URL of your GOAT repository should be listed as <i> origin</i>. To later fetch from the original repository of the website you have to define the GitHub URL of the GOAT respository as <i> upstream</i>: 
+So far, the GitHub URL of your GOAT-website repository should be listed as <i> origin</i>. To later fetch from the original repository of the website you have to define the GitHub URL of the GOAT-website respository as <i> upstream</i>: 
 
-`git remote add upstream https://github.com/goat-community/goat.git`
+`git remote add upstream https://github.com/goat-community/goat-website.git`
 
-#### 4. Change to the "website-development" branch
+#### 4. Change to the "development" branch
 
-Change to the "website-development" branch, at this branch the development version of the website is stored:
+Change to the "development" branch, at this branch the development version of the website is stored:
 
-`git checkout website-development`
+`git checkout development`
 
-If you receive an error message that this branch does not yet exist, visit the GitHub website, navigate to your repository and create a new branch called "website-development".
+If you receive an error message that this branch does not yet exist, visit the GitHub website, navigate to your repository and create a new branch called "development".
 
 #### 5. Make sure to have the newest file versions
 
@@ -62,7 +62,7 @@ Then get the newest version of the upstream repository:
 
 Merge the new version of the website-development branch into your current branch:
 
-`git merge upstream/website-development`
+`git merge upstream/development`
 
 Push the new version to your origin GitHub repository:
 
@@ -108,11 +108,12 @@ When you have finalized your changes and are completely satisfied with them, you
 
 Push the new version to your origin GitHub repository:
 
-`git push origin website-development`
+`git push origin development`
 
-Go on GitHub, navigate to your fork of the GOAT repository. There you can see your recently pushed branches. Click on "Compare & pull request" for the branch you want to commit.
+Go on GitHub, navigate to your fork of the GOAT-website repository. There you can see your recently pushed branches. Click on "Compare & pull request" for the branch you want to commit.
 
 <img class="img-responsive" src="../../img/Docs/contribute_to_GOAT/git_pull_request.png" alt="how to make a pull request to the original GOAT repository" title="Make a pull request"/>
+
 
 Explain in detail what you have done and submit it by pressing the button "Create pull request".
 
