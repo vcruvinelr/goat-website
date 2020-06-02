@@ -1,5 +1,5 @@
 ---
-title: Use GOAT for location planning.
+title: Use GOAT for location planning
 image: ../img/img_videos/scenario_new_station.png
 vimeo: 411721219
 ---
