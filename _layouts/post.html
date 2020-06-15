@@ -3,6 +3,7 @@ layout: default
 ---
 
 <article class="uk-article">
+  <a class="uk-link-muted uk-margin-bottom uk-display-block" href="#"><span uk-icon="icon: arrow-left"></span> Back to Blog</a>
   <div class="uk-article-content button-link uk-margin-medium-top-">
     {{ content }}
     {% if page.share %}
@@ -21,7 +22,3 @@ layout: default
       {% include disqus_comments.html %}
   {% endif %}
 </article>
-
-{% if page.related %}
-  {% include related-posts.html %}
-{% endif %}

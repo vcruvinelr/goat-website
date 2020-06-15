@@ -48,12 +48,11 @@ layout: default
                 {% if author.name %}
                   <span itemprop="name"><span itemprop="name">{{ author.name }}</span></span>
                 {% endif %}
+                &nbsp;
                 <time datetime="{{ page.date | date_to_xmlschema }}">
                     {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-                    {{ page.date | date: date_format }}
+                    {{ post.date | date: date_format }}
                 </time>
-                {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-                &nbsp; &nbsp;<span>{{ post.date | date: date_format }}</span>                
               </div>
             </div>
           </div>

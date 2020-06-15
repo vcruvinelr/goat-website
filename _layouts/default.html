@@ -38,6 +38,9 @@
             {{ content }}
           {% endif %}
         </div>
+        {% if page.related and page.layout == 'post' %}
+          {% include related-posts.html %}
+        {% endif %}        
       </div>
     {% endif %}
 

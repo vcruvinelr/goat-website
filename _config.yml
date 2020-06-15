@@ -207,12 +207,13 @@ defaults:
     values:
       layout:               post
       section:              large
-      sidebar: 
-        right:              blog
+      width:                small
+      # sidebar: 
+      #   right:              blog
       comments:             # true
       share:                true
       related:              true
-      mailchimp:            true
+      # mailchimp:            true
       navbar:
         transparent:        true
         transparent_color:  light
