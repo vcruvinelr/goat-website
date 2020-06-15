@@ -337,10 +337,14 @@
 
   .uk-card-blog .uk-card-footer {
     padding-top: 0;
-    margin-top: -10px;
+    padding-bottom: 40px;
     border: none;
   }
-    
+  
+  .uk-card-blog .uk-card-body {
+    padding-bottom: 7px;
+  }
+  
 }
 
 @mixin hook-heading-small(){
