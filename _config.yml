@@ -195,8 +195,8 @@ collections:
     output:             false
   sidebars:
     output:             false
-  faqs:
-    output:             false
+  docs:
+    output:             true
     
 # Defaults
 defaults:
@@ -229,3 +229,9 @@ defaults:
       type:                 pages
     values:
       layout:               page
+  # _docs
+  - scope:
+      path:         ""
+      type:         docs
+    values:
+      layout:       doc

@@ -939,6 +939,51 @@
     }
   }
 
+  .sidebar-fixed-width {
+      width: $docs-sidebar-width;
+  }
+  .sidebar-docs {
+      width: $docs-sidebar-width - $global-medium-gutter;
+      padding-right: $global-medium-gutter;
+      top: 112px;
+      bottom: 70px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      > h5 {
+          margin: 15px 0 0;
+          &:first-child {
+              margin-top: 17px
+          }
+      }
+  }
+  
+  @media (min-width: $breakpoint-large) {
+      .sidebar-fixed-width {
+          width: $docs-sidebar-width-l;
+      }
+      .sidebar-docs {
+          width: $docs-sidebar-width-l - $global-large-gutter;
+          padding-right: $global-large-gutter;
+      }
+  }
+  
+  ul.doc-nav {
+      padding-left: 14px;
+      margin-top: 5px;
+  }
+  
+  .doc-nav > li.uk-active > a {
+      position: relative;
+      &:before {
+          content: "";
+          position: absolute;
+          top: 15px;
+          left: -14px;
+          width: 7px;
+          border-top: 1px solid $global-primary-background;
+      }
+  }
+    
   // Pricing
   .card-pricing .uk-card-body {
 
