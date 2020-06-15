@@ -7,7 +7,6 @@ permalink: /docs/quick_start_docker/
 GOAT is a web-application and is designed to feel at home on the Linux operating system. However, with the help of containers (Docker) and/or virtual machines (VM) you can install it on your Windows or Mac for development and testing.
 You are supposed to type some commands into the command line, in case you are not familiar with the command line you can find many tutorials on the web. 
 
-
 #### 1. Get a copy of GOAT
 
 It is recommended to use Git for fetching the project.
