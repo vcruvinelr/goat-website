@@ -56,27 +56,51 @@ authors:
   john:
     name:               John Brown
     title:              Support     
-    avatar:             avatar-john.png
+    avatar:             https://via.placeholder.com/380
+    bio:                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    twitter:            "#"
+    facebook:           "#"
+    linkedin:           "#"
   evan:
     name:               Evan Wells
     title:              Support    
-    avatar:             avatar-evan.png
+    avatar:             https://via.placeholder.com/380
+    bio:                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    twitter:            "#"
+    facebook:           "#"
+    linkedin:           "#"
   sara:
     name:               Sara Galen
     title:              Lead Developer     
-    avatar:             avatar-sara.png
+    avatar:             https://via.placeholder.com/380
+    bio:                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    twitter:            "#"
+    facebook:           "#"
+    linkedin:           "#"
   alex:
     title:              Design Engineer     
     name:               Alex Koch
-    avatar:             avatar-alex.png
+    avatar:             https://via.placeholder.com/380
+    bio:                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    twitter:            "#"
+    facebook:           "#"
+    linkedin:           "#"
   daniel:
     title:              Developer      
     name:               Daniel Shultz
-    avatar:             avatar-daniel.png
+    avatar:             https://via.placeholder.com/380
+    bio:                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    twitter:            "#"
+    facebook:           "#"
+    linkedin:           "#"
   tom:
     title:              Developer     
     name:               Tom Farrell
-    avatar:             avatar-tom.png
+    avatar:             https://via.placeholder.com/380
+    bio:                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    twitter:            "#"
+    facebook:           "#"
+    linkedin:           "#"
 
 navbar:
   layout:               default # default, center

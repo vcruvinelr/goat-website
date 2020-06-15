@@ -13,7 +13,7 @@ header:
   background_image: header-5.jpg
   background_overlay: "rgba(0, 0, 0, 0.45)"
   color: light
-  header_size: xlarge
+  header_size: large
   heading_size: medium
   parallax: true
 ---
@@ -24,7 +24,7 @@ header:
   section_title="We are here to help" 
   section_subtitle="Our team is just an email away ready to answer your questions" 
   section_size="large"
-  section_container="expand"
+  section_container="small"
   section_header_align="center"
   section_background="muted"
 %}
