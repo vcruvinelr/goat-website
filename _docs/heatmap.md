@@ -13,6 +13,7 @@ The calculation of the heatmap is calculated with the help of place-based measur
 <img class="img-responsive" src="../../img/Docs/technical_documentation/heatmap/place-based_accessibility_measures.png">
 
 where the accessibility <b>A</b> of origin <b>i</b> is the sum of all opportunities <b>O</b> available at destinations <b>j</b> weighted by some function of the travel time <b> t<sub>ij</sub></b>  between <b>i</b> and <b>j</b> (Higgins, Christopher D. 2019). GOAT uses the modified gaussian function as an impedance function for the calculation: 
+
 <img class="img-responsive" src="../../img/Docs/technical_documentation/heatmap/Gaussian_function.png">
 
 Travel times are computed in seconds. As cut-off value 15 minutes is used for the mode walking, this means that destination that are further away then 15 minutes walking time are not considered in the calculation of the index.
@@ -57,4 +58,9 @@ In the second case we calculate the accessibility to groceries in 15min (β=3000
 If both examples are compared significant changes in accessibility can be observed, as in the second example the sensitivity parameter is chosen in favor of hypermarkets. 
 
 #### References
-Higgins, Christopher D. 2019. “Accessibility Toolbox for R and ArcGIS.” Transport Findings, May. https://doi.org/10.32866/8416.
+
+Kwan, Mei-Po. 1998. “Space-Time and Integral Measures of Individual Accessibility: A Comparative Analysis Using a Point-Based Framework.” Geographical Analysis 30 (3): 191–216. [https://doi.org/10.1111/j.1538-4632.1998.tb00396.x](https://doi.org/10.1111/j.1538-4632.1998.tb00396.x).
+
+Vale, D.S., and M. Pereira. 2017. “The Influence of the Impedance Function on Gravity-Based Pedestrian Accessibility Measures: A Comparative Analysis.” Environment and Planning B: Urban Analytics and City Science 44 (4): 740–63. [https://doi.org/10.1177%2F0265813516641685](https://doi.org/10.1177%2F0265813516641685).
+
+Higgins, Christopher D. 2019. “Accessibility Toolbox for R and ArcGIS.” Transport Findings, May. [https://doi.org/10.32866/8416](https://doi.org/10.32866/8416).
