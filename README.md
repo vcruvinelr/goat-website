@@ -1,40 +1,7 @@
-# Jekyll Doc Theme
+# Eon premium multipurpose Jekyll theme
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
+## First of All I Would like to Thank You for Your Purchase, You Are Awesome!
 
-## Running locally
+### Documentation
+Product documentation is available online [https://docs.unbound.studio/eon-multipurpose-jekyll-theme/](https://docs.unbound.studio/eon-multipurpose-jekyll-theme/). 
 
-You need Ruby and gem before starting, then:
-
-```bash
-# install bundler
-gem install bundler
-
-# clone the project
-git clone https://github.com/aksakalli/jekyll-doc-theme.git
-cd jekyll-doc-theme
-
-# run jekyll with dependencies
-bundle exec jekyll serve
-```
-
-## Docker
-
-Alternatively, you can deploy it using the multi-stage [Dockerfile](Dockerfile)
-that serves files from Nginx for better performance in production.
-
-Build the image for your site's `JEKYLL_BASEURL`:
-
-```
-docker build --build-arg JEKYLL_BASEURL="/" -t jekyll-doc-theme .
-```
-
-and serve it:
-
-```
-docker run -p 8080:80 jekyll-doc-theme
-```
-
-## License
-
-Released under [the MIT license](LICENSE).

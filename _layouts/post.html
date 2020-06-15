@@ -2,41 +2,26 @@
 layout: default
 ---
 
-<div class="container">
-    <div class="row">
-
-        <div class="col-md-4">
-            <div class="well">
-                <h4>RECENT POSTS</h4>
-                <ul class="list-unstyled post-list-container">
-                    {% for post in site.posts limit:10 %}
-                    <li><a href="{{ post.url | prepend: site.baseurl }}" {% if page.title==post.title %} class="active" {% endif %}>{{ post.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-md-8">
-            <h1>{{ page.title }}</h1>
-            <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-            <div  id="markdown-content-container">{{ content }}</div>
-            <hr>
-            <ul class="pager">
-                {% if page.previous %}
-                <li class="previous">
-                    <a href="{{ page.previous.url | prepend: site.baseurl }}">
-                        <span aria-hidden="true">&larr;</span> Older
-                    </a>
-                </li>
-                {% endif %} {% if page.next %}
-                <li class="next">
-                    <a href="{{ page.next.url | prepend: site.baseurl }}">
-                      Newer <span aria-hidden="true">&rarr;</span>
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
-        </div>
-
+<article class="uk-article">
+  <div class="uk-article-content button-link uk-margin-medium-top-">
+    {{ content }}
+    {% if page.share %}
+        {% include share.html %}
+    {% endif %}
+  </div>
+  
+  {% if page.mailchimp %}
+    <div class="uk-margin-large-top uk-background-muted uk-padding-large">
+      <h3 class="uk-margin-remove-top uk-margin-medium-bottom uk-text-center">{{ site.data[site.template].translation[site.lang].newsletter_signup | default: 'Newsletter Signup' }}</h3>
+      {% include mailchimp.html %}
     </div>
-</div>
+  {% endif %}
+
+  {% if site.disqus.shortname %}
+      {% include disqus_comments.html %}
+  {% endif %}
+</article>
+
+{% if page.related %}
+  {% include related-posts.html %}
+{% endif %}

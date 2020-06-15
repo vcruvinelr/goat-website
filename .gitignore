@@ -1,11 +1,9 @@
+# OS or Editor folders
+.DS_Store
+node_modules
+
+# Jekyllg
 _site
 .sass-cache
 .jekyll-metadata
-*.gem
-.bundle
-vendor/bundle
-ubuntu-bionic-18.04-cloudimg-console.log
-.vagrant/
-app/
-Gemfile.lock
-build
+.jekyll-cache
