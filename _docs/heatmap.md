@@ -8,17 +8,19 @@ GOAT allows you to calculate and visualize gravity-based accessibility measures,
 <img class="img-responsive" src="../../img/Docs/technical_documentation/heatmap/heatmap.png" title="Heatmap for groceries">
 
 #### 1. Calculation
-The calculation of the heatmap is based on the calculation of the potential accessibility of opportunities in zone i to all other zones (n). 
-The measure has the following form (Geurs and Van Wee 2004):
-<img class="img-responsive" src="../../img/Docs/technical_documentation/heatmap/potential_accessibility_measures.png">
+The calculation of the heatmap is calculated with the help of place-based measures and can be operationalized as:
 
+<img class="img-responsive" src="../../img/Docs/technical_documentation/heatmap/place-based_accessibility_measures.png">
 
-As cost of travel C<sub>ij</sub> travel times between i and j are used. Travel times are computed in seconds. As cut-off value 15 minutes is used for the mode walking, this means that destination that are further away then 15 minutes walking time are not considered in the calculation of the index.
+where the accessibility <b>A</b> of origin <b>i</b> is the sum of all opportunities <b>O</b> available at destinations <b>j</b> weighted by some function of the travel time <b> t<sub>ij</sub></b>  between <b>i</b> and <b>j</b> (Higgins, Christopher D. 2019). GOAT uses the modified gaussian function as an impedance function for the calculation: 
+<img class="img-responsive" src="../../img/Docs/technical_documentation/heatmap/Gaussian_function.png">
+
+Travel times are computed in seconds. As cut-off value 15 minutes is used for the mode walking, this means that destination that are further away then 15 minutes walking time are not considered in the calculation of the index.
 The sensitivity parameter defines how accessibility changes with increasing travel time. As the sensitivity parameter is decisive when measuring accessibility, GOAT allows you to adjust them. The following graphs show the influence of the sensitivity parameter on accessibility. 
 
 <table><tr>
-<td> <img class="img-responsive" src="../../img//Docs/technical_documentation/heatmap/sensitivity_index.png" title="Sensitivty index β= -0.003" style="width: 300px;"/> </td>
-<td> <img class="img-responsive" src="../../img//Docs/technical_documentation/heatmap/sensitivity_index2.png" title="Sensitivty index β= -0.002" style="width: 300px;"/> </td>
+<td> <img class="img-responsive" src="../../img//Docs/technical_documentation/heatmap/sensitivity_index_20000.png" title="Sensitivty index β= 20000" style="width: 300px;"/> </td>
+<td> <img class="img-responsive" src="../../img//Docs/technical_documentation/heatmap/sensitivity_index_30000.png" title="Sensitivty index β= 30000" style="width: 300px;"/> </td>
 </tr></table>
 
 #### 2. Classification
@@ -40,18 +42,19 @@ Varying sensitivity parameter for Hypermarket:
 <img class="img-responsive" src="../../img//Docs/technical_documentation/heatmap/accessiblity_different_sensitivity-indices.png" style="width: 500px;">
 
 ##### 3.2 Calculation with uniform sensitivity parameter
-In the first case we want to calculate the accessibility to groceries in 15min (β= -0.002).
+In the first case we want to calculate the accessibility to groceries in 15min (β=300000).
 This means the sensitivity parameter is the same for every category of grocery. 
 
 <img class="img-responsive" src="../../img//Docs/technical_documentation/heatmap/uniform_sensitivity.png" title="Accessibility to groceries in 15min with uniform sensitivity index">
 
 ##### 3.3 Calculation with different sensitivity indices
-In the second case we calculate the accessibility to groceries in 15min (β= -0.001 and 
-β= -0.002). This means the sensitivity parameter depends on the categories of grocery. For this example, we used β= -0.001 for the type of grocery hypermarket and β= -0.002 for discount supermarket und supermarket.
+In the second case we calculate the accessibility to groceries in 15min (β=300000 and 
+β=400000). This means the sensitivity parameter depends on the categories of grocery. For this example, we used β= 400000 for the type of grocery hypermarket and β= 300000 for discount supermarket und supermarket.
 
 <img class="img-responsive" src="../../img//Docs/technical_documentation/heatmap/different_sensitivity.png" title="Accessibility to groceries in 15min with different sensitivity indices" >
 
 
 If both examples are compared significant changes in accessibility can be observed, as in the second example the sensitivity parameter is chosen in favor of hypermarkets. 
 
-
+#### References
+Higgins, Christopher D. 2019. “Accessibility Toolbox for R and ArcGIS.” Transport Findings, May. https://doi.org/10.32866/8416.
