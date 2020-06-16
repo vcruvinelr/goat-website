@@ -8,7 +8,7 @@ layout: default
 
             <div class="sidebar-fixed-width uk-visible@m">
                 <div class="sidebar-docs" data-uk-sticky="offset: 100; bottom: true; media: @m;">
-                    <ul class="uk-nav uk-nav-default doc-nav" data-uk-nav="multiple: true">
+                    <ul class="uk-nav uk-nav-default doc-nav" data-uk-nav>
                         {% for section in site.data.navigation_docs %}
                             <li class="uk-parent{% if forloop.first == true %} uk-open{% endif %}">
                                 <a href="#"><h5 class="uk-margin-remove-bottom uk-margin-small-top">{{ section.title }}</h5></a>
