@@ -636,6 +636,12 @@
 
 @mixin hook-utility-misc(){
 
+  em {
+    background-color: #f7e8eb;
+    padding: 0 5px;
+    font-style: normal;
+  }
+
   .line-height-medium {
     line-height: 1.7;
   }
