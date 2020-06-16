@@ -1,6 +1,4 @@
 ---
-title: Backgrounds
+title: Open Data & Open Source
 icon: ios-adjust.svg
 ---
-
-Set section and header background color, image, video, and overlay.

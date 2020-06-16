@@ -637,6 +637,10 @@
 
 @mixin hook-utility-misc(){
 
+  .uk-background-danger {
+    background-color: $global-danger-background;
+  }
+
   em {
     background-color: #f7e8eb;
     padding: 0 5px;

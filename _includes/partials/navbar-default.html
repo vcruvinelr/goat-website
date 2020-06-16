@@ -1,3 +1,9 @@
+{% if page.alert %}
+<div class="uk-text-center uk-background-danger uk-light uk-margin-remove" data-uk-alert>
+  {{ page.alert.content | markdownify }}
+</div>
+{% endif %}
+
 <div class="uk-container">
   <div data-uk-navbar>
     <div class="uk-navbar-left">
