@@ -4,3 +4,17 @@
   - example
   - heatmap
   - quick_start_docker
+
+- title: Parent Category
+  header: Subcategory
+  docs:
+  - example
+  - heatmap
+  - quick_start_docker
+
+- title: Parent Category
+  header: Subcategory
+  docs:
+  - example
+  - heatmap
+  - quick_start_docker
