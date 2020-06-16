@@ -11,6 +11,9 @@ layout: default
                     {% for section in site.data.navigation_docs %}
                     <h5>{{ section.title }}</h5>
                     <ul class="uk-nav uk-nav-default doc-nav">
+                    {% if section.header %}
+                        <li class="uk-nav-header">{{ section.header }}</li>
+                    {% endif %}
                     {% for doc in section.docs %}
                       {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                       {% assign p = site.docs | where:"url", doc_url | first %}
@@ -27,7 +30,10 @@ layout: default
                     <div uk-dropdown="mode: click">
                         <ul class="uk-nav uk-dropdown-nav">
                             {% for section in site.data.navigation_docs %}
-                                <li class="uk-nav-header">{{ section.title }}</li>
+                                <li class="uk-h5 uk-margin-small-bottom">{{ section.title }}</li>
+                                {% if section.header %}
+                                    <li class="uk-nav-header uk-margin-remove">{{ section.header }}</li>
+                                {% endif %}
                                 {% for doc in section.docs %}
                                     {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
                                     {% assign p = site.docs | where:"url", doc_url | first %}
@@ -58,8 +64,6 @@ layout: default
                     <hr class="uk-margin-medium">
 
                     {% include paginate-doc.html %}
-
-                    {% include related-docs.html %}
 
                     {% if site.disqus.shortname %}
                         {% include disqus_comments.html %}

@@ -1,4 +1,6 @@
-- title: Getting Started
+- title: Parent Category
+  header: Subcategory
   docs:
+  - example
   - heatmap
   - quick_start_docker
