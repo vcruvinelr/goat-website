@@ -1,7 +1,8 @@
 ---
+# lang: en
 width: full
-alert:
-  content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
+# alert:
+#   content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
 navbar:
   sticky: true
   # scroll_up: true

@@ -1,0 +1,16 @@
+# Navbar menu navigation links
+- title: GOAT DE
+  url: versions/
+
+- title: Quickstart
+  url: videos/
+
+- title: Blog
+  url: blog/
+
+- title: Docs
+  url: docs/about/
+
+- title: Imprint & Privacy
+  url: data-privacy/
+    

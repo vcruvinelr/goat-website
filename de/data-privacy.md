@@ -1,4 +1,5 @@
 ---
+lang: de
 title: Imprint & Privacy
 width: small
 header:
