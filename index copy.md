@@ -4,27 +4,24 @@ layout: home
 width: full
 # alert:
 #   content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
-
 navbar:
   sticky: true
   # scroll_up: true
   animation: true
-  transparent: true
+  # transparent: true
   # transparent_color: light
-
 header:
-  background_color: "rgb(228, 255, 224)"
+  layout: 1-1 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  background_image: normal_isochrone.png
+  background_overlay: "rgba(255, 255, 255, 0.15)"
+  heading_size: large
   header_size: large
-  heading_size: small
-  title: Welcome to Open Accessibility
-  subtitle: 
-  image: isochrone_amenities.png
-  button:
-    text: Try Goat
-    url: versions/
-  button_2:
-    text: Videos
-    url: videos/
+  parallax: true
+  container: small
+  content:
+    block: home-header-2
+    title: false
+# 
 goat:
   - icon: ios-adjust.svg
     title: Open Data & Open Source

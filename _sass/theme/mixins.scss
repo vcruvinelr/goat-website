@@ -641,6 +641,13 @@
 
 @mixin hook-utility-misc(){
 
+  .uk-button-medium {
+      padding: 0 50px;
+      min-width: 170px;
+      line-height: 49px;
+      font-size: 1rem;
+  }
+
   .uk-background-danger {
     background-color: $global-danger-background;
   }

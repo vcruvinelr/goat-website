@@ -1,8 +1,12 @@
 ---
 title: Imprint & Privacy
 width: small
+navbar:
+  transparent: true
 header:
-  layout: center # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  layout: left # Options: left, center, 1-1, 1-2, 1-3 or 2-3
+  # background_color: "#E3FBE0"
+  container: small
   header_size: small
   heading_size: small
 ---
