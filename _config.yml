@@ -141,17 +141,17 @@ social_share:
 
 # Social buttons
 social_networks:
-  email:                info@blacompany.com
+  email:                
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             
   flickr:
   dribbble:
-  github:
+  github:               https://github.com/goat-community/goat
   googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
+  instagram:            
+  linkedin:             https://www.linkedin.com/company/goat-tool/
   pinterest:
-  twitter:
+  twitter:              https://twitter.com/GoatTool
   vimeo:
   youtube:
 

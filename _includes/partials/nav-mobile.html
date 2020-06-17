@@ -1,17 +1,19 @@
+{% assign page_lang = page.lang | default: site.lang %}
 <div id="nav-mobile" data-uk-offcanvas="flip: true; overlay: true">
     <div class="uk-offcanvas-bar">
 
         <button class="uk-offcanvas-close" type="button" data-uk-close></button>
 
         <ul class="uk-nav uk-nav-primary">
-            <li><a class="uk-logo uk-margin-small-bottom" href="{{ "/" | relative_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title }}">{% else %}{{ site.title }}{% endif %}</a></li>
-            {% for link in site.data.[site.template].mobile %}
+            {% assign logo_url = site.data.languages.[page_lang].url | relative_url %}
+            <li><a class="uk-logo uk-margin-small-bottom" href="{{ logo_url }}">{% if site.logo %}<img src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title }}">{% else %}{{ site.title }}{% endif %}</a></li>
+            {% for link in site.data.[page_lang].mobile %}
                 {% if link.url contains 'http' %}
                     {% assign domain = '' %}
                 {% else %}
-                    {% assign domain = site.url %}
+                    {% assign domain = site.data.languages.[page_lang].url | relative_url %}
                 {% endif %}
-            <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
+            <li class="uk-text-center"><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
             {% endfor %}
         </ul>
 

@@ -1,13 +1,14 @@
+{% assign page_lang = page.lang | default: site.lang %}
 <footer class="uk-section uk-section-{{ site.footer.style | default: 'muted' }} uk-text-center uk-text-muted uk-link-muted">
     <div class="uk-container uk-container-small">
 
         <div>
             <ul class="uk-subnav uk-flex-center">
-                {% for link in site.data.[site.template].footer.center %}
+                {% for link in site.data.[page_lang].footer %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% else %}
-                        {% assign domain = '' | relative_url %}
+                        {% assign domain = site.data.languages.[page_lang].url | relative_url %}
                     {% endif %}
                     {% if link.url == page.url %}
                         {% assign current = ' class="uk-active"' %}

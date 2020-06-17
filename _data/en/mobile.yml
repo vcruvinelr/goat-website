@@ -1,12 +1,16 @@
-# Navbar menu navigation links
-- title: Home
-  url: /
+# Mobile menu navigation links
+- title: GOAT
+  url: versions/
 
-- title: Faq
-  url: /faq/
-
-- title: Contact
-  url: /contact/
+- title: Quickstart
+  url: videos/
 
 - title: Blog
-  url: /blog/
+  url: blog/
+
+- title: Docs
+  url: docs/about/
+
+- title: Imprint & Privacy
+  url: data-privacy/
+    
