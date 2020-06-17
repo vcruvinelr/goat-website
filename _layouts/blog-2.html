@@ -25,13 +25,18 @@ layout: default
     {% else %}
       <div>
     {% endif %}
-      <div class="uk-card uk-card-default uk-card-blog uk-background-center-center uk-background-cover uk-light" style="background-image: url({% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %});">
-        <div class="uk-position-cover uk-overlay-primary"></div>
-        <div class="uk-card-body uk-position-relative">
-          <h3><a class="uk-link-heading" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <div class="uk-card uk-card-default uk-card-blog">
+        {% if post.image %}
+          <div class="uk-card-media-top uk-inline">
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}" data-uk-img>
+            <a class="uk-overlay uk-position-cover" href="{{ post.url | relative_url }}"></a>
+          </div>
+        {% endif %}
+        <div class="uk-card-body">
+          <h3 class="uk-card-title"><a class="uk-link-heading" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           <div>{{ post.excerpt }}</div>
         </div>
-        <div class="uk-card-footer uk-position-relative">
+        <div class="uk-card-footer">
           {% if page.author %}
             {% assign author = site.authors[page.author] %}
           {% else %}
@@ -56,8 +61,7 @@ layout: default
               </div>
             </div>
           </div>
-        </div>   
-        <a class="uk-position-cover" href="{{ post.url | relative_url }}"></a>                 
+        </div>                    
       </div>
     </div>
   {% endfor %}

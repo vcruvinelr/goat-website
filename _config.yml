@@ -111,8 +111,8 @@ navbar:
 
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
-  layout:               columns # center or columns
-  copyright:            Made by <a href="https://unbound.studio/">Unbound Studio</a> in Mexico City.
+  layout:               center # center or columns
+  copyright:            Open Accessibility 2020 | All Rights Reserved
 
 mailchimp:
   form_action:          000000

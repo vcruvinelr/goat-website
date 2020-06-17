@@ -54,3 +54,8 @@ header:
   section_padding_remove="top"
   section_background="muted"
 %}
+
+{% include recent-posts.html 
+  section_size="large"
+  section_background="default"
+%}
