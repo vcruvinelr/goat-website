@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign page_lang = page.lang | default: site.lang %}
 <div class="uk-section">
     <div class="uk-container">
         <div class="uk-grid-large uk-margin-large-bottom" data-uk-grid>
@@ -9,7 +10,7 @@ layout: default
             <div class="sidebar-fixed-width uk-visible@m">
                 <div class="sidebar-docs" data-uk-sticky="offset: 100; bottom: true; media: @m;">
                     <ul class="uk-nav uk-nav-default doc-nav" data-uk-nav>
-                        {% for section in site.data.navigation_docs %}
+                        {% for section in site.data.[page_lang].docs %}
                             <li class="uk-parent{% if forloop.first == true %} uk-open{% endif %}">
                                 <a href="#"><h5 class="uk-margin-remove-bottom uk-margin-small-top">{{ section.title }}</h5></a>
                                 <ul class="uk-nav-sub">
@@ -17,7 +18,7 @@ layout: default
                                         <li class="uk-nav-header">{{ section.header }}</li>
                                     {% endif %}
                                     {% for doc in section.docs %}
-                                        {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
+                                        {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages.[page_lang].url | append:"/" %}
                                         {% assign p = site.docs | where:"url", doc_url | first %}
                                         <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
                                     {% endfor %}
@@ -33,13 +34,13 @@ layout: default
                     <button class="uk-button uk-button-default uk-margin-medium-bottom" type="button">Navigate Documentation</button>
                     <div uk-dropdown="mode: click">
                         <ul class="uk-nav uk-dropdown-nav">
-                            {% for section in site.data.navigation_docs %}
+                            {% for section in site.data.[page_lang].docs %}
                                 <li class="uk-h5 uk-margin-small-bottom">{{ section.title }}</li>
                                 {% if section.header %}
                                     <li class="uk-nav-header uk-margin-remove">{{ section.header }}</li>
                                 {% endif %}
                                 {% for doc in section.docs %}
-                                    {% assign doc_url = doc | prepend:"/docs/" | append:"/" %}
+                                    {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages.[page_lang].url | append:"/" %}
                                     {% assign p = site.docs | where:"url", doc_url | first %}
                                     <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url }}">{{ p.title }}</a></li>
                                 {% endfor %}

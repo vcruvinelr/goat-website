@@ -1,7 +1,7 @@
 - title: Parent Category
   header: Subcategory
   docs:
-  - example
+  - about
   - heatmap
   - quick_start_docker
 
