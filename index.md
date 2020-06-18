@@ -9,7 +9,7 @@ navbar:
   sticky: true
   # scroll_up: true
   animation: true
-  transparent: true
+  # transparent: true
   # transparent_color: light
 
 header:

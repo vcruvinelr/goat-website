@@ -18,7 +18,7 @@ layout: default
                                         <li class="uk-nav-header">{{ section.header }}</li>
                                     {% endif %}
                                     {% for doc in section.docs %}
-                                        {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages.[page_lang].url | append:"/" %}
+                                        {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
                                         {% assign p = site.docs | where:"url", doc_url | first %}
                                         <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
                                     {% endfor %}
@@ -40,7 +40,7 @@ layout: default
                                     <li class="uk-nav-header uk-margin-remove">{{ section.header }}</li>
                                 {% endif %}
                                 {% for doc in section.docs %}
-                                    {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages.[page_lang].url | append:"/" %}
+                                    {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
                                     {% assign p = site.docs | where:"url", doc_url | first %}
                                     <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url }}">{{ p.title }}</a></li>
                                 {% endfor %}
