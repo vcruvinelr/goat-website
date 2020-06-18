@@ -10,7 +10,7 @@ layout: default
             <div class="sidebar-fixed-width uk-visible@m">
                 <div class="sidebar-docs" data-uk-sticky="offset: 100; bottom: true; media: @m;">
                     <ul class="uk-nav uk-nav-default doc-nav" data-uk-nav>
-                        {% for section in site.data.[page_lang].docs %}
+                        {% for section in site.data[page_lang].docs %}
                             <li class="uk-parent{% if forloop.first == true %} uk-open{% endif %}">
                                 <a href="#"><h5 class="uk-margin-remove-bottom uk-margin-small-top">{{ section.title }}</h5></a>
                                 <ul class="uk-nav-sub">
@@ -34,7 +34,7 @@ layout: default
                     <button class="uk-button uk-button-default uk-margin-medium-bottom" type="button">{{ site.data[page_lang].translation.navigate_docs | default: "Navigate Documentation" }}</button>
                     <div uk-dropdown="mode: click">
                         <ul class="uk-nav uk-dropdown-nav">
-                            {% for section in site.data.[page_lang].docs %}
+                            {% for section in site.data[page_lang].docs %}
                                 <li class="uk-h5 uk-margin-small-bottom">{{ section.title }}</li>
                                 {% if section.header %}
                                     <li class="uk-nav-header uk-margin-remove">{{ section.header }}</li>
