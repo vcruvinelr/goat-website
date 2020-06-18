@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Gaining experiences from practitioners"
-author: Elias Pajares, Ulrike Jehle, Emna Ben Hassine
+# author: Elias Pajares, Ulrike Jehle, Emna Ben Hassine
 lang: en
 tags: [en]
 categories: [news]
+image: https://source.unsplash.com/uApWwzJNF2o
 ---
 By end of this year we aim to launch version GOAT1.0! To achieve a high usability and usefulness, GOAT is currently extensively tested by a group of experts in the fields of transport and urban planning. The funding provided by [mFund](https://www.bmvi.de/DE/Themen/Digitales/mFund/Ueberblick/ueberblick.html) is allowing to organize different workshops with planners from the municipalities Fürstenfeldbruck, Freising and Munich.
 

@@ -413,7 +413,7 @@
 }
 
 @mixin hook-navbar-misc(){
-  .uk-sticky-fixed:not(.sidebar-docs) {
+  .uk-sticky:not(.sidebar-docs) {
     box-shadow: $global-small-box-shadow;
     z-index: 990;
   }
@@ -640,6 +640,18 @@
 }
 
 @mixin hook-utility-misc(){
+
+  .uk-card-icon {
+    box-sizing: border-box;
+    width: 126px;
+    height: 126px;
+    border-radius: 500px;
+    background: #DDF4DA;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }  
 
   .uk-button-medium {
       padding: 0 50px;
@@ -992,19 +1004,23 @@
   ul.doc-nav {
       padding-left: 14px;
       margin-top: 5px;
+
+      a:hover h5 {
+        color: $global-primary-background !important;
+      }
   }
   
-  // .doc-nav ul > li.uk-active > a {
-  //     position: relative;
-  //     &:before {
-  //         content: "";
-  //         position: absolute;
-  //         top: 15px;
-  //         left: -14px;
-  //         width: 7px;
-  //         border-top: 1px solid $global-primary-background;
-  //     }
-  // }
+  .doc-nav ul > li.uk-active > a {
+      position: relative;
+      &:before {
+          content: "";
+          position: absolute;
+          top: 15px;
+          left: -14px;
+          width: 7px;
+          border-top: 2px solid $global-primary-background;
+      }
+  }
     
   // Pricing
   .card-pricing .uk-card-body {

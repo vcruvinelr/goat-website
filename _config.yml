@@ -32,30 +32,30 @@ pagination:
   
 # Default author settings
 author:
-  name:                 Pete Seth
-  avatar:               avatar-tom.png
-  title:                Support     
-  bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
+  name:                 Elias Pajares
+  avatar:               https://via.placeholder.com/380
+  title:                Chair for Urban Structure and Transport Planning      
+  bio:                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
   url:
-  email:                elias.pajares@tum.de
+  email:                
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             
   flickr:
   dribbble:
-  github:
+  github:               "#"
   googleplus:
-  instagram:            https://www.instagram.com/
-  linkedin:
+  instagram:            
+  linkedin:             "#"
   pinterest:
-  twitter:
+  twitter:              "#"
   vimeo:
   youtube:
 
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
 authors:
-  john:
-    name:               John Brown
-    title:              Support     
+  elias:
+    name:               Elias Pajares
+    title:              Chair for Urban Structure and Transport Planning     
     avatar:             https://via.placeholder.com/380
     bio:                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
     twitter:            "#"
@@ -217,8 +217,8 @@ defaults:
       related:              true
       # mailchimp:            true
       navbar:
-        transparent:        true
-        transparent_color:  light
+        # transparent:        true
+        # transparent_color:  light
       header:
         layout:             center
         background_overlay: "rgba(0, 0, 0, 0.5)"

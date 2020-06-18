@@ -1,14 +1,11 @@
 ---
 title: Imprint & Privacy
 width: small
-navbar:
-  transparent: true
+section: "large uk-padding-remove-top"
 header:
-  layout: left # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  # background_color: "#E3FBE0"
-  container: small
-  header_size: small
-  heading_size: small
+  layout: center
+  header_size: none
+  heading_size: none
 ---
 
 ## Imprint

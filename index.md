@@ -2,15 +2,8 @@
 # lang: en
 layout: home
 width: full
-# alert:
-#   content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
-
-navbar:
-  sticky: true
-  # scroll_up: true
-  animation: true
-  # transparent: true
-  # transparent_color: light
+alert:
+  content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
 
 header:
   background_color: "rgb(228, 255, 224)"
@@ -26,11 +19,11 @@ header:
     text: Videos
     url: videos/
 goat:
-  - icon: ios-adjust.svg
+  - icon: opensource.png
     title: Open Data & Open Source
-  - icon: ios-adjust.svg 
+  - icon: scenario_building.png
     title: Scenario Building
-  - icon: ios-adjust.svg
+  - icon: interactive_calculation.png
     title: Dynamic Calculations
 
 what:

@@ -16,7 +16,7 @@
   section_content_color=include.section_content_color
 %}
 
-	<div class="uk-margin-medium-top uk-margin-medium-top uk-child-width-1-2@s uk-child-width-1-3@m section-team" data-uk-grid>
+	<div class="uk-child-width-1-2@s uk-child-width-1-3@m section-team" data-uk-grid>
 
 		{% if include.authors %}
 				{% assign authors = include.authors | split: ", " %}
@@ -43,10 +43,10 @@
 
 										<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ domain }}{{ item.avatar }}" alt="{{ item.name }}" data-uk-img>
 								{% endif %}
-								<h4 class="uk-margin-remove-bottom uk-margin-top">{{ item.name }}</h4>
-								<p class="uk-margin-small">{{ item.title }}</p>
+								<h4 class="uk-margin-remove-bottom uk-margin-top uk-text-center">{{ item.name }}</h4>
+								<p class="uk-margin-small uk-text-small uk-text-center">{{ item.title }}</p>
 								<div class="uk-text-small">{{ item.bio }}</div>
-									<div class="uk-grid-small uk-margin-small-top" data-uk-grid>
+									<div class="uk-grid-small uk-margin-small-top uk-flex-center" data-uk-grid>
 										{% if item.twitter %}
 										<div>
 												<a href="{{ item.twitter }}" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon" aria-label="Twitter" rel="noopener" target="_blank"></a>

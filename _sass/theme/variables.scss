@@ -8,7 +8,7 @@ $global-font-family:                            system-ui;
 $global-link-color:                             lighten($global-primary-background, 20%);
 $global-link-hover-color:                       lighten($global-primary-background, 20%);
 $global-small-font-size:                        0.875rem;
-$global-muted-color:                            #A9AAAB;
+$global-muted-color:                            #8e8e8e;
 $global-xxlarge-font-size:                      2.625rem;
 $global-xlarge-font-size:                       2rem;
 $global-large-font-size:                        1.5rem;
@@ -34,7 +34,7 @@ $border-light:                                  #edeff1;
 $text-lead-font-size:                           1.125rem;
 $link-muted-hover-color:                        #222;
 $link-text-hover-color:                         #555;
-$overlay-primary-background:                    rgba(11, 14, 12, 0.8);
+$overlay-primary-background:                    rgba(11, 14, 12, 0.7);
 $base-em-color:                                 $global-danger-background;
 
 $alert-padding:                                 8px;
@@ -86,7 +86,7 @@ $heading-divider-border-width:                  1px;
 $heading-divider-border:                        #d0d5de;
 
 // Logo variables
-$logo-font-size:                                1.35rem;
+$logo-font-size:                                1.25rem;
 $logo-color:                                    #000;
 $logo-hover-color:                              #000;
 $inverse-logo-color:                            #fff;
@@ -105,10 +105,19 @@ $navbar-toggle-hover-color:                     #000;
 $navbar-dropdown-nav-item-color:                $base-body-color;
 $offcanvas-bar-color-mode:                      dark;
 $offcanvas-bar-background:                      #fff;
-$subnav-item-font-size:                         $global-small-font-size;
+$subnav-item-font-size:                         15px;
 // $subnav-item-text-transform:                    none;
 $inverse-navbar-nav-item-color:                 #fff;
 
+// $nav-item-padding-vertical:                     5px;
+$nav-sublist-item-padding-vertical:             5px;
+$nav-default-item-color:                        $base-body-color;
+
+$nav-default-sublist-item-color:                $base-body-color;
+$nav-default-sublist-item-hover-color:          $global-primary-background;
+
+$nav-primary-item-color:                        $base-body-color;
+$nav-primary-item-hover-color:                  $global-primary-background;
 // Search variables
 $search-default-background:                     #fff;
 $search-default-focus-background:               #fff;

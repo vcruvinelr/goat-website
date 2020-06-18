@@ -22,7 +22,7 @@
                   {% assign next = forloop.index0 | plus: 1 %}
                   {% assign next_page = docs[next] | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
                   {% assign next_doc = site.docs | where:"url", next_page | first %}
-                    <h5>{{next_doc.title}}</h5>
+                    <h5 class="uk-text-right">{{next_doc.title}}</h5>
                     <div class="uk-text-right"><a class="remove-underline hvr-forward" href="{{next_page}}">{{ site.data[page_lang].translation.next | default: "Next" }} &rarr;</a></div>
                 {% endif %}
             </div>

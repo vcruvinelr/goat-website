@@ -3,10 +3,9 @@ lang: de
 title: Imprint & Privacy
 width: small
 header:
-  layout: left # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  container: small
-  header_size: small
-  heading_size: small
+  layout: center
+  header_size: none
+  heading_size: none
 ---
 
 ## Datenschutzerklärung

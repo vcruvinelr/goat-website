@@ -4,7 +4,7 @@ layout: default
 
 {% assign page_lang = page.lang | default: site.lang %}
 <article class="uk-article">
-  <a class="uk-link-muted uk-margin-bottom uk-display-block" href="#"><span uk-icon="icon: arrow-left"></span> {{ site.data[page_lang].translation.back_to_blog | default: "Back to Blog" }}</a>
+  <!-- <a class="uk-link-muted uk-margin-medium-bottom uk-display-block" href="#"><span uk-icon="icon: arrow-left"></span> {{ site.data[page_lang].translation.back_to_blog | default: "Back to Blog" }}</a> -->
   <div class="uk-article-content button-link uk-margin-medium-top-">
     {{ content }}
     {% if page.share %}
