@@ -1,5 +1,5 @@
 # Navbar menu navigation links
-- title: GOAT ENGL
+- title: GOAT
   url: versions/
 
 - title: Quickstart
@@ -7,6 +7,9 @@
 
 - title: Blog
   url: blog/
+
+- title: Team
+  url: team/
 
 - title: Docs
   url: docs/about/

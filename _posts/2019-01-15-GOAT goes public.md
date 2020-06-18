@@ -3,6 +3,7 @@ title:  "GOAT<sub>beta</sub> goes public!"
 author: Elias Pajares
 lang: en
 tags: [en]
+categories: [news]
 ---
 I am happy to announce that time has come for the first official release of Geo Open Accessibility Tool (GOAT). This first version is labelled GOAT.
 

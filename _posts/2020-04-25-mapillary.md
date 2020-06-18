@@ -4,6 +4,7 @@ title:  "Covering Fürstenfeldbruck with Mapillary"
 author: German Santiago Linares Ramirez, Emna Ben Hassine
 lang: en
 tags: [en]
+categories: [news]
 ---
 
 Data, Data and more Data! While working in the [mFund project](https://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-projekte/GOAT.html) to bring GOAT’s feature to the municipality Fürstenfeldbruck, we have been looking for available information from many sources to accomplish the objectives. 

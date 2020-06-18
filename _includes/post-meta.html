@@ -15,7 +15,7 @@
 
     <div>
       {% if author.name %}
-        Written by <span itemprop="name"><span itemprop="name"><strong>{{ author.name }}</strong></span></span>
+        <span itemprop="name"><span itemprop="name"><strong>{{ author.name }}</strong></span></span>
       {% endif %}
       <time datetime="{{ page.date | date_to_xmlschema }}">
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}

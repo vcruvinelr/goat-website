@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Blog Grid Boxed
+title: Blog
 subtitle: Set number of card columns, chose from sigle layout or left or right sidebar
 section: large
 grid: 1-3
@@ -11,7 +11,7 @@ header:
   layout: center
   background_image: header-7.jpg
   background_overlay: "rgba(0, 0, 0, 0.5)"
-  header_size: xlarge
+  header_size: large
   color: light
   heading_size: medium
 pagination: 

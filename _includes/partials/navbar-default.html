@@ -111,7 +111,7 @@
       {% endif %}
 
       <a class="uk-navbar-toggle uk-hidden@l" href="#nav-mobile" data-uk-toggle>
-          <span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+          <span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data[page_lang].translation.menu | default: "Menu" }}</span>
       </a>
     </div>
     
