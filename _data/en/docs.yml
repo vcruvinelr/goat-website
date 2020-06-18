@@ -1,20 +1,27 @@
-- title: Parent Category
+- title: About
   header: Subcategory
   docs:
+  - background
   - about
-  - heatmap
-  - quick_start_docker
+  - technicalarchitecture
 
-- title: Parent Category
+- title: Technical Documentation
   header: Subcategory
   docs:
-  - example
-  - heatmap
   - quick_start_docker
+  - quick_start_vm
+  - data_preparation
+  - heatmap
+  - alphashape
+  - population
+  - routing_profiles
 
-- title: Parent Category
+- title: Contribute to OSM
   header: Subcategory
   docs:
-  - example
-  - heatmap
-  - quick_start_docker
+  - osm_tutorial
+  - complete_pois
+
+- title: Contribute to GOAT
+  docs:
+  - contribute_docs
