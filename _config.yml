@@ -197,7 +197,9 @@ collections:
     output:             false
   docs:
     output:             true
-    
+  videos:
+    output:             false
+
 # Defaults
 defaults:
   # _posts
