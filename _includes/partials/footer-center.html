@@ -1,5 +1,5 @@
 {% assign page_lang = page.lang | default: site.lang %}
-<footer class="uk-section uk-section-{{ site.footer.style | default: 'muted' }} uk-text-center uk-text-muted uk-link-muted">
+<footer class="uk-section uk-section-small uk-section-{{ site.footer.style | default: 'muted' }} uk-text-center uk-text-muted uk-link-muted">
     <div class="uk-container uk-container-small">
 
         <div>
@@ -22,13 +22,13 @@
             </ul>
         </div>
         {% if site.social_networks %}
-          <div class="uk-margin-medium">
+          <div class="uk-margin">
               <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex-center uk-grid">
                   {% include social-networks.html %}
               </div>
           </div>
         {% endif %}
-        <div class="uk-margin-medium uk-text-small copyright">{{ site.footer.copyright }}</div>
+        <div class="uk-margin uk-text-small copyright">{{ site.footer.copyright }}</div>
 
     </div>
 </footer>

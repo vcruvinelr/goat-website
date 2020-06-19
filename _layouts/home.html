@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="uk-section uk-section-large uk-section-muted">
+<div class="uk-section uk-section-large uk-section-default">
   <div class="uk-container">
     <div class="uk-child-width-expand@m uk-grid-match uk-flex-center" data-uk-grid>
       <div>
@@ -14,7 +14,7 @@ layout: default
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
             <div class="uk-card-body">
               <h3 class="uk-h1 uk-margin-bottom">{{ page.what.title }}</h3>
-              {{ page.what.description | markdownify }}
+              <div class="uk-text-lead">{{ page.what.description | markdownify }}</div>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@ layout: default
   </div>
 </div>
 
-<div class="uk-section uk-section-large uk-section-muted">
+<div class="uk-section uk-section-large uk-section-default">
   <div class="uk-container">
     <div class="uk-child-width-expand@m uk-grid-match uk-flex-center" data-uk-grid>
       <div>
@@ -35,7 +35,7 @@ layout: default
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
             <div class="uk-card-body">
               <h3 class="uk-h1 uk-margin-bottom">{{ page.why.title }}</h3>
-              {{ page.why.description | markdownify }}
+              <div class="uk-text-lead">{{ page.what.description | markdownify }}</div>
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ layout: default
   </div>
 </div>
 
-<div class="uk-section uk-section-large uk-section-muted">
+<div class="uk-section uk-section-large uk-section-default">
   <div class="uk-container">
     <div class="uk-child-width-expand@m uk-grid-match uk-flex-center" data-uk-grid>
       <div>
@@ -56,7 +56,7 @@ layout: default
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
             <div class="uk-card-body">
               <h3 class="uk-h1 uk-margin-bottom">{{ page.features.title }}</h3>
-              {{ page.features.description | markdownify }}
+              <div class="uk-text-lead">{{ page.what.description | markdownify }}</div>
             </div>
           </div>
         </div>
@@ -67,5 +67,5 @@ layout: default
 
 {% include recent-posts.html 
   section_size="large"
-  section_background="default"
+  section_background="muted"
 %}
