@@ -6,7 +6,7 @@
   - technicalarchitecture
 
 - title: Technical Documentation
-  header: Subcategory
+  header: 
   docs:
   - quick_start_docker
   - quick_start_vm

@@ -1,8 +1,3 @@
-{% if page.alert %}
-<div class="uk-text-center uk-background-danger uk-light uk-margin-remove" data-uk-alert>
-  {{ page.alert.content | markdownify }}
-</div>
-{% endif %}
 {% assign page_lang = page.lang | default: site.lang %}
 <div class="uk-container">
   <div data-uk-navbar>
