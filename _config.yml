@@ -19,7 +19,7 @@ uploads:                /uploads/ # Path to post content assets directory i.e po
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 6
+  per_page: 9
   permalink: '/:num/'
   title: ':title'
   limit: 0
@@ -104,9 +104,15 @@ navbar:
   sticky:               true
   search:               false
 
-footer:                 # Default footer image settings
-  style:                secondary # default, muted, primary, secondary
+footer:                 
   copyright:            Open Accessibility 2020 | All Rights Reserved
+  logos:
+    - image:            logo-tum.png
+      url:              https://www.bgu.tum.de/sv/startseite/
+    - image:            logo-bmvi.png
+      url:              https://www.bmvi.de/DE/Home/home.html
+    - image:            logo-mfund.png
+      url:              https://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-projekte/GOAT.html
   
 google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
 
