@@ -18,13 +18,6 @@ header:
   button_2:
     text: Videos
     url: videos/
-goat:
-  - icon: opensource.png
-    title: Open Data & Open Source
-  - icon: scenario_building.png
-    title: Scenario Building
-  - icon: interactive_calculation.png
-    title: Dynamic Calculations
 
 what:
   title: What is GOAT?

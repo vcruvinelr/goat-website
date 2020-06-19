@@ -1,28 +1,6 @@
 ---
 layout: default
 ---
-<div class="uk-section uk-section-large">
-  <div class="uk-container">
-    <div class="uk-child-width-1-3@m uk-grid-match uk-flex-center" data-uk-grid>
-      {% for block in page.goat %}
-        <div>
-          <div class="uk-card-none card-icon uk-text-center">
-            {% if block.icon %}
-              <div class="uk-card-media-top uk-text-primary">
-                <img data-src="{% if block.icon contains 'http' %}{{ block.icon }}{% else %}{{ site.uploads | absolute_url }}{{ block.icon }}{% endif %}"
-                  alt="{{ block.title }}" data-uk-img>
-              </div>
-            {% endif %}
-            <div class="uk-card-body">
-              <h3 class="uk-card-title">{{ block.title }}</h3>
-              {{ block.content }}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
 
 <div class="uk-section uk-section-large uk-section-muted">
   <div class="uk-container">
