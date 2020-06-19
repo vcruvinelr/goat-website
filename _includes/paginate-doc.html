@@ -1,5 +1,5 @@
 {% assign page_lang = page.lang | default: site.lang %}
-{% assign docs = site.data.[page_lang].docs | map: 'docs' | join: ',' | split: ',' %}
+{% assign docs = site.data[page_lang].docs | map: 'docs' | join: ',' | split: ',' %}
 
 {% for document in docs %}
   {% assign document_url = document | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
@@ -13,7 +13,7 @@
                   {% assign previous_page = docs[previous] | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
                   {% assign previous_doc = site.docs | where:"url", previous_page | first %}
                     <h5>{{previous_doc.title}}</h5>
-                    <div><a class="remove-underline hvr-back" href="{{previous_page}}">&larr; {{ site.data[page_lang].translation.previous | default: "Previous" }}</a></div>
+                    <div><a class="remove-underline hvr-back" href="{{previous_page}}">&larr; {{ site.data.translation[page_lang].previous | default: "Previous" }}</a></div>
                 {% endif %}
             </div>
             <div>
@@ -23,7 +23,7 @@
                   {% assign next_page = docs[next] | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
                   {% assign next_doc = site.docs | where:"url", next_page | first %}
                     <h5 class="uk-text-right">{{next_doc.title}}</h5>
-                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="{{next_page}}">{{ site.data[page_lang].translation.next | default: "Next" }} &rarr;</a></div>
+                    <div class="uk-text-right"><a class="remove-underline hvr-forward" href="{{next_page}}">{{ site.data.translation[page_lang].next | default: "Next" }} &rarr;</a></div>
                 {% endif %}
             </div>
         </div>

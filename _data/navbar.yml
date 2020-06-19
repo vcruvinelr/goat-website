@@ -1,0 +1,25 @@
+# Navbar menu navigation links
+- title: 
+    en: GOAT EN
+    de: GOAT DE
+  url: versions/
+
+- title: 
+    en: Quickstart
+    de: Quickstart
+  url: videos/
+
+- title: 
+    en: Blog
+    de: Blog
+  url: blog/
+
+- title: 
+    en: Team
+    de: Team
+  url: team/
+
+- title: 
+    en: Docs
+    de: Docs
+  url: docs/about/

@@ -1,6 +1,6 @@
 {% assign page_lang = page.lang | default: site.lang %}
 <div class="uk-container">
-    <h3 class="uk-h2 uk-text-center uk-margin-medium-top uk-margin-medium-bottom">{{ site.data.[page_lang].translation.related_posts | default: "Related Posts" }}</h3>
+    <h3 class="uk-h2 uk-text-center uk-margin-medium-top uk-margin-medium-bottom">{{ site.data.translation[page_lang].related_posts | default: "Related Posts" }}</h3>
     {% assign maxRelated = 3 %}
     {% assign minCommonTags =  1 %}
     {% assign maxRelatedCounter = 0 %}

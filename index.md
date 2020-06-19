@@ -1,5 +1,5 @@
 ---
-# lang: en
+lang: en
 layout: home
 width: full
 alert:

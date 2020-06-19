@@ -17,7 +17,7 @@
 
         <div>
             <ul class="uk-subnav uk-flex-center">
-                {% for link in site.data.[page_lang].footer %}
+                {% for link in site.data.footer %}
                     {% if link.url contains 'http' %}
                         {% assign domain = '' %}
                     {% else %}
@@ -29,7 +29,7 @@
                         {% assign current = null %}
                     {% endif %}
                     {% if link.title %}
-                        <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></li>
+                        <li{{ current }}><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title[page_lang] }}</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

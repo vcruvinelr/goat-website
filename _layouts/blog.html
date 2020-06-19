@@ -31,10 +31,10 @@ layout: default
 {% if paginator.previous_page or paginator.next_page %}
   <ul class="uk-pagination uk-flex-center uk-margin-large-top">
     {% if paginator.previous_page %}
-    <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; {{ site.data[page_lang].translation.previous | default: "Previous" }}</a></h5></li>
+    <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; {{ site.data.translation[page_lang].previous | default: "Previous" }}</a></h5></li>
     {% endif %} 
     {% if paginator.next_page %}
-    <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">{{ site.data[page_lang].translation.next | default: "Next" }} &rarr;</a></h5></li>
+    <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">{{ site.data.translation[page_lang].next | default: "Next" }} &rarr;</a></h5></li>
     {% endif %}
   </ul>
 {% endif %}

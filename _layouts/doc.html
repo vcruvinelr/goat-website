@@ -31,7 +31,7 @@ layout: default
 
             <div class="uk-width-1-1 uk-width-expand@m">
                 <div class="uk-hidden@m">
-                    <button class="uk-button uk-button-default uk-margin-medium-bottom" type="button">{{ site.data[page_lang].translation.navigate_docs | default: "Navigate Documentation" }}</button>
+                    <button class="uk-button uk-button-default uk-margin-medium-bottom" type="button">{{ site.data.translation[page_lang].navigate_docs | default: "Navigate Documentation" }}</button>
                     <div uk-dropdown="mode: click">
                         <ul class="uk-nav uk-dropdown-nav">
                             {% for section in site.data[page_lang].docs %}

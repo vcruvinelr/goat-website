@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign page_lang = page.lang | default: site.lang %}
+
 <div class="uk-section uk-section-large uk-section-default">
   <div class="uk-container">
     <div class="uk-child-width-expand@m uk-grid-match uk-flex-center" data-uk-grid>
@@ -67,7 +69,7 @@ layout: default
 
 <div class="uk-section uk-section-large uk-section-default">
   <div class="uk-container">
-    <h2 class="uk-h1 uk-margin-medium-bottom uk-text-center">{{ site.data[page_lang].translation.recent_posts | default: "Recent Posts" }}</h2>
+    <h2 class="uk-h1 uk-margin-medium-bottom uk-text-center">{{ site.data.translation[page_lang].recent_posts | default: "Recent Posts" }}</h2>
     {% assign topics = '' %}
 
     {% for post in site.portfolio %}

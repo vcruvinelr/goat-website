@@ -1,0 +1,25 @@
+# Mobile menu navigation links
+- title: 
+    en: GOAT
+    de: GOAT
+  url: versions/
+
+- title: 
+    en: Quickstart
+    de: Quickstart
+  url: videos/
+
+- title: 
+    en: Blog
+    de: Blog
+  url: blog/
+
+- title: 
+    en: Team
+    de: Team
+  url: team/
+
+- title: 
+    en: Docs
+    de: Docs
+  url: docs/about/

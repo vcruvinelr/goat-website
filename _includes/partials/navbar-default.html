@@ -2,27 +2,20 @@
 <div class="uk-container">
   <div data-uk-navbar>
     <div class="uk-navbar-left">
-      {% assign logo_url = site.data.languages.[page_lang].url | relative_url %}
+      {% assign logo_url = site.data.languages[page_lang].url | relative_url %}
       <a class="uk-navbar-item uk-logo" href="{{ logo_url }}">
-        {% if site.logo_light or site.logo %}
-          {% if site.logo_light %}
-            <img class="uk-logo-inverse uk-margin-small-right" src="{{ site.uploads | absolute_url }}{{ site.logo_light }}" alt="{{ site.title }}">
-          {% endif %}
-          {% if site.logo %}
-            <img class="uk-margin-small-right" src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title }}">
-          {% endif %}
-        {% endif %}
+        <img class="uk-margin-small-right" src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title }}">
         {{ site.title }}
       </a>
     </div>
 
     <div class="uk-navbar-center">
       <ul class="uk-navbar-nav uk-visible@l">
-        {% for link in site.data.[page_lang].navbar %}
+        {% for link in site.data.navbar %}
           {% if link.url contains 'http' %}
             {% assign domain = '' %}
           {% else %}
-            {% assign domain = site.data.languages.[page_lang].url | relative_url %}
+            {% assign domain = site.data.languages[page_lang].url | relative_url %}
           {% endif %}
           {% if link.url == page.url %}
             {% assign current = ' class="uk-active"' %}
@@ -32,36 +25,9 @@
           {% if link.title %}
             <li{{ current }}>
               {% if link.url %}
-                {% if link.button %}
-                  <div class="uk-navbar-item"><a class="uk-button uk-button-small uk-button-{{ link.button | default: 'default' }}" href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a></div>
-                {% else %}
-                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title }}</a>
-                {% endif %}
+                <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener" {% endif %}>{{ link.title[page_lang] }}</a>
               {% else %}
                 <a href="#">{{ link.title }}</a>
-              {% endif %}
-              {% if link.dropdown != null %}
-                <div class="uk-navbar-dropdown">
-                  <ul class="uk-nav uk-navbar-dropdown-nav">
-                    {% for child in link.dropdown %}
-                      {% if child.url != null %}
-                        {% if child.url contains 'http' %}
-                          {% assign domain = '' %}
-                        {% else %}
-                          {% assign domain = '' | relative_url %}
-                        {% endif %}
-                        {% if child.url == page.url %}
-                          {% assign current = ' class="uk-active"' %}
-                        {% else %}
-                          {% assign current = null %}
-                        {% endif %}
-                        <li{{ current }}><a href="{{ domain }}{{ child.url }}">{{ child.title }}</a></li>
-                      {% else %}
-                        <li class="uk-nav-header">{{ child.title }}</li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </div>
               {% endif %}
             </li>
           {% endif %}
@@ -144,7 +110,7 @@
         </ul>
 
       <a class="uk-navbar-toggle uk-hidden@l" href="#nav-mobile" data-uk-toggle>
-          <span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data[page_lang].translation.menu | default: "Menu" }}</span>
+          <span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data.translation[page_lang].menu | default: "Menu" }}</span>
       </a>
     </div>
     

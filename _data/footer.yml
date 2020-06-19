@@ -1,0 +1,31 @@
+# Footer navigation
+- title: 
+    en: GOAT
+    de: GOAT
+  url: versions/
+
+- title: 
+    en: Quickstart
+    de: Quickstart
+  url: videos/
+
+- title: 
+    en: Blog
+    de: Blog
+  url: blog/
+
+- title: 
+    en: Team
+    de: Team
+  url: team/
+
+- title: 
+    en: Docs
+    de: Docs
+  url: docs/about/
+
+- title: 
+    en: Imprint & Privacy
+    de: Imprint & Privacy
+  url: data-privacy/
+    
