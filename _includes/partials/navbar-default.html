@@ -71,39 +71,77 @@
 
     <div class="uk-navbar-right">
       <ul class="uk-navbar-nav">
-      {% for lang in site.data.languages %}
-        {% assign language = lang[1] %}
-        <li><a href="{{ language.url | relative_url }}">{{ language.icon }} {{ language.label }}</a></li>
-      {% endfor %}
-      </ul>
-
-      {% unless page.header.search or site.navbar.search == false %}
-        <div>
-            <a class="uk-navbar-toggle" aria-label="Search" uk-search-icon href="#"></a>
-            <div class="uk-drop uk-background-default uk-border-rounded" uk-drop="mode: click; pos: left-center; offset: 0">
-                <form class="uk-search uk-search-navbar uk-width-1-1" onsubmit="return false;">
-                    <input id="search-input" class="uk-search-input" type="search" placeholder="Search..." autofocus>
-                    <ul id="search-results" class="uk-position-absolute uk-width-1-1 uk-list"></ul>
-                </form>
-            </div>
-        </div>
-        <script>
-          SimpleJekyllSearch({
-            searchInput: document.getElementById('search-input'),
-            resultsContainer: document.getElementById('search-results'),
-            noResultsText: '<li>No results found</li>',
-            searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-            limit: 100,
-            json: '/search.json'
-          });
-        </script>
-      {% endunless %}
-
-      {% if site.donations.paypal.navbar %}
-        <div class="uk-navbar-item">
-            {% include donations-paypal.html %}
-        </div>
-      {% endif %}
+        {% if site.social_networks.twitter %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.twitter }}" data-uk-icon="icon: twitter" class="uk-icon-link uk-icon uk-text-muted" aria-label="Twitter" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.facebook %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.facebook }}" data-uk-icon="icon: facebook" class="uk-icon-link uk-icon uk-text-muted" aria-label="Facebook" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.flickr %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.flickr }}" data-uk-icon="icon: flickr" class="uk-icon-link uk-icon uk-text-muted" aria-label="Flickr" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.dribbble %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.dribbble }}" data-uk-icon="icon: dribbble" class="uk-icon-link uk-icon uk-text-muted" aria-label="Dribbble" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.instagram %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.instagram }}" data-uk-icon="icon: instagram" class="uk-icon-link uk-icon uk-text-muted" aria-label="Instagram" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.googleplus %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.googleplus }}" data-uk-icon="icon: google-plus" class="uk-icon-link uk-icon uk-text-muted" aria-label="Google Plus" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.linkedin %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.linkedin }}" data-uk-icon="icon: linkedin" class="uk-icon-link uk-icon uk-text-muted" aria-label="LinkedIn" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.pinterest %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.pinterest }}" data-uk-icon="icon: pinterest" class="uk-icon-link uk-icon uk-text-muted" aria-label="Pinterest" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.vimeo %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.vimeo }}" data-uk-icon="icon: vimeo" class="uk-icon-link uk-icon uk-text-muted" aria-label="Vimeo" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.youtube %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.youtube }}" data-uk-icon="icon: youtube" class="uk-icon-link uk-icon uk-text-muted" aria-label="Youtube" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.github %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.github }}" data-uk-icon="icon: github" class="uk-icon-link uk-icon uk-text-muted" aria-label="Github" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.email %}
+        <li class="uk-visible@l">
+            <a href="mailto:{{ site.social_networks.email }}" data-uk-icon="icon: mail" class="uk-icon-link uk-icon uk-text-muted" aria-label="Mail" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        {% if site.social_networks.website %}
+        <li class="uk-visible@l">
+            <a href="{{ site.social_networks.website }}" data-uk-icon="icon: link" class="uk-icon-link uk-icon uk-text-muted" aria-label="Link" rel="noopener" target="_blank"></a>
+        </li>
+        {% endif %}
+        
+        {% for lang in site.data.languages %}
+          {% assign language = lang[1] %}
+          <li><a href="{{ language.url | relative_url }}">{{ language.icon }} {{ language.label }}</a></li>
+        {% endfor %}
+        </ul>
 
       <a class="uk-navbar-toggle uk-hidden@l" href="#nav-mobile" data-uk-toggle>
           <span data-uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">{{ site.data[page_lang].translation.menu | default: "Menu" }}</span>

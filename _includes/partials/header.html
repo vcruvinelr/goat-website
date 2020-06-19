@@ -58,20 +58,12 @@
 {% if sticky %}
   <div data-uk-sticky="{% if scroll_up %}show-on-up: true; {% endif %}{% if animation %}animation: uk-animation-slide-top; top: 200; {% endif %}sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky navbar-background uk-{{ color | default: 'dark' }}; cls-inactive: {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
     <nav class="uk-navbar-container">
-      {% if site.navbar.layout == 'center' %}
-        {% include partials/navbar-center.html %}
-      {% else %}
-        {% include partials/navbar-default.html %}
-      {% endif %}
+      {% include partials/navbar-default.html %}
     </nav>
   </div>
 {% else %}
   <nav class="uk-navbar-container {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
-    {% if site.navbar.layout == 'center' %}
-      {% include partials/navbar-center.html %}
-    {% else %}
-      {% include partials/navbar-default.html %}
-    {% endif %}
+    {% include partials/navbar-default.html %}
   </nav>
 {% endif %}
 

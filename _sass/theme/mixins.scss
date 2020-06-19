@@ -641,6 +641,15 @@
 
 @mixin hook-utility-misc(){
 
+  .uk-nav-primary .uk-logo {
+    font-size: $logo-font-size;
+    color: #000;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+
   .uk-card-icon {
     box-sizing: border-box;
     width: 126px;
