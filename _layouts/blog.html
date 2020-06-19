@@ -22,20 +22,19 @@ layout: default
 
 <div class="{{ grid }}{% if page.gutter %} uk-grid-{{ page.gutter }}{% endif %} uk-grid-match" data-uk-grid>
   {% for post in paginator.posts %}
-    {% if forloop.first == true and paginator.page == 1 %}
-      <div class="uk-width-2-3@m">
-    {% else %}
-      <div>
-    {% endif %}
-    {% include post-card.html %}
+    <div>
+      {% include post-card.html %}
     </div>
   {% endfor %}
 </div>
 
-<ul class="uk-pagination uk-flex-center uk-margin-large-top">
-  {% if paginator.previous_page %}
-  <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; {{ site.data[page_lang].translation.previous | default: "Previous" }}</a></h5></li>
-  {% endif %} {% if paginator.next_page %}
-  <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">{{ site.data[page_lang].translation.next | default: "Next" }} &rarr;</a></h5></li>
-  {% endif %}
-</ul>
+{% if paginator.previous_page or paginator.next_page %}
+  <ul class="uk-pagination uk-flex-center uk-margin-large-top">
+    {% if paginator.previous_page %}
+    <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; {{ site.data[page_lang].translation.previous | default: "Previous" }}</a></h5></li>
+    {% endif %} 
+    {% if paginator.next_page %}
+    <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">{{ site.data[page_lang].translation.next | default: "Next" }} &rarr;</a></h5></li>
+    {% endif %}
+  </ul>
+{% endif %}

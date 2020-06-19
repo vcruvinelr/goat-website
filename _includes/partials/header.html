@@ -67,20 +67,19 @@
   </nav>
 {% endif %}
 
-<div class="uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}" style="{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
-  {%- if page.header.background_video -%}
-  <div class="uk-position-cover uk-cover-container">
-    <video autoplay loop muted playsinline data-uk-cover>
-      <source src="{% if page.header.background_video contains 'http' %}{{ page.header.background_video }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.background_video }}{% endif %}" type="video/mp4">
-    </video>
-  </div>
-  {%- endif -%}
-  <div class="uk-position-cover" style="{% if page.header.background_overlay %} background: {{ page.header.background_overlay }};{% endif %}"></div>
+{% if page.header %}
+  <div class="uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}" style="{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
+    {%- if page.header.background_video -%}
+    <div class="uk-position-cover uk-cover-container">
+      <video autoplay loop muted playsinline data-uk-cover>
+        <source src="{% if page.header.background_video contains 'http' %}{{ page.header.background_video }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.background_video }}{% endif %}" type="video/mp4">
+      </video>
+    </div>
+    {%- endif -%}
+    <div class="uk-position-cover" style="{% if page.header.background_overlay %} background: {{ page.header.background_overlay }};{% endif %}"></div>
 
-  {% if page.header %}
-  <div class="uk-position-relative uk-container{% if page.header.container %} uk-container-{{ page.header.container }}{% endif %}{% if page.header.height == 'full' %} uk-flex uk-flex-middle{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport="offset-top: true"{% endif %}>
-    <div class="uk-section uk-section-{{ page.header.header_size | default: 'regular' }}{% if page.header.header_padding_remove %} uk-padding-remove-{{ page.header.header_padding_remove }}{% endif %} uk-width-1-1 uk-{{ page.header.color | default: 'dark' }}"{% if page.header.parallax %} data-uk-parallax="y: 100;"{% endif %}>
-      {% if page.layout == 'home' %}
+    <div class="uk-position-relative uk-container{% if page.header.container %} uk-container-{{ page.header.container }}{% endif %}{% if page.header.height == 'full' %} uk-flex uk-flex-middle{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport="offset-top: true"{% endif %}>
+      <div class="uk-section uk-section-{{ page.header.header_size | default: 'regular' }}{% if page.header.header_padding_remove %} uk-padding-remove-{{ page.header.header_padding_remove }}{% endif %} uk-width-1-1 uk-{{ page.header.color | default: 'dark' }}"{% if page.header.parallax %} data-uk-parallax="y: 100;"{% endif %}>
         <div class="uk-grid-large uk-flex uk-flex-middle uk-flex-center@m" data-uk-grid>
           <div class="uk-width-1-2@m uk-width-2-3@l">
             <img data-src="{% if page.header.image contains 'http' %}{{ page.header.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.image }}{% endif %}"
@@ -111,36 +110,32 @@
             </div>
           </div>
         </div>
-      {% elsif page.header.layout == 'left' %}
-        <div class="uk-flex uk-flex-middle" data-uk-grid>
-          <div class="uk-width-2-3@m">
-            <h1 class="uk-heading-{{ page.header.heading_size | default: 'medium' }}">{{ page.title | escape }}</h1>
-            {% if page.subtitle %}
-              <div class="uk-text-lead">{{ page.subtitle }}</div>
-            {% endif %}
-            {% if page.layout =='post' %}
-              <div class="uk-margin-medium-top">
-                {% include post-meta.html %}
-              </div>
-            {% endif %}
-          </div>
-        </div>
-      {% elsif page.header.layout == 'center' %}
-        <div class="uk-flex uk-text-center uk-flex-middle uk-flex-center uk-container uk-container-small">
-          <div class="uk-width-1-1">
-            <h1 class="uk-heading-{{ page.header.heading_size | default: 'medium' }}">{{ page.title | escape }}</h1>
-            {% if page.subtitle %}
-              <div class="uk-text-lead">{{ page.subtitle }}</div>
-            {% endif %}
-            {% if page.layout =='post' %}
-              <div class="uk-flex uk-flex-center uk-margin-medium-top">
-                {% include post-meta.html %}
-              </div>
-            {% endif %}
-          </div>
+      </div>
+    </div>
+  </div>
+{% elsif page.layout == 'blog' %}
+
+{% elsif page.layout == 'post' %}
+  <div class="uk-text-center uk-container uk-container-small">
+    <h1 class="uk-heading-{{ page.header.heading_size | default: 'medium' }}">{{ page.title | escape }}</h1>
+    {% if page.subtitle %}
+      <div class="uk-text-lead">{{ page.subtitle }}</div>
+    {% endif %}
+  </div>
+{% else %}
+
+
+  <div class="uk-flex uk-text-center uk-flex-middle uk-flex-center uk-container uk-container-small">
+    <div class="uk-width-1-1">
+      <h1 class="uk-heading-{{ page.header.heading_size | default: 'medium' }}">{{ page.title | escape }}</h1>
+      {% if page.subtitle %}
+        <div class="uk-text-lead">{{ page.subtitle }}</div>
+      {% endif %}
+      {% if page.layout =='post' %}
+        <div class="uk-flex uk-flex-center uk-margin-medium-top">
+          {% include post-meta.html %}
         </div>
       {% endif %}
     </div>
   </div>
-  {% endif %}
-</div>
+{% endif %}

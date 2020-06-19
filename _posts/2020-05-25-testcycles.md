@@ -5,8 +5,10 @@ title:  "Gaining experiences from practitioners"
 lang: en
 tags: [en]
 categories: [news]
-image: https://source.unsplash.com/uApWwzJNF2o
+thumbnail: https://source.unsplash.com/uApWwzJNF2o/400x600
+image: https://source.unsplash.com/uApWwzJNF2o/1200x500
 ---
+
 By end of this year we aim to launch version GOAT1.0! To achieve a high usability and usefulness, GOAT is currently extensively tested by a group of experts in the fields of transport and urban planning. The funding provided by [mFund](https://www.bmvi.de/DE/Themen/Digitales/mFund/Ueberblick/ueberblick.html) is allowing to organize different workshops with planners from the municipalities Fürstenfeldbruck, Freising and Munich.
 
 The most extensive series of workshops was conducted with practitioners of the municipality of Fürstenfeldbruck. In three test cycles extensive knowledge and experience from transport and land-use planners, GIS-experts but also from the perspective of the social service department were feed into the development process of GOAT.

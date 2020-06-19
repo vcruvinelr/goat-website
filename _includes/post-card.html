@@ -1,4 +1,4 @@
-<div class="uk-card uk-card-default uk-card-blog uk-background-center-center uk-background-cover uk-light" style="background-image: url({% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %});">
+<div class="uk-card uk-card-default uk-card-blog uk-background-center-center uk-background-cover uk-light" style="background-image: url({% if post.thumbnail contains 'http' %}{{ post.thumbnail }}{% else %}{{ site.uploads | absolute_url }}{{ post.thumbnail }}{% endif %});">
   <div class="uk-position-cover uk-overlay-primary"></div>
   <div class="uk-card-body uk-position-relative">
     <h3><a class="uk-link-heading" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

@@ -1,11 +1,6 @@
 ---
 title: Imprint & Privacy
 width: small
-section: "large uk-padding-remove-top"
-header:
-  layout: center
-  header_size: none
-  heading_size: none
 ---
 
 ## Imprint
