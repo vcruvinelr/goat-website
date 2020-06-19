@@ -14,7 +14,7 @@
     {% if width == 'full' or page.layout == 'doc' %}
       {{ content }}
     {% else %}
-      <div class="uk-section{% if page.section %} uk-section-{{ page.section }}{% endif %}">
+      <div class="uk-section">
         <div class="uk-container{% if width %} uk-container-{{ width }}{% endif %}">
             {{ content }}
         </div>
