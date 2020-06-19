@@ -6,7 +6,7 @@
 
 # Site settings
 title:                  Open Accessibility
-description:            Multipurpose Jekyll theme.
+description:            Here you can work with the dynamic, interactive and open accessibility planning tool GOAT. This makes it a great instrument for walking and cycling.
 url:                    # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
@@ -15,10 +15,6 @@ logo_light:             logo.png
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
-template:               base
-
-# paginate:               9 # Number of posts displayed on blog page
-# paginate_path:          "/blog/:num/" # Blog path
 
 # Pagination Settings
 pagination:
@@ -103,7 +99,6 @@ authors:
     linkedin:           "#"
 
 navbar:
-  layout:               default # default, center
   color:                dark # text color, dark or light
   animation:            true
   sticky:               true
@@ -111,25 +106,12 @@ navbar:
 
 footer:                 # Default footer image settings
   style:                secondary # default, muted, primary, secondary
-  layout:               center # center or columns
   copyright:            Open Accessibility 2020 | All Rights Reserved
-
-mailchimp:
-  form_action:          000000
-  hidden_name:          000000
   
 google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
-google_maps_api_key:    AIzaSyDozvEBl_XAzNqSPT2y1_hlU19REsmxhTE # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 
 disqus:
   shortname:            # Disqus comments shortname, requires Disqus account https://disqus.com/
-
-instagram_accesstoken:  9787042989.1677ed0.1dd0f134cfe84e1d88a05b9afbedec3c
-
-donations:
-  paypal:
-    id:                 # PayPal button ID
-    navbar:             # true
 
 # Social share buttons
 social_share:

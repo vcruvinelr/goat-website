@@ -4,6 +4,11 @@
   - background
   - about
   - technicalarchitecture
+  # header: Subcategory
+  # docs:
+  # - background
+  # - about
+  # - technicalarchitecture
 
 - title: Technical Documentation
   header: 
