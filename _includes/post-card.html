@@ -6,10 +6,12 @@
   </div>
   <div class="uk-card-footer uk-position-relative">
     {% if post.author %}
-      {% assign author = site.data.authors[post.author] %}
+      {% assign post_authors = post.author[0] %}
     {% else %}
-      {% assign author = site.data.authors[site.data.authors.default] %}
+      {% assign post_authors = site.data.authors.default %}
     {% endif %}
+
+    {% assign author = site.data.authors[post_authors] %}
     <div class="uk-article-meta" itemscope itemtype="http://schema.org/Person">
       <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex uk-flex-middle">
         {% if author.avatar %}

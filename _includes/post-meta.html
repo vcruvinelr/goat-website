@@ -1,22 +1,31 @@
 {% if page.author %}
-  {% assign author = site.authors[page.author] %}
+  {% assign post_authors = page.author %}
 {% else %}
-  {% assign author = site.author %}
+  {% assign post_authors = site.data.authors.default %}
 {% endif %}
 
 <div class="uk-article-meta" itemscope itemtype="http://schema.org/Person">
   <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex uk-flex-middle">
+    {% for item in post_authors %}
+      {% assign author = site.data.authors[item] %}
 
-    {% if author.avatar %}
-      <div>
+      {% if forloop.first == true %}
+        <div>
+      {% else %}
+        <div class="uk-avatars">
+      {% endif %}
         <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="avatar" data-src="{% if author.avatar contains 'http' %}{{ author.avatar }}{% else %}{{ site.uploads | absolute_url }}{{ author.avatar }}{% endif %}" alt="{{ author.name }}" itemprop="image" data-uk-img>
       </div>
-    {% endif %}
+    {% endfor %}
 
     <div>
-      {% if author.name %}
-        <span itemprop="name"><span itemprop="name"><strong>{{ author.name }}</strong></span></span>
-      {% endif %}
+      {% for item in post_authors %}
+        {% assign author = site.data.authors[item] %}
+        {% if author.name %}
+          <span class="uk-margin-small-right" itemprop="name"><span itemprop="name"><strong>{{ author.name }}</strong></span></span>
+        {% endif %}
+      {% endfor %}
+
       <time datetime="{{ page.date | date_to_xmlschema }}">
           {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
           {{ page.date | date: date_format }}
