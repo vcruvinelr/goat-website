@@ -416,6 +416,7 @@
   .uk-sticky:not(.sidebar-docs) {
     box-shadow: $global-small-box-shadow;
     z-index: 990;
+    position: relative;
   }
 
   .navbar-background {

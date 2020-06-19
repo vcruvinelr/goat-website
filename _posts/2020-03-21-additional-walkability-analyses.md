@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Additional walkability analyses"
-author: Ulrike Jehle
+# author: Ulrike Jehle
 lang: en
 tags: [en]
 categories: [news]

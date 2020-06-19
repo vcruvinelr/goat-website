@@ -1,0 +1,94 @@
+# Default author settings
+# name:                 Elias Pajares
+# avatar:               https://via.placeholder.com/380
+# title:                Chair for Urban Structure and Transport Planning      
+# bio:                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+# url:
+# email:                
+# website:
+# facebook:             
+# flickr:
+# dribbble:
+# github:               "#"
+# googleplus:
+# instagram:            
+# linkedin:             "#"
+# pinterest:
+# twitter:              "#"
+# vimeo:
+# youtube:
+
+default: elias
+# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+elias:
+  name:               Elias Pajares
+  title:              
+    en:               Chair for Urban Structure and Transport Planning    
+    de:               Chair for Urban Structure and Transport Planning
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"
+evan:
+  name:               Evan Wells
+  title:              
+    en:               Support
+    de:               Support    
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"
+sara:
+  name:               Sara Galen
+  title:              
+    en:               Support
+    de:               Support    
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"
+alex:
+  title:              
+    en:               Support
+    de:               Support    
+  name:               Alex Koch
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"
+daniel:
+  title:              
+    en:               Support
+    de:               Support    
+  name:               Daniel Shultz
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"
+tom:
+  title:              
+    en:               Support
+    de:               Support    
+  name:               Tom Farrell
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"

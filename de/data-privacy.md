@@ -2,10 +2,6 @@
 lang: de
 title: Imprint & Privacy
 width: small
-header:
-  layout: center
-  header_size: none
-  heading_size: none
 ---
 
 ## Datenschutzerklärung
