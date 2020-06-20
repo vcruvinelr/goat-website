@@ -1,25 +1,7 @@
-# Default author settings
-# name:                 Elias Pajares
-# avatar:               https://via.placeholder.com/380
-# title:                Chair for Urban Structure and Transport Planning      
-# bio:                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-# url:
-# email:                
-# website:
-# facebook:             
-# flickr:
-# dribbble:
-# github:               "#"
-# googleplus:
-# instagram:            
-# linkedin:             "#"
-# pinterest:
-# twitter:              "#"
-# vimeo:
-# youtube:
-
+# Default author, if no post author is set (must be set and must be the first variable in this file)
 default: pajares
-# Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
+
+# Authors
 pajares:
   name:               Elias Pajares
   title:              
@@ -32,6 +14,7 @@ pajares:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
+  
 jehle:
   name:               Ulrike Jehle
   title:              
@@ -44,6 +27,7 @@ jehle:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
+
 hassine:
   name:               Emna Ben Hassine
   title:              
@@ -56,6 +40,7 @@ hassine:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
+
 ramirez:
   name:               German Santiago Linares Ramirez
   title:              
@@ -68,3 +53,24 @@ ramirez:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
+
+# All author available settings
+# handle:
+  # name:                 Elias Pajares
+  # avatar:               https://via.placeholder.com/380
+  # title:                Chair for Urban Structure and Transport Planning      
+  # bio:                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  # url:
+  # email:                
+  # website:
+  # facebook:             
+  # flickr:
+  # dribbble:
+  # github:               "#"
+  # googleplus:
+  # instagram:            
+  # linkedin:             "#"
+  # pinterest:
+  # twitter:              "#"
+  # vimeo:
+  # youtube:
