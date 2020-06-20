@@ -642,6 +642,10 @@
 
 @mixin hook-utility-misc(){
 
+  .uk-text-spacing-small {
+    letter-spacing: -2px;
+  }
+
   .uk-avatars {
     margin-left: -30px;
   }

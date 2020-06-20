@@ -80,13 +80,13 @@
 
     <div class="uk-position-relative uk-container{% if page.header.container %} uk-container-{{ page.header.container }}{% endif %}{% if page.header.height == 'full' %} uk-flex uk-flex-middle{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport="offset-top: true"{% endif %}>
       <div class="uk-section uk-section-{{ page.header.header_size | default: 'regular' }}{% if page.header.header_padding_remove %} uk-padding-remove-{{ page.header.header_padding_remove }}{% endif %} uk-width-1-1 uk-{{ page.header.color | default: 'dark' }}"{% if page.header.parallax %} data-uk-parallax="y: 100;"{% endif %}>
-        <div class="uk-grid-large uk-flex uk-flex-middle uk-flex-center@m" data-uk-grid>
+        <div class="uk-flex uk-flex-middle uk-flex-center@m" data-uk-grid>
           <div class="uk-width-1-2@m uk-width-2-3@l">
             <img data-src="{% if page.header.image contains 'http' %}{{ page.header.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.image }}{% endif %}"
               alt="{{ page.header.title }}" class="uk-box-shadow-xlarge" data-uk-img>
           </div>
           <div class="uk-width-expand@m">
-            <h1 class="uk-heading-{{ page.header.heading_size | default: 'medium' }}">{{ page.header.title }}</h1>
+            <h1 class="uk-h1 uk-text-spacing-small">{{ page.header.title }}</h1>
             {% if page.header.subtitle %}
               <div class="uk-text-lead">{{ page.header.subtitle }}</div>
             {% endif %}

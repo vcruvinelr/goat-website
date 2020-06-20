@@ -9,7 +9,7 @@ header:
   background_color: "rgb(228, 255, 224)"
   header_size: large
   heading_size: small
-  title: Welcome to Open Accessibility
+  title: Dynamic accessibility analysis for sustainable planning
   subtitle: 
   image: isochrone_amenities.png
   button:

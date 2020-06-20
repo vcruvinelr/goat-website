@@ -18,23 +18,16 @@ As first guidance the following videos shall help to understand the core feature
 
 This first video shows how to calculate walking isochrones at different places and compare their results. It also shows you how to export your calculation into common formats like GeoJSON or shapefiles.
 
-<p align="left">
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311547681" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311547681" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
 
 The next video show the interactive network modifications feature in action and gives the user an idea how this feature can be used to efficiently develop scenarios.
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311550100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311550100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
 
 The third video is introducing the dynamic heatmap and shows how walking accessibility can be analyzed and compared in different neighborhoods.
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311549509" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-</p>
+  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311549509" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
+
 
 
 
