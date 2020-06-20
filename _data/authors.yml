@@ -18,9 +18,9 @@
 # vimeo:
 # youtube:
 
-default: elias
+default: pajares
 # Author settings, displayed on post and doc pages if front matter references author name e.g. author: peter
-elias:
+pajares:
   name:               Elias Pajares
   title:              
     en:               Chair for Urban Structure and Transport Planning    
@@ -32,8 +32,8 @@ elias:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
-evan:
-  name:               Evan Wells
+jehle:
+  name:               Ulrike Jehle
   title:              
     en:               Support
     de:               Support    
@@ -44,8 +44,8 @@ evan:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
-sara:
-  name:               Sara Galen
+hassine:
+  name:               Emna Ben Hassine
   title:              
     en:               Support
     de:               Support    
@@ -56,35 +56,11 @@ sara:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
-alex:
+ramirez:
+  name:               German Santiago Linares Ramirez
   title:              
     en:               Support
     de:               Support    
-  name:               Alex Koch
-  avatar:             https://via.placeholder.com/380
-  bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-  twitter:            "#"
-  facebook:           "#"
-  linkedin:           "#"
-daniel:
-  title:              
-    en:               Support
-    de:               Support    
-  name:               Daniel Shultz
-  avatar:             https://via.placeholder.com/380
-  bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-  twitter:            "#"
-  facebook:           "#"
-  linkedin:           "#"
-tom:
-  title:              
-    en:               Support
-    de:               Support    
-  name:               Tom Farrell
   avatar:             https://via.placeholder.com/380
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.

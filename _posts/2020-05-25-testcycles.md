@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Gaining experiences from practitioners"
-# author: Elias Pajares, Ulrike Jehle, Emna Ben Hassine
-author: [sara]
+author: [pajares, jehle, hassine]
 lang: en
 tags: [en]
 categories: [news]

@@ -13,13 +13,13 @@
 
     {% assign author = site.data.authors[post_authors] %}
     <div class="uk-article-meta" itemscope itemtype="http://schema.org/Person">
-      <div data-uk-grid class="uk-child-width-auto uk-grid-small uk-flex uk-flex-middle">
+      <div data-uk-grid class="uk-grid-small uk-flex uk-flex-middle">
         {% if author.avatar %}
-          <div>
+          <div class="uk-width-auto">
             <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="avatar" data-src="{% if author.avatar contains 'http' %}{{ author.avatar }}{% else %}{{ site.uploads | absolute_url }}{{ author.avatar }}{% endif %}" alt="{{ author.name }}" itemprop="image" data-uk-img>
           </div>
         {% endif %}
-        <div>
+        <div class="uk-width-expand">
           {% if author.name %}
             <span itemprop="name"><span itemprop="name">{{ author.name }}</span></span>
           {% endif %}

@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Covering Fürstenfeldbruck with Mapillary"
-# author: German Santiago Linares Ramirez, Emna Ben Hassine
-author: [evan, alex]
+author: [hassine, ramirez]
 lang: en
 tags: [en]
 categories: [news]

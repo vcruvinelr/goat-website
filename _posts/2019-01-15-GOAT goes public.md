@@ -1,6 +1,6 @@
 ---
 title:  "GOAT<sub>beta</sub> goes public!"
-author: elias
+author: [pajares]
 lang: en
 tags: [en]
 categories: [news]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Development path of GOAT"
-author: Elias Pajares
+author: [pajares]
 lang: en
 tags: [en]
 ---
