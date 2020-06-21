@@ -1,17 +1,15 @@
-- title: About
-  header: Subcategory
+- category: About
   docs:
+  - subcategory: Subcategory Ome
   - background
   - about
   - technicalarchitecture
-  # header: Subcategory
-  # docs:
-  # - background
-  # - about
-  # - technicalarchitecture
+  - subcategory: Subcategory Two
+  - background
+  - about
+  - technicalarchitecture
 
-- title: Technical Documentation
-  header: 
+- category: Technical Documentation
   docs:
   - quick_start_docker
   - quick_start_vm
@@ -21,12 +19,11 @@
   - population
   - routing_profiles
 
-- title: Contribute to OSM
-  header: Subcategory
+- category: Contribute to OSM
   docs:
   - osm_tutorial
   - complete_pois
 
-- title: Contribute to GOAT
+- category: Contribute to GOAT
   docs:
   - contribute_docs

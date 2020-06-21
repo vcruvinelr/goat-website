@@ -3,7 +3,7 @@ layout: post
 title:  "Gaining experiences from practitioners"
 author: [pajares, jehle, hassine]
 lang: en
-tags: [en]
+tags: [en, de]
 categories: [news]
 thumbnail: https://source.unsplash.com/uApWwzJNF2o/400x600
 image: https://source.unsplash.com/uApWwzJNF2o/900x400

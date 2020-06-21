@@ -642,6 +642,10 @@
 
 @mixin hook-utility-misc(){
 
+  .uk-text-600 {
+    font-weight: 600;
+  }
+
   .uk-text-spacing-small {
     letter-spacing: -2px;
   }
