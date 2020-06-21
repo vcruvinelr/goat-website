@@ -1,6 +1,7 @@
 ---
 title: What is GOAT?
-permalink: /docs/about/
+# permalink: /docs/about/
+# lang: [en, de]
 ---
 
 ### Main characteristics

@@ -1,8 +1,10 @@
 ---
-title: Aus GOAT?
-permalink: /de/docs/aus/
-lang: de
+title: What is GOAT?
+permalink: /de/docs/about/
+# lang: [en, de]
 ---
+
+{% include alert.html style="danger" text="This documentation is currently only in English language." %}
 
 ### Main characteristics
 
