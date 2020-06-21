@@ -58,8 +58,13 @@ ramirez:
 # handle:
   # name:                 Elias Pajares
   # avatar:               https://via.placeholder.com/380
-  # title:                Chair for Urban Structure and Transport Planning      
-  # bio:                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  # title:              
+  #   en:               Chair for Urban Structure and Transport Planning    
+  #   de:               Chair for Urban Structure and Transport Planning
+  # avatar:             https://via.placeholder.com/380
+  # bio:
+  #   en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  #   de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
   # url:
   # email:                
   # website:
