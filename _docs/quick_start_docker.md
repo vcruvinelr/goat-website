@@ -14,7 +14,7 @@ Clone the GOAT-repo to a folder of your choice. Navigate first to the folder and
 
 `git clone https://github.com/goat-community/goat.git` (run on your <span style="color:#07d">host</span>)
 
-<img class="img-responsive" src="../../img/Docs/technical_documentation/setup/git_clone.png" alt="how your command window should look like" title="Get a copy of GOAT" width="600" height="400" style="border: 2px solid #07d;"/>
+{% include image.html src="docs/technical_documentation/setup/git_clone.png" alt="how your command window should look like" %}
 
 
 

@@ -15,14 +15,14 @@ Visit OpenStreetMap: [https://www.openstreetmap.org/](https://www.openstreetmap.
 
 And log in / create an account. 
 
-<img class="img-responsive" src="../../img/Docs/contribute_to_OSM/OSM_log_in.png" alt="log in to OSM" title="Log in to OSM">
+{% include image.html src="docs/contribute_to_OSM/OSM_log_in.png" alt="log in to OSM" title="Log in to OSM" %}
 
 
 #### 2. Activate edit mode 
 
 Press the "Edit" button to start editing.
 
-<img class="img-responsive" src="../../img/Docs/contribute_to_OSM/OSM_start_editing.png" alt="start editing in OSM" title="Start editing in OSM">
+{% include image.html src="docs/contribute_to_OSM/OSM_start_editing.png" alt="start editing in OSM" title="Start editing in OSM" %}
 
 
 #### 3. Familiarize with the OSM structure
@@ -40,7 +40,7 @@ Before starting with editing it makes sense to familiarize yourself with the pro
 
 Select the object you want to adjust (e.g. building, street, POI). To add a tag, press the "+" button, select the desired key and choose the correct value from the drop-down list or type it manually. If the key already exists but is associated with a wrong value, you can easily adjust it by selecting the right one. 
 
-<img class="img-responsive" src="../../img/Docs/contribute_to_OSM/OSM_tags.png" alt="OSM tags" title="Specific features are defined via tags">
+{% include image.html src="docs/contribute_to_OSM/OSM_tags.png" alt="OSM tags" %}
 
 If the spatial extent of an object is incorrect, you can move the nodes to the correct position by clicking and dragging.
 
@@ -49,21 +49,13 @@ If the spatial extent of an object is incorrect, you can move the nodes to the c
 
 Zoom to the position of the new object and select in the header which object type you want to add (point, line or area). Place the new nodes with a single left click and end the input with a double left click. Right-clicking offers some options for adjusting the objects (e.g. square the corners of the area). On the left, you can now select the object type and insert features and keys. 
 
-<p align="left">
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/333129999" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-</p>
+  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/333129999" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
 
 
 #### 6. Save the changes
 
 After making changes it is important to save them by clicking on "save" in the header. You can add a comment to your changeset and check "I would like someone to review my edits" if you're not sure that you've done everything correctly. 
 
-<p align="left">
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/333130694" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-</p>
+  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/333130694" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
 
 For a more detailed tutorial see here: [https://learnosm.org/en/](https://learnosm.org/en/)
