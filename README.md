@@ -28,7 +28,7 @@ alert:
 ### Mark text
 Emphasis, aka italics, restyled to *mark some text* in content, use `*asterisks*` or `_underscores_`.
 
-## Image sources
+### Image sources
 All images are located in `/uploads/` folder, this location reference can be changed in `_config.yml`:
 ```yml
 uploads: /uploads/
@@ -51,7 +51,7 @@ image: some-image.jpg
 image: blog/some-image.jpg
 ```
 
-## Image Include
+### Image Include
 Use the following include to add an image to a page:
 
 ```yml
