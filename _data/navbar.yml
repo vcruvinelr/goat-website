@@ -1,8 +1,8 @@
 # Navbar menu navigation links
 - title: 
-    en: GOAT EN
-    de: GOAT DE
-  url: versions/
+    en: GOAT
+    de: GOAT
+  url: https://www.open-accessibility.org/versions/
 
 - title: 
     en: Quickstart

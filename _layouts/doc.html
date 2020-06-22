@@ -34,7 +34,7 @@ layout: default
                                             {% assign doc_url_nolang = doc | prepend:"docs/" | append:"/" %}
                                             {% for item in site.docs %}
                                                 {% if item.url contains doc_url_nolang %}
-                                                    <li class="{% if page.url contains doc_url_nolang %}uk-active{% endif %}"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                                                    <li class="{% if page.url contains doc_url %}uk-active{% endif %}"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                                                     {% break %}
                                                 {% endif %}
                                             {% endfor %}
@@ -74,7 +74,7 @@ layout: default
 
                     {% if page.subtitle %}<p class="uk-text-lead uk-text-muted">{{ page.subtitle }}</p>{% endif %}
                     
-                    <div class="article-content link-primary">
+                    <div class="article-content link-primary uk-margin-medium-top">
                         {{ content }}
                         {% if site.share.doc %}
                             {% include share.html %}

@@ -1,4 +1,20 @@
+## Post Excerpt
+The blog post cards display the first paragraph of the posts content as excerpt. Alternatively you can define a custom excerpt in the post front matter:
+```yml
+excerpt: Some custom excerpt text
+```
+
+## Page Alert
+Display a page alert (abover navigation) on any page by using the following front matter:
+```yml
+alert:
+  content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
+```
+
 ## Content includes
+
+### Mark text
+Emphasis, aka italics, restyled to *mark some text* in content, use `*asterisks*` or `_underscores_`.
 
 ## Image sources
 All images are located in `/uploads/` folder, this location reference can be changed in `_config.yml`:
@@ -13,7 +29,7 @@ All images accros the theme (logo, content, authors, headers) can be set either 
 image: https://website.com/someimage.jpg
 ```
 
-or local image loacted in directly in `/uploads/` folder or it's subfolders:
+or local image located directly in `/uploads/` folder or it's subfolders:
 
 
 ```yml
@@ -217,9 +233,30 @@ lang: de
 ---
 ``` 
 
+### Docs Posts
+
+Both English and German docs posts are located in `_docs/` folder.
+
+Example English doc front matter:
+```yml
+---
+title: What is GOAT?
+permalink: /docs/about/
+---
+```
+
+Example German doc front matter:
+```yml
+---
+title: What is GOAT?
+permalink: /de/docs/about/
+lang: de
+---
+```
+
 ### Blog Posts
 
-Both English and German blog posts are located in `_posts` folder.
+English blog posts are located in `_posts/` folder, German blog posts are located in `/de/_posts/` folder.
 
 Example English post front matter:
 ```yml
@@ -228,6 +265,7 @@ title:  "Development path of GOAT"
 author: [pajares]
 lang: en
 tags: [en]
+categories: [news]
 ---
 ```
 
@@ -235,13 +273,17 @@ Example German post front matter:
 ```yml
 ---
 title:  "Development path of GOAT"
+permalink: /de/goat-goes-public/
 author: [pajares]
 lang: de
 tags: [de]
+categories: [news]
 ---
 ```
 
-Both `lang` and `tag` values are required.
+Categories eg `categories: [news, updates]` are required for displaying related posts on single post page. 
+
+German post requires a permalink with a `/de/` prefix. Both `lang` and `tag` values are required.
 
 Setting multiple posts authors:
 
