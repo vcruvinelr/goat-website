@@ -42,11 +42,9 @@ image: blog/some-image.jpg
 ## Image Include
 Use the following include to add an image to a page:
 
-{% raw %}
 ```yml
 {% include image.html src="alexander.jpg" alt="Alt for image" %}
 ```
-{% endraw %}
 
 #### Attributes
 
@@ -62,11 +60,9 @@ Use the following include to add an image to a page:
 ### Alerts Include
 Add alerts to content using the following include:
 
-{% raw %}
 ```yaml
 {% include alert.html style="primary" text="Cras at dolor eget urna varius faucibus tempus in elit." %}
 ```
-{% endraw %}
 #### Attributes
 
 | Attribute | Description | Choices |
@@ -77,11 +73,9 @@ Add alerts to content using the following include:
 ### Label Include
 Add labels to content using the following include:
 
-{% raw %}
 ```yaml
 {% include label.html text="Success" style="success" %}
 ```
-{% endraw %}
 
 #### Attributes
 
@@ -94,11 +88,9 @@ Add labels to content using the following include:
 ### Button Include
 Add buttons to content using the following include:
 
-{% raw %}
 ```yaml
 {% include button.html text="Button text" url="#" style="primary" size="xlarge" width="full" %}
 ```
-{% endraw %}
 
 #### Attributes
 
@@ -113,11 +105,9 @@ Add buttons to content using the following include:
 
 ### Scroll to Top Include
 Add scroll to top icon to content using the following include:
-{% raw %}
 ```yaml
 {% include totop.html %}
 ```
-{% endraw %}
 
 ### Markdown
 For general markdown syntax see [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
@@ -242,6 +232,7 @@ Example English doc front matter:
 ---
 title: What is GOAT?
 permalink: /docs/about/
+lang: en
 ---
 ```
 
