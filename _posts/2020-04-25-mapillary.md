@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Covering Fürstenfeldbruck with Mapillary"
 author: [hassine, ramirez]
 lang: en

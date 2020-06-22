@@ -2,6 +2,7 @@
 layout: blog
 title: Latest Blog Posts
 section: "large uk-padding-remove-top"
+lang: de
 grid: 1-3
 lang: de
 header:
