@@ -1,5 +1,5 @@
 <div class="uk-card uk-card-default uk-card-blog uk-background-center-center uk-background-cover uk-light" style="background-image: url({% if post.thumbnail contains 'http' %}{{ post.thumbnail }}{% else %}{{ site.uploads | absolute_url }}{{ post.thumbnail }}{% endif %});">
-  <div class="uk-position-cover uk-overlay-primary"></div>
+  <div class="uk-position-cover" style="background: {{ post.image_overlay | default: 'rgba(0, 0, 0, 0.5)' }};"></div>
   <div class="uk-card-body uk-position-relative">
     <h3>{{ post.title }}</h3>
     <div>{{ post.excerpt }}</div>

@@ -3,6 +3,18 @@ The blog post cards display the first paragraph of the posts content as excerpt.
 ```yml
 excerpt: Some custom excerpt text
 ```
+## Post Image Overlay
+Overlay color can be overridden in the post front matter:
+
+Semi-transparent overlay using RGBA color:
+```yml
+image_overlay: "rgba(255,255,255,0.7)"
+```
+
+Or set full color background when not using an image:
+```yml
+image_overlay: "#19B037"
+```
 
 ## Page Alert
 Display a page alert (abover navigation) on any page by using the following front matter:
@@ -212,7 +224,7 @@ width: small
 lang: en
 ---
 ```
-The page width can be accepts the following options: `full | small| xsmall`.
+The page width can accept the following options: `full | small| xsmall`.
 
 German languages pages are loacated in `/de/` folder with the following example front matter:
 ```yml
