@@ -1,8 +1,9 @@
 ---
+permalink: /de/mapillary/
 title:  "Covering Fürstenfeldbruck with Mapillary"
 author: [hassine, ramirez]
-lang: en
-tags: [en]
+lang: de
+tags: [de]
 categories: [news]
 ---
 

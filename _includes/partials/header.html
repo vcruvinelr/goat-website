@@ -121,7 +121,7 @@
   <div class="uk-section">
     <div class="uk-container uk-container-small">
       <div class="uk-position-relative uk-border-rounded uk-background-center-center uk-background-cover" style="{% if page.image %}background-image: url({% if page.image contains 'http' %}{{ page.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.image }}{% endif %});{% endif %}">
-        <div class="uk-position-cover uk-border-rounded" style="background: {{ page.header.image_overlay | default: 'rgba(0, 0, 0, 0.5)' }};"></div>
+        <div class="uk-position-cover uk-border-rounded" style="background: {{ page.image_overlay | default: 'rgba(0, 0, 0, 0.5)' }};"></div>
         <div class="uk-section uk-light uk-position-relative">
           <h1 class=" uk-text-center uk-heading-small">{{ page.title }}</h1>
           {% if page.subtitle %}

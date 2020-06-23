@@ -1,6 +1,34 @@
+## Post Excerpt
+The blog post cards display the first paragraph of the posts content as excerpt. Alternatively you can define a custom excerpt in the post front matter:
+```yml
+excerpt: Some custom excerpt text
+```
+## Post Image Overlay
+Overlay color can be overridden in the post front matter:
+
+Semi-transparent overlay using RGBA color:
+```yml
+image_overlay: "rgba(255,255,255,0.7)"
+```
+
+Or set full color background when not using an image:
+```yml
+image_overlay: "#19B037"
+```
+
+## Page Alert
+Display a page alert (abover navigation) on any page by using the following front matter:
+```yml
+alert:
+  content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
+```
+
 ## Content includes
 
-## Image sources
+### Mark text
+Emphasis, aka italics, restyled to *mark some text* in content, use `*asterisks*` or `_underscores_`.
+
+### Image sources
 All images are located in `/uploads/` folder, this location reference can be changed in `_config.yml`:
 ```yml
 uploads: /uploads/
@@ -13,7 +41,7 @@ All images accros the theme (logo, content, authors, headers) can be set either 
 image: https://website.com/someimage.jpg
 ```
 
-or local image loacted in directly in `/uploads/` folder or it's subfolders:
+or local image located directly in `/uploads/` folder or it's subfolders:
 
 
 ```yml
@@ -23,14 +51,12 @@ image: some-image.jpg
 image: blog/some-image.jpg
 ```
 
-## Image Include
+### Image Include
 Use the following include to add an image to a page:
 
-{% raw %}
 ```yml
 {% include image.html src="alexander.jpg" alt="Alt for image" %}
 ```
-{% endraw %}
 
 #### Attributes
 
@@ -46,11 +72,9 @@ Use the following include to add an image to a page:
 ### Alerts Include
 Add alerts to content using the following include:
 
-{% raw %}
 ```yaml
 {% include alert.html style="primary" text="Cras at dolor eget urna varius faucibus tempus in elit." %}
 ```
-{% endraw %}
 #### Attributes
 
 | Attribute | Description | Choices |
@@ -61,11 +85,9 @@ Add alerts to content using the following include:
 ### Label Include
 Add labels to content using the following include:
 
-{% raw %}
 ```yaml
 {% include label.html text="Success" style="success" %}
 ```
-{% endraw %}
 
 #### Attributes
 
@@ -78,11 +100,9 @@ Add labels to content using the following include:
 ### Button Include
 Add buttons to content using the following include:
 
-{% raw %}
 ```yaml
 {% include button.html text="Button text" url="#" style="primary" size="xlarge" width="full" %}
 ```
-{% endraw %}
 
 #### Attributes
 
@@ -97,11 +117,9 @@ Add buttons to content using the following include:
 
 ### Scroll to Top Include
 Add scroll to top icon to content using the following include:
-{% raw %}
 ```yaml
 {% include totop.html %}
 ```
-{% endraw %}
 
 ### Markdown
 For general markdown syntax see [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
@@ -206,7 +224,7 @@ width: small
 lang: en
 ---
 ```
-The page width can be accepts the following options: `full | small| xsmall`.
+The page width can accept the following options: `full | small| xsmall`.
 
 German languages pages are loacated in `/de/` folder with the following example front matter:
 ```yml
@@ -217,9 +235,31 @@ lang: de
 ---
 ``` 
 
+### Docs Posts
+
+Both English and German docs posts are located in `_docs/` folder.
+
+Example English doc front matter:
+```yml
+---
+title: What is GOAT?
+permalink: /docs/about/
+lang: en
+---
+```
+
+Example German doc front matter:
+```yml
+---
+title: What is GOAT?
+permalink: /de/docs/about/
+lang: de
+---
+```
+
 ### Blog Posts
 
-Both English and German blog posts are located in `_posts` folder.
+English blog posts are located in `_posts/` folder, German blog posts are located in `/de/_posts/` folder.
 
 Example English post front matter:
 ```yml
@@ -228,6 +268,7 @@ title:  "Development path of GOAT"
 author: [pajares]
 lang: en
 tags: [en]
+categories: [news]
 ---
 ```
 
@@ -235,13 +276,17 @@ Example German post front matter:
 ```yml
 ---
 title:  "Development path of GOAT"
+permalink: /de/goat-goes-public/
 author: [pajares]
 lang: de
 tags: [de]
+categories: [news]
 ---
 ```
 
-Both `lang` and `tag` values are required.
+Categories eg `categories: [news, updates]` are required for displaying related posts on single post page. 
+
+German post requires a permalink with a `/de/` prefix. Both `lang` and `tag` values are required.
 
 Setting multiple posts authors:
 
