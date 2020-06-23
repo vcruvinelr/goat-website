@@ -13,7 +13,7 @@ Alpha shapes or α-shapes are often used to generalize bounding polygons around 
 <td> {% include image.html src="docs/technical_documentation/alphashape/set_points.png" %} </td>
 
 ##### 1.2. Convex Hull 
-In the first case is the α-parameter=0. This mean the generated shape from the calculation resembles all the data points. This is called convex hull. 
+In the first case is the α-parameter=0. This means that the form generated from the calculation resembles all data points. This is called convex hull. 
 <td> {% include image.html src="docs/technical_documentation/alphashape/convex_hull.png" %} </td>
 
 ##### 1.3. Concave Hull
