@@ -45,13 +45,17 @@ As much as GOAT may not be perfect in functionality and operation at the moment,
 
 Although GOAT is at an early stage of development, it can be used to answer different planning questions. Some examples are:
 
-- How good is the walking accessibility to schools in different parts of the city?
+- How good is the walking accessibility to kindergartens in different parts of the city?
+
+- How good is the cycling accessibility to schools?
 
 - How many residents are served by certain public transport stops? Where can the perfect location for a new public transport be in order to serve as many residents as possible?
 
-- What is the effect of a new pedestrian bridge on the accessibility of a neighborhood?- 
+- What is the effect of a new pedestrian or bicycle bridge on the accessibility of a neighborhood?
 
 - How does the accessibility of a place change if there is temporary closure of a walkway?
+
+- How many people can reach a certain destination within 10 minutes walking distance? How does this change if only barrier-free paths can be used? Where are barriers in the network and how could they be removed?
 
 - How high is the diversity and availability of gastronomy in different neighborhoods?
 

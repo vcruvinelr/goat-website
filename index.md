@@ -13,7 +13,7 @@ header:
   subtitle: 
   image: isochrone_amenities.png
   button:
-    text: Try Goat
+    text: Try GOAT
     url: versions/
   button_2:
     text: Videos

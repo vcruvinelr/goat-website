@@ -6,14 +6,14 @@ pajares:
   name:               Elias Pajares
   title:              
     en:               Chair for Urban Structure and Transport Planning    
-    de:               Chair for Urban Structure and Transport Planning
+    de:               Professur für Siedlungsstruktur und Verkehrsplanung
   avatar:             https://via.placeholder.com/380
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-  twitter:            "#"
-  facebook:           "#"
-  linkedin:           "#"
+  github:             "https://github.com/EPajares"
+  website:            "https://www.bgu.tum.de/en/sv/team/msc-elias-pajares/"
+  linkedin:           "https://www.linkedin.com/in/eliaspajares/"
   
 jehle:
   name:               Ulrike Jehle
@@ -24,9 +24,9 @@ jehle:
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-  twitter:            "#"
-  facebook:           "#"
-  linkedin:           "#"
+  github:             "https://github.com/UJehle"
+  website:            "https://www.bgu.tum.de/en/sv/team/msc-ulrike-jehle/"
+  linkedin:           "https://www.linkedin.com/in/ulrike-jehle/"
 
 hassine:
   name:               Emna Ben Hassine
@@ -39,7 +39,7 @@ hassine:
     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
   twitter:            "#"
   facebook:           "#"
-  linkedin:           "#"
+  linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
 
 ramirez:
   name:               German Santiago Linares Ramirez
