@@ -20,7 +20,7 @@ jehle:
   title:              
     en:               Support
     de:               Support    
-  avatar:             https://via.placeholder.com/380
+  avatar:             "../img/team/jehle.jpg"
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
