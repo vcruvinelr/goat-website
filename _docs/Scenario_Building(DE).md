@@ -1,13 +1,13 @@
 ---
 title: Szenarien Entwicklung
-permalink: /docs/Scenario Building/
+permalink: /docs/Scenario Building (DE)/
 ---
 
 #### Beschreibung des Features
 GOAT ermöglicht die Entwicklung eigene Szenarien, wie z.B. modifikation im Netzwerk oder Bau einer neuen Brücke. Das entwickelte Szenario kann zu der aktuellen Netzwerk hinzugefügt werden, und Ändrungen der Erreichbarkeit können durch Isochronen bewertet werden. 
 
 #### Mögliche Anwendungsszenarien
-Isochronen können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele können genannt werden:
+Szenarien Entwicklung können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele können genannt werden:
 - Wie verändert sich die Erreichbarkeit durch den Bau einer neuen Fahrradbrücke über den Fluss?
 - Wie verändert sich die Erreichbarkeit mit dem Rohlstuhl durch den Bau einer barrierfreie Straße? 
 
@@ -27,9 +27,11 @@ Wie verändert sich die Erreichbarkeit durch den Bau einer neuen Fahrradbrücke 
 
 3. Zeichnen Sie an der gewünschten Stelle eine neue Wegeverbindung, wählen als Wegetyp „Brücke“ aus und klicken Sie auf „Speichern“. Die gezeichneten Wege werden nun       rechts in der Tabelle aufgeführt. Um diese Wege in die Datenbank zu integrieren, müssen diese über den Button „Hochladen“ hochgeladen werden
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_building/bridge_building.png">
+
 4. Nun können Sie die Auswirkung der neuen Wegeverbindung auf die Erreichbarkeit analysieren, indem Sie sich die Standard- und die Scenario-Isochrone berechnen lassen. Wählen Sie hierzu den Routingmodi „Fahrrad“ aus und setzen den Berechnungsmodus auf „Standard und Scenario“
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_building/modified_network.png">
-5. Platzieren Sie den Startpunkt für die Isochronenberechnung in der Nähe der neuen Brücke. Als Ergebnis wird Ihnen in Orange die Isochrone in der Ausgangslage und in Grün die Isochrone unter Berücksichtigung der neuen Wegeverbindung angezeigt.
+
+5. Platzieren Sie den Startpunkt für die Isochronenberechnung in der Nähe der neuen Brücke. Als Ergebnis wird Ihnen in Rot die Isochrone in der Ausgangslage und in Grün die Isochrone unter Berücksichtigung der neuen Wegeverbindung angezeigt.
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_building/result-isochrone.png">
 
 
