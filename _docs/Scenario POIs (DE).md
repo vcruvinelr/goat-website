@@ -1,6 +1,6 @@
 ---
 title:  Szenario zur Flächennutzung - Dynamische Heatmap
-permalink: /docs/Scenario-Building POIs - Dynamic Heatmap (DE)/
+permalink: /docs/Scenario Building POIs (DE)/
 ---
 
 #### Beschreibung des Features

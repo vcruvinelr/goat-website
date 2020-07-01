@@ -1,6 +1,6 @@
 ---
 title: Scenario-Building POIs - Dynamic Heatmap
-permalink: /docs/Scenario-Building POIs - Dynamic Heatmap/
+permalink: /docs/Scenario Building POIs/
 ---
 
 #### Description of the feature
