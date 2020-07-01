@@ -1,6 +1,6 @@
 ---
-title: Isochrone
-permalink: /docs/Isochrone/
+title: Isochrone (DE)
+permalink: /docs/Isochrone (DE)/
 ---
 
 #### Beschreibung des Features
