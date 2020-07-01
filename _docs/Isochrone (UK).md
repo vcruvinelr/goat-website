@@ -57,8 +57,7 @@ How many people can reach the train station within 5 minutes by bike?
 4. After the calculation has been carried out, a window with the results opens automatically. From this window you can see the population reached
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/population-reached.png" title="Reached population">
 
-###### 2.3 Solution
-Approximately 2425 people can reach the train station within 5 minutes by bike
+
 
 ##### 3 Wheelchair routing
 ###### 3.1 Planning questions
