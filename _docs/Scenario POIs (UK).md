@@ -12,7 +12,7 @@ Land use development scenarios can be used to answer various planning questions,
 - How does accessibility to schools change when a new school is added?
 
 
-#### Step-by-step tutorial for an exemplary planning task
+#### Step-by-step tutorial for the exemplary planning task
 ##### 1 Scenario to scenario on land use (kindergarten)
 ###### 1.1 Planning question
 - How well are the kindergartens currently distributed over the city? 

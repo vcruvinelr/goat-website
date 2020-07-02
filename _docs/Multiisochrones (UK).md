@@ -4,32 +4,32 @@ permalink: /docs/Multiisochrones/
 ---
 
 #### Description of the feature
-GOAT ermöglicht die Berechnung von Multi-Isochronen, die in Sekunden anzeigen, wie viele Bewohner aus einer bestimmten Nachbarschaft in einer bestimmten Reisezeit Zugang zu einer Einrichtung (z.B. Supermarkt, Kindergarten, ÖV Haltestelle...) haben.
+GOAT enables the calculation of multi-isochrones, which show in seconds how many residents from a certain neighbourhood have access to a facility (e.g. supermarket, kindergarten, public transport stop) in a certain travel time.
 
 #### Possible use cases
-Multiisochronen können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele können genannt werden:
-- Wie gut sind die Supermärkte aktuell über die Stadt verteilt? In welchen Stadtteilen gibt es Erreichbarkeitsdefizite?
-- Wie viele Bewohner können in einer bestimmten Reisezeit mit dem Fahrrad ÖV Haltestelle erreichen?
+Multi-isochrones can be used to answer different planning questions, some examples can be given:
+- How well are the supermarkets currently distributed over the city? In which districts can accessibility deficits be found?
+- How many inhabitants can reach a public transport stop by bicycle in a given travel time?
 
 
-#### Step-by-step tutorial for an exemplary planning task
-##### 1 Accessibility to spermarkets
+#### Step-by-step tutorial for the exemplary planning tasks
+##### 1 Accessibility to supermarkets
 ###### 1.1 Planning question
-Wie gut sind die Supermärkte aktuell über die Stadt verteilt? In welchen Stadtteilen gibt es Erreichbarkeitsdefizite?
+How well are the supermarkets currently distributed over the city? In which districts can accessibility deficits be found?
 
 
 ###### 1.2 Work steps
-1. Display the supermarkets as thematic data.
-<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/amenity_supermarket.png">
+1. Display the supermarkets as thematic data.  
+<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/amenity_supermarket.png" style="height:200px;">
 
-2. Switch to the "Multiple" isochrone calculation mode and select the "Study Area" method, which later lists all results differentiated by districts. Then select all districts on the map with a mouse click. 
-<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/multi.png">
+2. Switch to the "Multiple" isochrone calculation mode and select the "Study Area" method, which later lists all results differentiated by districts. Then select all districts on the map with a mouse click.  
+<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/multi.png" style="height:200px;">
 
-3. Click on "Calculate".
-<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/calculate.png">
+3. Click on "Calculate".  
+<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/calculate.png" style="height:200px;">
 
-4. The resulting multi-isochrones shows the catchment areas of the supermarkets (here for the mode "pedestrian" with 5 minutes catchment area in light green and 10 minutes catchment area in dark green). The corresponding table shows, sorted by district, how many people out of the total population can reach a supermarket in 5 or 10 minutes walking distance. 
-<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/result_multiisochrone.png">
+4. The resulting multi-isochrones shows the catchment areas of the supermarkets (here for the mode "pedestrian" with 5 minutes catchment area in light green and 10 minutes catchment area in dark green). The corresponding table shows, sorted by district, how many people out of the total population can reach a supermarket in 5 or 10 minutes walking distance.  
+<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/result_multiisochrone.png" >
 
 
 
