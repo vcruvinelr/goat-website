@@ -12,7 +12,7 @@ Building new scenarios can be used to answer different planning questions, such 
 - How does the accessibility with the wheelchair change with the construction of a barrier-free road? 
 
 
-#### Step-by-step tutorial for an exemplary planning task
+#### Step-by-step tutorial for the exemplary planning task
 ##### 1 Scenario for new bicycle bridge
 ###### 1.1 Planning question
 How does the construction of a new bicycle bridge across the river change accessibility?
