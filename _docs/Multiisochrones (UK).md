@@ -18,7 +18,7 @@ Multi-isochrones can be used to answer different planning questions, some exampl
 How well are the supermarkets currently distributed over the city? In which districts can accessibility deficits be found?
 
 
-###### 1.2 Work steps
+###### 1.2 Step-by-Step guide
 1. Display the supermarkets as thematic data.  
 <img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/amenity_supermarket.png" style="height:200px;">
 
