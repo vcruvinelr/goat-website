@@ -109,6 +109,8 @@ collections:
     output:             true
   videos:
     output:             false
+  tutorials:
+    output:             true
 
 # Defaults
 defaults:
@@ -148,3 +150,9 @@ defaults:
       type:         docs
     values:
       layout:       doc
+  # _tutorials
+  - scope:
+      path:         ""
+      type:         tutorials
+    values:
+      layout:       tutorial
