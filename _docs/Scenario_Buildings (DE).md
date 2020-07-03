@@ -19,7 +19,7 @@ Die Szenarien Entwicklung zu Gebäuden kann zur Beantwortung verschiedener Planu
 
 
 ###### 1.2 Arbeitsschritte
-1. Blenden Sie den Layer „Gebäude” aus der Kategorie „Gebäude und Flächennutzung” ein. Dieser zeigt alle vorhandenen Gebäude an.  
+1. Blenden Sie den Layer „Gebäude” aus der Kategorie „Gebäude und Flächennutzung” und den Layer „Bevölkerung” aus der Kategorie „Grundkarten Erreichbarkeit” ein. Diese zeigen alle vorhandenen Gebäude (in rot: Gebäude mit Wohnnutzung, in weiß: Gebäude ohne Wohnnutzung) und die Bevölkerungsdichte an (umso dünkler der Hintergrund, umso höher die Bevölkerungsdichte).  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/building_layer.png">
 
 2. Gehen Sie nun in das Fenster zur Szenarienentwicklung und wählen Sie den „Gebäude” Layer.  
@@ -31,15 +31,17 @@ Die Szenarien Entwicklung zu Gebäuden kann zur Beantwortung verschiedener Planu
 4. Um die veränderten Gebäude in die Datenbank zu integrieren, müssen diese über den Button „Hochladen“ hochgeladen werden.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/upload.png" style="height:300px;">
 
-5. Lassen Sie sich als Thematische Daten die Grundschulen anzeigen.  
+5. ...
+
+6. Lassen Sie sich als Thematische Daten die Grundschulen anzeigen.  
 
 6. Wechseln Sie zum Isochronenberechnugsmodus „Multi“, stellen den Berechnungsmodus auf „Standard und Szenario“ und wählen die Methode „Ortsteil“ aus. Wählen Sie dann in der Karte per Mausklick den Ortsteil, in dem Sie die Nachverdichtung durchgeführt haben.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/multiisochrones.png" style="height:300px;">
 
-6. Klicken Sie auf „Berechnen“.  
-<img class="img-responsive" src="../../img/Docs/training materials/Multiisochrones/calculate.png" style="height:200px;">
+7. Klicken Sie auf „Berechnen“.  
+<img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/calculate.png" style="height:200px;">
 
-
+8. 
 
 
  
