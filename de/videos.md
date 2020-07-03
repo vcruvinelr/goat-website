@@ -1,5 +1,5 @@
 ---
-title: Quickstart Videos
+title: Videos zum Schnelleinstieg
 width: full
 lang: de
 ---

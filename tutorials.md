@@ -1,0 +1,5 @@
+---
+title: Tutorials
+width: full
+---
+

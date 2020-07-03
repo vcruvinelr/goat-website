@@ -10,6 +10,16 @@
   url: videos/
 
 - title: 
+    en: Tutorials
+    de: Tutorials
+  url: tutorials/
+
+- title: 
+    en: Docs
+    de: Docs
+  url: docs/about/
+
+- title: 
     en: Blog
     de: Blog
   url: blog/
@@ -19,7 +29,3 @@
     de: Team
   url: team/
 
-- title: 
-    en: Docs
-    de: Docs
-  url: docs/about/

@@ -1,8 +1,8 @@
 ---
-title: Calculate walking isochrones
+title: Berechnung von fußläufigen Isochronen
 image: videos/basic_isochrones.png
 vimeo: 311547681
-lang: en
+lang: de
 ---
 
-Calculate walking isochrones at different places and compare their results. In addition, intersect the isochrones with population numbers and amenities. 
+Berechnung des fußläufigen Einzugsbereichs, mit Informationen zur erreichbaren Bevölkerung und den erreichbaren Points-of-Interest.

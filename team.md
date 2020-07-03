@@ -4,6 +4,4 @@ width: full
 layout: team
 ---
 
-Synergistically underwhelm unique web services and strategic collaboration and idea-sharing. Rapidiously evisculate sticky innovation and multimedia based benefits. Holisticly expedite parallel alignments for seamless testing procedures.  
-
-Underwhelm unique web services and strategic collaboration and idea-sharing. Rapidiously evisculate sticky innovation and multimedia based benefits. Holisticly expedite parallel alignments for seamless testing procedures. Efficiently envisioneer collaborative best practices after covalent infrastructures. 
+On this page we would like to introduce the people behind GOAT. We are a diverse team of Environmental Engineers, GIS Developers and Geographers. As GOAT is under development at the [Chair or Urban Structure and Transport Planning at Technical University of Munich](https://www.bgu.tum.de/en/sv/homepage/), also most members of the GOAT Team are located at this Chair. With the [Research Group Accessibility Planning](https://www.bgu.tum.de/sv/research-group-accessibility-planning/) we aim to support integrated land-use and transport planning by means of accessibility - a concept, which has been proven to enhance quality of life and sustainability in our cities. 
