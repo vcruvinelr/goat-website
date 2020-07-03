@@ -20,7 +20,7 @@ Isochrones can be used to answer different planning questions, some examples can
 
 How many supermarkets can be reached from a certain point in 10 minutes walking?
 
-###### 1.2 Work steps
+###### 1.2 Step-by-Step guide
 
 1. Display all supermarkets by enabling the amenity "Supermarket" in the Thematic Data Filter under the category "Shop".  
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/amenity_supermarket.png" title="amenity supermarket" style="height:200px;">

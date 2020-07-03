@@ -20,7 +20,7 @@ Land use development scenarios can be used to answer various planning questions,
 - And how could these be remedied?
 
 
-###### 1.2 Work steps
+###### 1.2 Step-by-Step guide
 
 1. Select the kindergartens as Thematic Data.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_POIs/kindergarten.png" style="height:300px;">

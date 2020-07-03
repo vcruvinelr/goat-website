@@ -21,7 +21,7 @@ $base-heading-font-family:                      'Montserrat', system-ui, san-ser
 $base-heading-font-weight:                      600;
 $base-heading-color:                            #000;
 $base-h2-line-height:                           1.4;
-$base-link-hover-text-decoration:               none;
+// $base-link-hover-text-decoration:               none;
 $base-body-color:                               #333;
 $base-code-font-family:                         Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
 $base-code-color:                               #6a6b71;
@@ -99,7 +99,7 @@ $nav-primary-item-font-size:                    $global-large-font-size;
 $navbar-background:                             #fff;
 $navbar-nav-item-color:                         #333;
 $navbar-nav-item-hover-color:                   #000;
-$navbar-nav-item-active-color:                  #000;
+$navbar-nav-item-active-color:                  $global-primary-background;
 $navbar-nav-item-font-size:                     15px;
 // $navbar-nav-item-text-transform:                none;
 $navbar-toggle-color:                           #333;
@@ -109,7 +109,7 @@ $offcanvas-bar-color-mode:                      dark;
 $offcanvas-bar-background:                      #fff;
 $subnav-item-font-size:                         15px;
 $subnav-item-color:                             $base-body-color;
-// $subnav-item-text-transform:                    none;
+// $subnav-item-active-color:                      $global-primary-background;
 $inverse-navbar-nav-item-color:                 #fff;
 
 // $nav-item-padding-vertical:                     5px;
@@ -119,6 +119,7 @@ $nav-default-item-color:                        $base-body-color;
 
 $nav-default-sublist-item-color:                $base-body-color;
 $nav-default-sublist-item-hover-color:          $global-primary-background;
+$nav-default-sublist-item-active-color:         $global-primary-background;
 
 $nav-primary-font-size:                         1.125rem;
 $nav-primary-item-color:                        $base-body-color;

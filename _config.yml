@@ -27,7 +27,6 @@ pagination:
   
 navbar:
   color:                dark # text color, dark or light
-  animation:            true
   sticky:               true
   search:               false
 
