@@ -5,17 +5,17 @@ permalink: /docs/Isochrone (DE)/
 
 #### Beschreibung des Features
 Isochronen sind Isolinien, die alle Punkte verbinden, die von einem bestimmten Startpunkt aus innerhalb eines bestimmten Zeitintervalls erreicht werden können.
-GOAT ermöglicht die Berechnung von Isochronen mit der Berücksichtigung von Faktoren wie Geschwindigkeit, Infrastrukturnetz und Reisezeit. Dies kann automatisch angepasst werden, indem zwischen Gehen (Standard oder Senior), Radfahren (Standard oder Pedelec) und Rollstuhl ausgewählt wird. Isochronen können als Indikator für die Erreichbarkeit an einem bestimmten Ort verwendet werden. 
+GOAT ermöglicht die Berechnung von Isochronen und erlaubt die Anpassung der Reisegeschwindigkeit, der maximalen Reisezeit und des Routingprofils. Dieses kann automatisch angepasst werden, indem zwischen Gehen (Standard oder Senior), Radfahren (Standard oder Pedelec) und Rollstuhl ausgewählt wird. Isochronen sind besonders geeignet um die Erreichbarkeit an einem spezifischen Ort aufzuzeigen. 
 
 #### Mögliche Anwendungsszenarien
 Isochronen können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
 - Wie viele Supermärkte können von einem bestimmten Punkt aus innerhalb von 10 Gehminuten erreicht werden?
 - Wie viele Menschen können eine ÖV Haltestelle innerhalb von 5 Minuten mit dem Fahrrad erreichen? 
-- Wie unterscheidet sich die 10-minütige Erreichbarkeit des Klinikums von Fußgänger zu mobilitätseingeschränkter Person? 
+- Wie unterscheidet sich die 10-minütige Erreichbarkeit des Klinikums zwischen einem nicht eingeschränktem Fußgänger und einer mobilitätseingeschränkten Person? 
 
 
 #### Schritt-für-Schritt-Anleitung für die beispielhaften Planungsaufgaben
-##### 1 Erreichbarkeit zu Supermärkten
+##### 1 Erreichbarkeit von Supermärkten
 ###### 1.1 Planungsfrage
 
 Wie viele Supermärkte können von einem bestimmten Punkt aus innerhalb von 10 Gehminuten erreicht werden?
@@ -27,7 +27,7 @@ Wie viele Supermärkte können von einem bestimmten Punkt aus innerhalb von 10 G
 
 2. Zoomen Sie zu dem Bereich, in dem Sie die Isochrone berechnen möchten.
 
-3. Stellen Sie die Isochronen Reichweite auf 10 Minuten.  
+3. Stellen Sie die maximale Reisezeit auf 10 Minuten.  
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/isochrone_range_walking.png" title="Adjusting isochrone range" style="height:200px;">
 
 4. Platzieren Sie den Startpunkt für die Isochronenberechnung an einem beliebigen Punkt.
@@ -59,7 +59,7 @@ Wie viele Menschen können den Bahnhof innerhalb von 5 Minuten mit dem Fahrrad e
 
 ##### 3 Rollstuhlrouting
 ###### 3.1 Planungsfrage
-- Wie unterscheidet sich die 10-minütige Erreichbarkeit des Klinikums von Fußgänger zu mobilitätseingeschränkter Person? 
+- Wie unterscheidet sich die 10-minütige Erreichbarkeit des Klinikums zwischen einem nicht eingeschränktem Fußgänger und einer mobilitätseingeschränkten Person? 
 - Wo befinden sich Barrieren im Netzwerk und wie könnten diese behoben werden? 
 
 
@@ -77,7 +77,7 @@ Wie viele Menschen können den Bahnhof innerhalb von 5 Minuten mit dem Fahrrad e
 4. Wählen Sie den Routingmodus „Rollstuhl“ und wiederholen Sie die Berechnung.  
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/wheelchair-mode.png" title="Routing mode wheelchair" style="height:200px;">
 
-5. Bei Betrachtung der Isochronen wird sichtbar, wie sich die Erreichbarkeit einer mobilitätseingeschränkten Person (rote Isochrone) im Vergleich zu einem Fußgänger (blaue Isochrone) unterscheidet.
+5. Zur besseren Vergleichbarkeit kann die Isochrone für den Fußgänger im Menu blau eingefärbt werden. Bei Betrachtung der Isochronen wird sichtbar, wie sich die Erreichbarkeit einer mobilitätseingeschränkten Person (rote Isochrone) im Vergleich zu einem Fußgänger (blaue Isochrone) unterscheidet.
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/isochrone_wheelchair.png" title="Isochrone comparison">
 
 6. Um die konkreten Barrieren im Netwerk zu finden, können Sie für beide Isochronen das verwendete Straßennetzwerk einblenden. Diesem können Sie entnehmen, welche Straßen für das entsprechende Routing verwendet wurden.  
