@@ -7,7 +7,7 @@ permalink: /docs/Multiisochrones (DE)/
 GOAT ermöglicht die Berechnung von Multi-Isochronen, die in Sekunden anzeigen, wie viele Bewohner aus einer bestimmten Nachbarschaft in einer bestimmten Reisezeit Zugang zu einer Einrichtung (z.B. Supermarkt, Kindergarten, ÖV Haltestelle...) haben.
 
 #### Mögliche Anwendungsszenarien
-Multiisochronen können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele können genannt werden:
+Multiisochronen können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
 - Wie gut sind die Supermärkte aktuell über die Stadt verteilt? In welchen Stadtteilen gibt es Erreichbarkeitsdefizite?
 - Wie viele Bewohner können in einer bestimmten Reisezeit mit dem Fahrrad ÖV Haltestelle erreichen?
 
