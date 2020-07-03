@@ -1,14 +1,14 @@
 ---
-title:  Szenarien POIs - Dynamische Heatmap
-permalink: /docs/Scenario POIs (DE)/
+title:  Szenarien - Standortplanung
+permalink: /docs/scenario_location_de/
 ---
 
 #### Beschreibung des Features
-GOAT ermöglicht die Entwicklung eigener Szenarien zu Points-of-Interest (POI), wie z.B. Modifikation des Standorts eines Supermarktes oder Hinzufügen einer neue Schule. Das entwickelte Szenario kann zu der vorhandenen Siedlungsstruktur hinzugefügt und die Änderungen in der Erreichbarkeit durch dynamische Heatmaps bewertet werden. 
+GOAT ermöglicht die Entwicklung eigener Szenarien zur Standortplanung, so kann ein bspw. ein neuer Supermarkt oder eine neue Schule hinzugefügt werden und die Auswirkungen auf die Erreichbarkeit mithilfe von Heatmaps und Multi-Isochronen ermittelt werden. 
 
 #### Mögliche Anwendungsszenarien
-Die Szenarien Entwicklung zu POIs kann zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
-- Wie verändert sich die Erreichbarkeit zu Supermärkten in einer Nachbarschaft, wenn den Standort eines Supermarktes geändert wird?
+Die Szenarienentwicklung zur Standortplanung kann zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
+- Wie verändert sich die Erreichbarkeit zu Supermärkten in einer Nachbarschaft, wenn den Standort eines Supermarktes vereändert wird?
 - Wie verändert sich die Erreichbarkeit zu Schulen, wenn eine neue Schule hinzugefügt wird?
 - Wie gut sind die Kindergärten über die Stadt verteilt? Wo wäre eine gute Position für einen neuen Kindergarten? 
 
@@ -26,7 +26,7 @@ Die Szenarien Entwicklung zu POIs kann zur Beantwortung verschiedener Planungsfr
 1. Lassen Sie sich als Thematische Daten die Kindergärten anzeigen.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_POIs/kindergarten.png" style="height:200px;">
 
-2. Blenden Sie den Layer „Walkability-Bevölkerungs-Index” aus den „Grundkarten Erreichbarkeit” ein. Dieser zeigt, wie gut die fußläufige Erreichbarkeit zu den gewählten Zielen räumlich über die Bevölkerung verteilt ist. Blaue Färbung bedeutet ein Überangebot und rote Färbung ein Unterangebot. In Gelb dargestellten Flächen sind vorhandene Versorgung und Bevölkerung ausgeglichen.  
+2. Blenden Sie den Layer „Walkability-Bevölkerungs-Index” aus den „Grundkarten Erreichbarkeit” ein. Dieser zeigt, wie gut die fußläufige Erreichbarkeit zu den gewählten Zielen räumlich über die Bevölkerung verteilt ist. Die rote Färbung zeigt Räume auf mit einem Unterangebot.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_POIs/walkability_popoulation_index.png">
 
 3. Gehen Sie nun in das Fenster zur Szenarienentwicklung und wählen Sie den „Point of Interest” Layer.  
@@ -37,12 +37,3 @@ Die Szenarien Entwicklung zu POIs kann zur Beantwortung verschiedener Planungsfr
 
 5. Durch Scrollen der Karte aktualisiert sich die Heatmap zum Walkability-Bevölkerungs-Index automatisch. Die veränderten Kindergärten werden nun direkt in die Berechnung mit einbezogen.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_POIs/new_kindergarden.png">
-
-
-
-
-
-
-
-
- 

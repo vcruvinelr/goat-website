@@ -5,13 +5,13 @@ permalink: /docs/Isochrone/
 
 #### Description of the feature
 Isochrones are isolines connecting all points that can be reached from a specific starting point within a certain time interval.
-GOAT allows the calculation of isochrones that take factors such as speed, infrastructure network, and traveling time into account. This can be adjusted automatically by choosing between the following modes: walking (standard or elderly), cycling (standard or pedelec), and wheelchair. Isochrones can be used as an indicator of accessibility in a specific location. 
+GOAT allows the calculation of isochrones that take factors such as speed, infrastructure network, and traveling time into account. This can be adjusted automatically by choosing between the following modes: walking (standard or elderly), cycling (standard or pedelec), and wheelchair. Isochrones can be used as an indicator of accessibility in one specific location. 
 
 #### Possible use cases
 Isochrones can be used to answer different planning questions, some examples can be:
 - How many supermarkets can be reached from a certain point in 10 minutes walking?
 - How many people can access a public transport station within 5 minutes cycling? 
-- Compare the accessibility by foot and by a wheelchair
+- Compare the accessibility by foot and by a wheelchair?
 
 
 #### Step-by-step tutorials for exemplary planning tasks
