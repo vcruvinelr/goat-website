@@ -1,10 +1,10 @@
 ---
 title: Scenarios POIs - Dynamic Heatmap
-permalink: /docs/Scenario Building POIs/
+permalink: /docs/Scenario POIs/
 ---
 
 #### Description of the feature
-GOAT allows you to develop your own Point-of-Interest (POI) scenarios, such as modifying the location of a supermarket or adding a new school. The developed scenario can be added to the current network, and changes in accessibility can be evaluated by the dynamic heatmap.  
+GOAT allows you to develop your own Point-of-Interest (POI) scenarios, such as modifying the location of a supermarket or adding a new school. The developed scenario can be added to the current land-use structure, and changes in accessibility can be evaluated by the dynamic heatmap.  
 
 #### Possible use cases
 Land use development scenarios can be used to answer various planning questions, such as:

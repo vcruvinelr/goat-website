@@ -1,23 +1,25 @@
 ---
 title:  Szenarien POIs - Dynamische Heatmap
-permalink: /docs/Scenario Building POIs (DE)/
+permalink: /docs/Scenario POIs (DE)/
 ---
 
 #### Beschreibung des Features
-GOAT ermöglicht die Entwicklung eigener Szenarien zu Points-of-Interest (POI), wie z.B. Modifikation des Standorts eines Supermarktes oder hinzufügen einer neue Schule. Das entwickelte Szenario kann zu dem aktuellen Netzwerk hinzugefügt und die Änderungen in der Erreichbarkeit durch dynamische Heatmaps bewertet werden. 
+GOAT ermöglicht die Entwicklung eigener Szenarien zu Points-of-Interest (POI), wie z.B. Modifikation des Standorts eines Supermarktes oder Hinzufügen einer neue Schule. Das entwickelte Szenario kann zu der vorhandenen Siedlungsstruktur hinzugefügt und die Änderungen in der Erreichbarkeit durch dynamische Heatmaps bewertet werden. 
 
 #### Mögliche Anwendungsszenarien
-Szenarien Entwicklung zur Flächennutzung können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
+Die Szenarien Entwicklung zu POIs kann zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
 - Wie verändert sich die Erreichbarkeit zu Supermärkten in einer Nachbarschaft, wenn den Standort eines Supermarktes geändert wird?
 - Wie verändert sich die Erreichbarkeit zu Schulen, wenn eine neue Schule hinzugefügt wird?
+- Wie gut sind die Kindergärten über die Stadt verteilt? Wo wäre eine gute Position für einen neuen Kindergarten? 
 
 
 #### Schritt-für-Schritt-Anleitung für eine beispielhafte Planungsaufgabe
-##### 1 Szenario zu Szenario zur Flächennutzung (Kindergarten)
+##### 1 Szenario zum Bau eines neuen Kindergartens
 ###### 1.1 Planungsfrage
 - Wie gut sind die Kindergärten aktuell über die Stadt verteilt? 
 - In welchen Stadtteilen gibt es Defizite in der fußläufigen Erreichbarkeit? 
 - Und wie könnten diese behoben werden?
+- Wo wäre eine gute Position für einen neuen Kindergarten? 
 
 
 ###### 1.2 Arbeitsschritte
