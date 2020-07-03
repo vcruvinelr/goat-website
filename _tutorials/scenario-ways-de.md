@@ -1,6 +1,7 @@
 ---
 title: Szenarien Wege
-permalink: /docs/Scenario Ways (DE)/
+permalink: /de/tutorials/scenario-ways/
+lang: de
 ---
 
 #### Beschreibung des Features

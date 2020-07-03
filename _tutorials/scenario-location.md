@@ -1,6 +1,6 @@
 ---
 title: Scenarios location planning
-permalink: /docs/scenario_location/
+permalink: /tutorials/scenario-location/
 ---
 
 #### Description of the feature

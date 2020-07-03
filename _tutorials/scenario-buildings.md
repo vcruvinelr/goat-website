@@ -1,6 +1,6 @@
 ---
 title:  Scenarios Buildings - Dynamic Heatmap
-permalink: /docs/Scenario Buildings/
+permalink: /tutorials/scenario-buildings/
 ---
 
 #### Description of the feature

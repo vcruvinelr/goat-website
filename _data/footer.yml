@@ -5,11 +5,6 @@
   url: versions/
 
 - title: 
-    en: Quickstart
-    de: Quickstart
-  url: videos/
-
-- title: 
     en: Blog
     de: Blog
   url: blog/
@@ -20,9 +15,9 @@
   url: team/
 
 - title: 
-    en: Docs
-    de: Docs
-  url: docs/about/
+    en: Help
+    de: Help
+  url: help/
 
 - title: 
     en: Imprint & Privacy

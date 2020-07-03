@@ -1,6 +1,7 @@
 ---
 title:  Szenarien - Standortplanung
-permalink: /docs/scenario_location_de/
+permalink: /de/tutorials/scenario-location/
+lang: de
 ---
 
 #### Beschreibung des Features

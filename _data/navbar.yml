@@ -5,19 +5,9 @@
   url: https://www.open-accessibility.org/versions/
 
 - title: 
-    en: Quickstart
-    de: Quickstart
-  url: videos/
-
-- title: 
-    en: Tutorials
-    de: Tutorials
-  url: tutorials/
-
-- title: 
-    en: Docs
-    de: Docs
-  url: docs/about/
+    en: Help
+    de: Help
+  url: help/
 
 - title: 
     en: Blog

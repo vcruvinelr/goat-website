@@ -1,6 +1,6 @@
 ---
 title: Scenarios Ways
-permalink: /docs/Scenario Ways/
+permalink: /tutorials/scenario-ways/
 ---
 
 #### Description of the feature

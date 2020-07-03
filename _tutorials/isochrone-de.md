@@ -1,6 +1,7 @@
 ---
 title: Isochrone (DE)
-permalink: /docs/Isochrone (DE)/
+permalink: /de/tutorials/isochrone/
+lang: de
 ---
 
 #### Beschreibung des Features

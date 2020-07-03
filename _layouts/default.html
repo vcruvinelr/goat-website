@@ -11,7 +11,7 @@
     {% assign sidebar_left = page.sidebar.left %}
     {% assign sidebar_right = page.sidebar.right %}
 
-    {% if width == 'full' or page.layout == 'doc' %}
+    {% if width == 'full' or page.layout == 'doc' or page.layout == 'tutorial' %}
       {{ content }}
     {% else %}
       <div class="uk-section uk-section-default">
