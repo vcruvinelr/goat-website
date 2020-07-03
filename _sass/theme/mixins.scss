@@ -20,10 +20,11 @@
 
 @mixin hook-button-misc(){
   .uk-button-medium {
-    padding: 0 40px;
-    line-height: 46px;
-    font-size: .875rem;
-  }    
+    padding: 0 46px;
+    min-width: 170px;
+    line-height: 49px;
+    font-size: 1rem;
+  }
 
 	.uk-button-xlarge {
     padding: 0 $button-large-padding-horizontal * 1.5;
@@ -642,6 +643,15 @@
 
 @mixin hook-utility-misc(){
 
+  .uk-lang-icon {
+    max-width: 21px;
+    margin-right: 4px;
+  }
+
+  .uk-navbar-social:not(:hover) {
+    color: $base-body-color !important;
+  }
+
   .uk-text-600 {
     font-weight: 600;
   }
@@ -674,13 +684,6 @@
     justify-content: center;
     align-items: center;
   }  
-
-  .uk-button-medium {
-      padding: 0 50px;
-      min-width: 170px;
-      line-height: 49px;
-      font-size: 1rem;
-  }
 
   .uk-background-danger {
     background-color: $global-danger-background;
@@ -780,11 +783,11 @@
     margin-right: 0;
   }
 
-  footer {
-    .uk-subnav>.uk-active>a {
-      color: $global-muted-color;
-    }
-  }
+  // footer {
+  //   .uk-subnav>.uk-active>a {
+  //     color: $global-muted-color;
+  //   }
+  // }
 
   #category-section hr {
     margin-bottom: $global-medium-margin - 15;

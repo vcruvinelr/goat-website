@@ -58,6 +58,7 @@ $article-title-line-height:                     1.4;
 // $article-meta-font-size: 	                    0.8125rem;
 $article-meta-line-height:                      1.6;
 
+$container-xsmall-max-width:                    650px;
 // Button variables
 $button-font-weight:                            400;
 $button-default-color:                          #222;
@@ -97,19 +98,21 @@ $inverse-logo-hover-color:                      #fff;
 // Navigation variables
 $nav-primary-item-font-size:                    $global-large-font-size;
 $navbar-background:                             #fff;
-$navbar-nav-item-color:                         #333;
-$navbar-nav-item-hover-color:                   #000;
+$navbar-nav-item-color:                         #181818;
+$navbar-nav-item-hover-color:                   $global-primary-background;
 $navbar-nav-item-active-color:                  $global-primary-background;
 $navbar-nav-item-font-size:                     15px;
 // $navbar-nav-item-text-transform:                none;
-$navbar-toggle-color:                           #333;
-$navbar-toggle-hover-color:                     #000;
+$navbar-toggle-color:                           #181818;
+$navbar-toggle-hover-color:                     $global-primary-background;
 $navbar-dropdown-nav-item-color:                $base-body-color;
 $offcanvas-bar-color-mode:                      dark;
 $offcanvas-bar-background:                      #fff;
 $subnav-item-font-size:                         15px;
 $subnav-item-color:                             $base-body-color;
-// $subnav-item-active-color:                      $global-primary-background;
+$subnav-item-hover-color:                       $global-primary-background;
+$subnav-item-active-color:                      $global-primary-background;
+
 $inverse-navbar-nav-item-color:                 #fff;
 
 // $nav-item-padding-vertical:                     5px;

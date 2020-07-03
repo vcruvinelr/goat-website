@@ -1,8 +1,8 @@
 en:
   label: En
-  icon: 🇬🇧
+  icon: uk.png
   url: /
 de:
   label: De
-  icon: 🇩🇪
+  icon: de.png
   url: /de/
