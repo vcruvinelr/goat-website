@@ -1,6 +1,6 @@
 ---
 title: Scenarios POIs - Dynamic Heatmap
-permalink: /docs/Scenario POIs/
+permalink: /docs/scenario_pois/
 ---
 
 #### Description of the feature

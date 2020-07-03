@@ -30,14 +30,9 @@
 
 - category: Training Materials
   docs: 
-  - Isochrone 
-  - Isochrone (DE)
-  - Multiisochrones
-  - Multiisochrones (DE)
-  - Scenario Ways
-  - Scenario Ways (DE)
-  - Scenario POIs
-  - Scenario POIs (DE)
-  - Scenario Buildings
-  - Scenario Buildings (DE)
+  - isochrone 
+  - multiisochrones
+  - scenario_ways
+  - scenario_pois
+  - scenario_buildings
   

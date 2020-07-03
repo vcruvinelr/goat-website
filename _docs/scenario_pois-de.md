@@ -1,6 +1,7 @@
 ---
 title:  Szenarien POIs - Dynamische Heatmap
-permalink: /docs/Scenario POIs (DE)/
+permalink: /de/docs/scenario_pois/
+lang: de
 ---
 
 #### Beschreibung des Features

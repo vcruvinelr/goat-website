@@ -1,6 +1,7 @@
 ---
 title:  Multiisochronen
-permalink: /docs/Multiisochrones (DE)/
+permalink: /de/docs/multiisochrones/
+lang: de
 ---
 
 #### Beschreibung des Features
