@@ -5,12 +5,12 @@ default: pajares
 pajares:
   name:               Elias Pajares
   title:              
-    en:               Chair for Urban Structure and Transport Planning    
-    de:               Professur für Siedlungsstruktur und Verkehrsplanung
+    en:               Researcher & Developer     
+    de:               Wissenschaftler & Entwickler
   avatar:             https://via.placeholder.com/380
   bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    en:               I am an environmental engineer with specialization in transport and urban planning.  As advocate for liveable cities I am especially interested in making our transport system more sustainable and our surroundings more human.   
+    de:               I am an environmental engineer with specialization in transport and urban planning.  As advocate for liveable cities I am especially interested in making our transport system more sustainable and our surroundings more human.  
   github:             "https://github.com/EPajares"
   website:            "https://www.bgu.tum.de/en/sv/team/msc-elias-pajares/"
   linkedin:           "https://www.linkedin.com/in/eliaspajares/"
@@ -18,8 +18,8 @@ pajares:
 jehle:
   name:               Ulrike Jehle
   title:              
-    en:               Support
-    de:               Support    
+    en:               Researcher & Developer  
+    de:               Wissenschaftlerin & Entwicklerin   
   avatar:             "../img/team/jehle.jpg"
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
@@ -28,11 +28,24 @@ jehle:
   website:            "https://www.bgu.tum.de/en/sv/team/msc-ulrike-jehle/"
   linkedin:           "https://www.linkedin.com/in/ulrike-jehle/"
 
+shkurti:
+  name:               Majk Shkurti
+  title:              
+    en:               External Core Developer
+    de:               Externer Entwickler    
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"
+
 hassine:
   name:               Emna Ben Hassine
   title:              
-    en:               Support
-    de:               Support    
+    en:               Student Assistant
+    de:               Wissenschaftliche Hilfskraft   
   avatar:             https://via.placeholder.com/380
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
@@ -44,8 +57,21 @@ hassine:
 ramirez:
   name:               German Santiago Linares Ramirez
   title:              
-    en:               Support
-    de:               Support    
+    en:               Student Assistant
+    de:               Wissenschaftliche Hilfskraft  
+  avatar:             https://via.placeholder.com/380
+  bio:
+    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+  twitter:            "#"
+  facebook:           "#"
+  linkedin:           "#"
+
+munoz:
+  name:               Rafael Leonardo Munoz Nieto
+  title:              
+    en:               Student Assistant
+    de:               Wissenschaftliche Hilfskraft    
   avatar:             https://via.placeholder.com/380
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
