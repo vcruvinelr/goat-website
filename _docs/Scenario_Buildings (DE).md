@@ -8,8 +8,7 @@ GOAT ermöglicht die Entwicklung eigener Szenarien zu Änderungen in der Gebäud
 
 #### Mögliche Anwendungsszenarien
 Die Szenarien Entwicklung zu Gebäuden kann zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
-- Wie verändert sich die Erreichbarkeit zu Schulen in einer Nachbarschaft durch die Errichtung eines neuen Wohngebietes?
-- ...
+- Wie verändert die Errichtung eines neuen Wohngebietes die Erreichbarkeit zu Schulen in einer bestimmten Nachbarschaft?
 
 
 #### Schritt-für-Schritt-Anleitung für eine beispielhafte Planungsaufgabe
@@ -31,17 +30,17 @@ Die Szenarien Entwicklung zu Gebäuden kann zur Beantwortung verschiedener Planu
 4. Um die veränderten Gebäude in die Datenbank zu integrieren, müssen diese über den Button „Hochladen“ hochgeladen werden.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/upload.png" style="height:300px;">
 
-5. ...
+5. Durch Scrollen der Karte aktualisiert sich die Heatmap zur Bevölkerungsdichte automatisch. Die veränderten Gebäude werden nun direkt in die Berechnung mit einbezogen.   
 
 6. Lassen Sie sich als Thematische Daten die Grundschulen anzeigen.  
 
-6. Wechseln Sie zum Isochronenberechnugsmodus „Multi“, stellen den Berechnungsmodus auf „Standard und Szenario“ und wählen die Methode „Ortsteil“ aus. Wählen Sie dann in der Karte per Mausklick den Ortsteil, in dem Sie die Nachverdichtung durchgeführt haben.  
+7. Wechseln Sie zum Isochronenberechnugsmodus „Multi“, stellen den Berechnungsmodus auf „Standard und Szenario“ und wählen die Methode „Ortsteil“ aus. Wählen Sie dann in der Karte per Mausklick den Ortsteil, in dem Sie die Nachverdichtung durchgeführt haben.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/multiisochrones.png" style="height:300px;">
 
-7. Klicken Sie auf „Berechnen“.  
+8. Klicken Sie auf „Berechnen“.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/calculate.png" style="height:200px;">
 
-8. 
-
+9. Die resultierenden Multi-Isochronen zeigen die Einzugsbereiche der Grundschulen (hier für den Modus „Fußgänger“ mit 5 Minuten Einzugsbereich in hellgrün und 10 Minuten Einzugsbereich in dunkelgrün). Der zugehörigen Tabelle kann entnommen werden, wie viele zusätzliche Menschen durch die Nachverdichtung nun im 10-minütigen Einzugsbereich der Grundschule wohnen. 
+<img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/result.png">
 
  

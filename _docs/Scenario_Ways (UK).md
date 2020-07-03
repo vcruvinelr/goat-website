@@ -16,7 +16,7 @@ Building new scenarios can be used to answer different planning questions, such 
 ##### 1 Scenario for a new bicycle bridge
 ###### 1.1 Planning question
 How does the construction of a new bicycle bridge across the river changes accessibility?
-###### 1.2 Work steps
+###### 1.2 Step-by-Step guide
 1. Go to the menu for scenario development and select the "Ways" Layer.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_building/scenario_ways.png" style="height:150px;">
 
