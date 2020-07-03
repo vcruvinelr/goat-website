@@ -1,3 +1,25 @@
+## Content File Name Format
+Avoid:
+- Spaces
+- Brackets
+- Uppercase 
+- Underscores
+
+Standardise :
+- Lower case only
+- Use letters, numbers and dashes only
+
+Example collections:
+```
+_docs/some-file-name.md
+_docs/some-file-name-de.md
+```
+
+Example post (posts require date prefix):
+```
+_posts/2020-06-26-some-file-name.md
+```
+
 ## Post Excerpt
 The blog post cards display the first paragraph of the posts content as excerpt. Alternatively you can define a custom excerpt in the post front matter:
 ```yml
