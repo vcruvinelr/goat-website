@@ -8,8 +8,8 @@ lang: de
 Isochronen sind Isolinien, die alle Punkte verbinden, die von einem bestimmten Startpunkt aus innerhalb eines bestimmten Zeitintervalls erreicht werden können.
 GOAT ermöglicht die Berechnung von Isochronen und erlaubt die Anpassung der Reisegeschwindigkeit, der Reisezeit und des Routingprofils. Gegenwärtig kann zwischen den Routinprofilen Gehen (Standard oder Senior), Radfahren (Standard oder Pedelec) und Rollstuhl ausgewählt wird. Isochronen sind besonders geeignet um die Erreichbarkeit an einem spezifischen Ort aufzuzeigen. 
 
-#### Mögliche Anwendungsszenarien
-Isochronen können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
+#### Mögliche Anwendungsfälle (Planungsfragen)
+
 - Wie viele Supermärkte können von einem bestimmten Punkt aus innerhalb von 10 Gehminuten erreicht werden?
 - Wie viele Menschen können eine ÖV Haltestelle innerhalb von 5 Minuten mit dem Fahrrad erreichen? 
 - Wie unterscheidet sich die 10-minütige Erreichbarkeit des Klinikums zwischen einem nicht eingeschränktem Fußgänger und einer mobilitätseingeschränkten Person? 

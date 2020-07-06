@@ -7,8 +7,8 @@ lang: de
 #### Beschreibung des Features
 GOAT ermöglicht die Berechnung von Multi-Isochronen. In Verbindung mit Bevölkerungsdaten kann so binnen Sekunden der Anteil der Bevölkeruung identifiziert werden, der in eine gewissen Reisezeit Zugang zu Einrichtung wie Supermärten, Kindergärten, ÖV-Haltestellen etc. hat.
 
-#### Mögliche Anwendungsszenarien
-Multi-Isochronen können daher zur Beantwortung verschiedener Planungsfragen verwendet werden. Einige Beispiele hierfür sind:
+
+#### Mögliche Anwendungsfälle (Planungsfragen)
 - Wie gut sind die Supermärkte aktuell über die Stadt verteilt? In welchen Stadtteilen gibt es Erreichbarkeitsdefizite?
 - Wie viele Bewohner können in einer bestimmten Reisezeit mit dem Fahrrad ÖV Haltestelle erreichen?
 

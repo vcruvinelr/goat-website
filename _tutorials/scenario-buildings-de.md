@@ -7,8 +7,7 @@ lang: de
 #### Beschreibung des Features
 GOAT ermöglicht Veränderungen in der Bebauung, wie z.B. die Errichtung eines neuen Wohngebietes oder das Abreißen eines alten Gebäudes. Das entwickelte Szenario wird zur vorhandenen Siedlungsstruktur hinzugefügt und im Anschluss können Änderungen in der Erreichbarkeit aufgezeigt werden. 
 
-#### Mögliche Anwendungsszenarien
-Die Szenarien Entwicklung zu Gebäuden kann zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
+#### Mögliche Anwendungsfälle (Planungsfragen)
 - Wie verändert die Errichtung eines neuen Wohngebietes die Erreichbarkeit zu Schulen in einer bestimmten Nachbarschaft?
 - Ist die Bevölkerung in einem neuen Wohngebiet mit den Dingen des täglichen Bedarfs erschlossen?
 - Wo bestehen Potenziale für die weitere Siedlungsentwicklung?
