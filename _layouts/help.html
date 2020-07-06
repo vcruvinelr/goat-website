@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% assign page_lang = page.lang | default: site.lang %}
+{% if page.content != empty %}
+  <div class="uk-section uk-section-default">
+    <div class="uk-container uk-container-small">
+      {{ content }}
+    </div>
+  </div>
+{% endif %}
+
+<div class="uk-section uk-section-default">
+  <div class="uk-container">
+    <div class="uk-child-width-1-2@s uk-child-width-expand@m uk-flex-center uk-margin-medium-bottom" data-uk-grid>
+      {% for item in page.boxes %}
+          {% if item.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = site.data.languages[page_lang].url | relative_url %}
+          {% endif %}
+          <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-text-center">
+                <div class="uk-position-cover"></div>
+                <div class="uk-card-body uk-position-relative">
+                  {% if item.icon %}
+                    <span class="uk-margin-bottom uk-text-primary" uk-icon="icon: {{ item.icon }}; ratio: 3"></span>
+                  {% endif %}
+                  <h3 class="uk-margin-remove-top uk-margin-bottom uk-h2">{{ item.title }}</h3>
+                  <p class="uk-margin-small uk-text-muted">{{ item.description }}</p>
+                </div>
+                <a class="uk-position-cover" href="{{ domain }}{{ item.url }}"></a> 
+              </div>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

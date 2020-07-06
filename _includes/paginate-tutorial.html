@@ -1,9 +1,9 @@
 {% assign page_lang = page.lang | default: site.lang %}
-{% assign docs = site.data.docs | map: 'docs' | join: ',' | split: ',' %}
+{% assign docs = site.data.tutorials | map: 'tutorials' | join: ',' | split: ',' %}
 
 {% for document in docs %}
 
-  {% assign document_url = document | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
+  {% assign document_url = document | prepend:"tutorials/" | prepend: site.data.languages[page_lang].url | append:"/" %}
   {% if document_url == page.url %}
     <div class="uk-margin-large-top paginate-post">
         <div class="uk-child-width-expand@s uk-grid-large uk-pagi" data-uk-grid>
@@ -11,8 +11,8 @@
                 {% if forloop.first %}
                 {% else %}
                   {% assign previous = forloop.index0 | minus: 1 %}
-                  {% assign previous_page = docs[previous] | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
-                  {% assign previous_doc = site.docs | where:"url", previous_page | first %}
+                  {% assign previous_page = docs[previous] | prepend:"tutorials/" | prepend: site.data.languages[page_lang].url | append:"/" %}
+                  {% assign previous_doc = site.tutorials | where:"url", previous_page | first %}
                   {% if previous_doc %}
                     <h5>{{previous_doc.title}}</h5>
                     <div><a class="remove-underline hvr-back" href="{{previous_page}}">&larr; {{ site.data.translation[page_lang].previous | default: "Previous" }}</a></div>
@@ -23,8 +23,8 @@
                 {% if forloop.last %}
                 {% else %}
                   {% assign next = forloop.index0 | plus: 1 %}
-                  {% assign next_page = docs[next] | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
-                  {% assign next_doc = site.docs | where:"url", next_page | first %}
+                  {% assign next_page = docs[next] | prepend:"tutorials/" | prepend: site.data.languages[page_lang].url | append:"/" %}
+                  {% assign next_doc = site.tutorials | where:"url", next_page | first %}
                   {% if next_doc %}
                     <h5 class="uk-text-right">{{next_doc.title}}</h5>
                     <div class="uk-text-right"><a class="remove-underline hvr-forward" href="{{next_page}}">{{ site.data.translation[page_lang].next | default: "Next" }} &rarr;</a></div>

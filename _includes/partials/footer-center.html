@@ -4,8 +4,8 @@
 </div>
 
 <div class="uk-section uk-section-default">
-    <div class="uk-container uk-container-small">
-        <div class="uk-child-width-expand@s uk-grid-large" data-uk-grid>
+    <div class="uk-container uk-container-xsmall">
+        <div class="uk-child-width-expand@s uk-grid-large uk-flex uk-flex-middle uk-text-center" data-uk-grid>
             {% for logo in site.footer.logos %}
                 <div><a href="{{ logo.url }}" target="_blank"><img src="{{ site.uploads | absolute_url }}{{ logo.image }}" alt="Logo"></a></div>
             {% endfor %}
@@ -23,7 +23,7 @@
                     {% else %}
                         {% assign domain = site.data.languages.[page_lang].url | relative_url %}
                     {% endif %}
-                    {% if link.url == page.url %}
+                    {% if page.url contains link.url %}
                         {% assign current = ' class="uk-active"' %}
                     {% else %}
                         {% assign current = null %}

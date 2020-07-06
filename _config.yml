@@ -27,7 +27,6 @@ pagination:
   
 navbar:
   color:                dark # text color, dark or light
-  animation:            true
   sticky:               true
   search:               false
 
@@ -110,6 +109,8 @@ collections:
     output:             true
   videos:
     output:             false
+  tutorials:
+    output:             true
 
 # Defaults
 defaults:
@@ -143,9 +144,18 @@ defaults:
       type:                 pages
     values:
       layout:               page
+      image:                /uploads/isochrone_amenities.png
   # _docs
   - scope:
       path:         ""
       type:         docs
     values:
       layout:       doc
+      image:                /uploads/isochrone_amenities.png
+  # _tutorials
+  - scope:
+      path:         ""
+      type:         tutorials
+    values:
+      layout:       tutorial
+      image:                /uploads/isochrone_amenities.png

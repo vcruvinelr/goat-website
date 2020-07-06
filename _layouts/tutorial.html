@@ -10,11 +10,11 @@ layout: default
             <div class="sidebar-fixed-width uk-visible@m">
                 <div class="sidebar-docs" data-uk-sticky="offset: 100; bottom: true; media: @m;">
                     <ul class="uk-nav uk-nav-default doc-nav" data-uk-nav>
-                        {% for section in site.data.docs %}
+                        {% for section in site.data.tutorials %}
                             {% assign active_category = '' %}
-                            {% for doc in section.docs %}
-                                {% assign doc_url_nolang = doc | prepend:"docs/" | append:"/" %}
-                                {% for item in site.docs %}
+                            {% for doc in section.tutorials %}
+                                {% assign doc_url_nolang = doc | prepend:"tutorials/" | append:"/" %}
+                                {% for item in site.tutorials %}
                                     {% if item.url contains doc_url_nolang %}
                                         {% if page.url contains doc_url_nolang %}
                                             {% assign active_category = ' uk-open' %}
@@ -26,13 +26,12 @@ layout: default
                             <li class="uk-parent{{ active_category }}">
                                 <a href="#"><h5 class="uk-margin-remove-bottom uk-margin-small-top">{{ section.category }}</h5></a>
                                 <ul class="uk-nav-sub">
-                                    {% for doc in section.docs %}
+                                    {% for doc in section.tutorials %}
                                         {% if doc.subcategory %}
                                             <li class="uk-nav-header uk-text-600">{{ doc.subcategory }}</li>
                                         {% else %}
-                                            {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
-                                            {% assign doc_url_nolang = doc | prepend:"docs/" | append:"/" %}
-                                            {% for item in site.docs %}
+                                            {% assign doc_url = doc | prepend:"tutorials/" | prepend: site.data.languages[page_lang].url | append:"/" %}
+                                            {% for item in site.tutorials %}
                                                 {% if item.url == doc_url %}
                                                     <li class="{% if page.url contains doc_url %}uk-active{% endif %}"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                                                     {% break %}
@@ -52,14 +51,14 @@ layout: default
                     <button class="uk-button uk-button-default uk-margin-medium-bottom" type="button">{{ site.data.translation[page_lang].navigate_docs | default: "Navigate Documentation" }}</button>
                     <div uk-dropdown="mode: click">
                         <ul class="uk-nav uk-dropdown-nav">
-                            {% for section in site.data.docs %}
+                            {% for section in site.data.tutorials %}
                                 <li class="uk-h4 uk-margin-small">{{ section.category }}</li>
-                                {% for doc in section.docs %}
+                                {% for doc in section.tutorials %}
                                     {% if doc.subcategory %}
                                         <li class="uk-nav-header uk-text-600 uk-margin-remove">{{ doc.subcategory }}</li>
                                     {% else %}
-                                        {% assign doc_url = doc | prepend:"docs/" | prepend: site.data.languages[page_lang].url | append:"/" %}
-                                        {% assign p = site.docs | where:"url", doc_url | first %}
+                                        {% assign doc_url = doc | prepend:"tutorials/" | prepend: site.data.languages[page_lang].url | append:"/" %}
+                                        {% assign p = site.tutorials | where:"url", doc_url | first %}
                                         <li class="{% if doc_url == page.url %}uk-active{% endif %}"><a href="{{ p.url }}">{{ p.title }}</a></li>
                                     {% endif %}
                                 {% endfor %}
@@ -83,7 +82,7 @@ layout: default
 
                     <hr class="uk-margin-medium">
 
-                    {% include paginate-doc.html %}
+                    {% include paginate-tutorial.html %}
 
                     {% if site.disqus.shortname %}
                         {% include disqus_comments.html %}
