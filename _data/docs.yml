@@ -27,3 +27,11 @@
 - category: Contribute to GOAT
   docs:
   - contribute_docs
+
+- category: Training Materials
+  docs: 
+  - isochrone 
+  - multiisochrones
+  - scenario_ways
+  - scenario_pois
+  - scenario_buildings
