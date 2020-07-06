@@ -89,6 +89,8 @@ Use the following include to add an image to a page:
 | align | Align within text | left, right |
 | caption | Image caption | string |
 | lightbox | Display image in popup lightbox on a click | true |
+| maxwidth | Maximum image width | px |
+| maxheight | Maximum image height | px |
 
 ### Responsive Videos
 Add the `data-uk-responsive` attribute to `iframe` tag to make the video responsive, example:
