@@ -90,6 +90,12 @@ Use the following include to add an image to a page:
 | caption | Image caption | string |
 | lightbox | Display image in popup lightbox on a click | true |
 
+### Responsive Videos
+Add the `data-uk-responsive` attribute to `iframe` tag to make the video responsive, example:
+```
+<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/333129999" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
+```
+Note: the iframe must have `width` and `height` specified for the responsiveness to work.
 
 ### Alerts Include
 Add alerts to content using the following include:

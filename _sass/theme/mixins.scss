@@ -652,6 +652,10 @@
     color: $base-body-color !important;
   }
 
+  .uk-team-social:not(:hover) {
+    color: lighten($base-body-color, 20%) !important;
+  }
+
   .uk-text-600 {
     font-weight: 600;
   }
