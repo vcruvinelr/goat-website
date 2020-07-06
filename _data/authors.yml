@@ -7,7 +7,7 @@ pajares:
   title:              
     en:               Researcher & Core Developer     
     de:               Wissenschaftler & Entwickler
-  avatar:             "../img/team/pajares.png"
+  avatar:             "../uploads/team/pajares.png"
   bio:
     en:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.    
     de:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.   
@@ -20,7 +20,7 @@ jehle:
   title:              
     en:               Researcher & Core Developer  
     de:               Wissenschaftlerin & Entwicklerin   
-  avatar:             "../img/team/jehle.jpg"
+  avatar:             "../uploads/team/jehle.jpg"
   bio:
     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
