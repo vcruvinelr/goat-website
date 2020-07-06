@@ -5,12 +5,12 @@ default: pajares
 pajares:
   name:               Elias Pajares
   title:              
-    en:               Researcher & Developer     
+    en:               Researcher & Core Developer     
     de:               Wissenschaftler & Entwickler
-  avatar:             https://via.placeholder.com/380
+  avatar:             "../img/team/pajares.png"
   bio:
-    en:               I am an environmental engineer with specialization in transport and urban planning.  As advocate for liveable cities I am especially interested in making our transport system more sustainable and our surroundings more human.   
-    de:               I am an environmental engineer with specialization in transport and urban planning.  As advocate for liveable cities I am especially interested in making our transport system more sustainable and our surroundings more human.  
+    en:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.    
+    de:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.   
   github:             "https://github.com/EPajares"
   website:            "https://www.bgu.tum.de/en/sv/team/msc-elias-pajares/"
   linkedin:           "https://www.linkedin.com/in/eliaspajares/"
@@ -18,7 +18,7 @@ pajares:
 jehle:
   name:               Ulrike Jehle
   title:              
-    en:               Researcher & Developer  
+    en:               Researcher & Core Developer  
     de:               Wissenschaftlerin & Entwicklerin   
   avatar:             "../img/team/jehle.jpg"
   bio:
