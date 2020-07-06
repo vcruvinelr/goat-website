@@ -1,5 +1,5 @@
 ---
-title: Szenarien Wege
+title: Szenarien - Wege
 permalink: /de/tutorials/scenario-ways/
 lang: de
 ---
@@ -11,6 +11,7 @@ GOAT ermöglicht die Entwicklung eigener Szenarien, wie z.B. Modifikation des Ne
 Szenarien Entwicklung können zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
 - Wie verändert sich die Erreichbarkeit durch den Bau einer neuen Fahrradbrücke über einen Fluss?
 - Wie verändert sich die Erreichbarkeit mit dem Rohlstuhl durch den Bau einer barrierefreien Wegeverbindung? 
+- Welche Variante eines neuen Radweges erschließt die höchste Anzahl an Anwohner?
 
 
 
@@ -35,10 +36,3 @@ Wie verändert sich die Erreichbarkeit durch den Bau einer neuen Fahrradbrücke 
 5. Platzieren Sie den Startpunkt für die Isochronenberechnung in der Nähe der neuen Brücke. Als Ergebnis wird Ihnen in Rot die Isochrone in der Ausgangslage und in Grün die Isochrone unter Berücksichtigung der neuen Wegeverbindung angezeigt.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_building/result-isochrone.png">
 
-
-
-
-
-
-
- 

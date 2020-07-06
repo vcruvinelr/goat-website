@@ -1,16 +1,17 @@
 ---
-title:  Szenarien Gebäude - Dynamische Heatmap
+title:  Szenarien - Gebäude
 permalink: /de/tutorials/scenario-buildings/
 lang: de
 ---
 
 #### Beschreibung des Features
-GOAT ermöglicht die Entwicklung eigener Szenarien zu Änderungen in der Gebäudestruktur, wie z.B. das Errichten eines neuen Wohngebietes oder das Abreißen eines alten Gebäudes. Das entwickelte Szenario kann zu der vorhandenen Siedlungsstruktur hinzugefügt und die Änderungen in der Erreichbarkeit durch dynamische Heatmaps bewertet werden. 
+GOAT ermöglicht Veränderungen in der Bebauung, wie z.B. die Errichtung eines neuen Wohngebietes oder das Abreißen eines alten Gebäudes. Das entwickelte Szenario wird zur vorhandenen Siedlungsstruktur hinzugefügt und im Anschluss können Änderungen in der Erreichbarkeit aufgezeigt werden. 
 
 #### Mögliche Anwendungsszenarien
 Die Szenarien Entwicklung zu Gebäuden kann zur Beantwortung verschiedener Planungsfragen verwendet werden, einige Beispiele hierfür sind:
 - Wie verändert die Errichtung eines neuen Wohngebietes die Erreichbarkeit zu Schulen in einer bestimmten Nachbarschaft?
-
+- Ist die Bevölkerung in einem neuen Wohngebiet mit den Dingen des täglichen Bedarfs erschlossen?
+- Wo bestehen Potenziale für die weitere Siedlungsentwicklung?
 
 #### Schritt-für-Schritt-Anleitung für eine beispielhafte Planungsaufgabe
 ##### 1 Szenario zu neuer Wohnbebauung
@@ -25,7 +26,7 @@ Die Szenarien Entwicklung zu Gebäuden kann zur Beantwortung verschiedener Planu
 2. Gehen Sie nun in das Fenster zur Szenarienentwicklung und wählen Sie den „Gebäude” Layer.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/scenario_buildings.png" style="height:200px;">
 
-3. Mittels der Bearbeitungstools können Sie neue Gebäude zeichnen und bearbeiten. Bestimmen Sie für neue Gebäude jeweils die Art der Nutzung und die Anzahl der Stockwerke. Außerdem muss für jedes Gebäude mindestens ein Eingang gesetzt werden- Nachdem dies getan wurde, erscheint das Gebäude in Grün.  
+3. Mittels der Bearbeitungstools können Sie neue Gebäude zeichnen und bearbeiten. Bestimmen Sie für neue Gebäude jeweils die Art der Nutzung und die Anzahl der Stockwerke. Außerdem muss für jedes Gebäude mindestens ein Eingang gesetzt werden. Nachdem dies getan wurde, erscheint das Gebäude in Grün.  
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_buildings/draw.png">
 
 4. Um die veränderten Gebäude in die Datenbank zu integrieren, müssen diese über den Button „Hochladen“ hochgeladen werden.  
