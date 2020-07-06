@@ -24,6 +24,7 @@ GOAT ermöglicht die Entwicklung eigener Szenarien zur Standortplanung, so kann 
 
 ###### 1.2 Arbeitsschritte
 1. Lassen Sie sich als Thematische Daten die Kindergärten anzeigen.  
+{% include image.html src="training materials/Scenario_POIs/kindergarten.png" style="height:200px" %}
 <img class="img-responsive" src="../../img/Docs/training materials/Scenario_POIs/kindergarten.png" style="height:200px;">
 
 2. Blenden Sie den Layer „Walkability-Bevölkerungs-Index” aus den „Grundkarten Erreichbarkeit” ein. Dieser zeigt, wie gut die fußläufige Erreichbarkeit zu den gewählten Zielen räumlich über die Bevölkerung verteilt ist. Die rote Färbung zeigt Räume auf mit einem Unterangebot.  
