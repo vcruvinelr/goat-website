@@ -1,9 +1,9 @@
 ---
-title: GOAT Versions
+title: GOAT Versionen
 lang: de
 ---
 
-GOAT is a transferable and highly flexible tool, it can be deployed for different use cases. Here all live versions that are developed by the GOAT Community are listed. Although all of them are still in development you can already test and use them. Depending on the purpose of the version, different analysis options are available.
+GOAT ist ein übertragbares und hochflexibles Tool, das für verschiedene Anwendungsfälle eingesetzt werden kann. Hier sind alle Live-Versionen aufgelistet, die von der GOAT-Community entwickelt werden. Obwohl sie sich noch in der Entwicklung befinden, können diese bereits getestet und verwendet werden. Je nach Zweck der Version stehen verschiedene Analysemöglichkeiten zur Verfügung. 
 
 {% include versions.html 
   grid="1-3" 

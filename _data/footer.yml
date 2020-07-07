@@ -5,6 +5,11 @@
   url: versions/
 
 - title: 
+    en: Help
+    de: Help
+  url: help/
+
+- title: 
     en: Blog
     de: Blog
   url: blog/
@@ -13,11 +18,6 @@
     en: Team
     de: Team
   url: team/
-
-- title: 
-    en: Help
-    de: Help
-  url: help/
 
 - title: 
     en: Imprint & Privacy
