@@ -72,13 +72,12 @@ munoz:
   title:              
     en:               Student Assistant
     de:               Wissenschaftliche Hilfskraft    
-  avatar:             https://via.placeholder.com/380
+  avatar:             "../uploads/team/munoz.png"
   bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-  twitter:            "#"
-  facebook:           "#"
-  linkedin:           "#"
+    en:               I am a transport consultant and Student Assistant at TUM. GIS, and Smart cities enthusiast. In GOAT, I have contributed to the input refinement and data management.
+    de:               I am a transport consultant and Student Assistant at TUM. GIS, and Smart cities enthusiast. In GOAT, I have contributed to the input refinement and data management.
+  linkedin:           "https://www.linkedin.com/in/rlmunoz"
+  github:             "https://github.com/rafleo2008"
 
 # All author available settings
 # handle:

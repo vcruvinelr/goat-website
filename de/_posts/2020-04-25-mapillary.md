@@ -5,6 +5,8 @@ author: [hassine, ramirez]
 lang: de
 tags: [de]
 categories: [news]
+thumbnail: blog/mapillary/mapillary_bike.jpg
+image: blog/mapillary/mapillary_bike.jpg
 ---
 
 Data, Data and more Data! While working in the [mFund project](https://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-projekte/GOAT.html) to bring GOAT’s feature to the municipality Fürstenfeldbruck, we have been looking for available information from many sources to accomplish the objectives. 
