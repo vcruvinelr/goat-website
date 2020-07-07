@@ -1,0 +1,34 @@
+- image: versions/munich.png
+  title: München
+  text: 
+    en: Munich is our home-base! This version of GOAT is currently the stablest version of the tool 
+        and will be updated frequently.  
+    de: Munich is our home-base! This version of GOAT is currently the stablest version of the tool 
+        and will be updated frequently.  
+  url: https://muenchen.open-accessibility.org/
+
+- image: versions/ffb.png
+  title: Fürstenfeldbruck
+  text: 
+    en: This version of GOAT has the most recent features and 
+          contains first approaches of cycling routing and land-use changes.
+    de: This version of GOAT has the most recent features and 
+          contains first approaches of cycling routing and land-use changes.
+  url: https://ffb.open-accessibility.org/
+
+- image: versions/hasenbergl.png
+  title: Hasenbergl-Lerchenau
+  text: 
+    en: This version was developed within a master thesis project
+          and contains detailed analysis options on walkability.
+    de: This version was developed within a master thesis project
+          and contains detailed analysis options on walkability.
+  url: https://hasenbergl.open-accessibility.org/
+
+- image: versions/matosinhos.png
+  title: Matosinhos
+  text: 
+    en: GOAT was transferred to Matosinhos in Portugal in a student project. We plan to keep this version online for some months.
+    de: GOAT was transferred to Matosinhos in Portugal in a student project. We plan to keep this version online for some months.
+  url:   https://matosinhos.open-accessibility.org/
+
