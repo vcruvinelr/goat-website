@@ -22,13 +22,11 @@ How many supermarkets can be reached from a certain point in 10 minutes walking?
 
 ###### 1.2 Step-by-Step guide
 
-1. Display all supermarkets by enabling the amenity "Supermarket" in the Thematic Data Filter under the category "Shop".  
-<img class="img-responsive" src="../../img/Docs/training materials/Isochrone/amenity_supermarket.png" title="amenity supermarket" style="height:200px;">
+1. Display all supermarkets by enabling the amenity "Supermarket" in the Thematic Data Filter under the category "Shop".  {% include image.html src="../uploads/training materials/Isochrone/amenity_supermarket.png" alt="amenity supermarket" maxheight="200px" %} 
 
 2. Zoom in into the area where you want to calculate the isochrone.
 
-3. Set the isochrone range to 10 minutes.  
-<img class="img-responsive" src="../../img/Docs/training materials/Isochrone/isochrone_range_walking.png" title="Adjusting isochrone range" style="height:200px;">
+3. Set the isochrone range to 10 minutes.  {% include image.html src="../uploads/training materials/Isochrone/isochrone_range_walking.png" alt="Adjusting isochrone range" maxheight="200px" %} 
 
 4. Place the starting point for the isochrone.  
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/starting-point-isochrone.png" title="Starting point isochrone" style="height:150px;">
