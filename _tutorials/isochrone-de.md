@@ -39,9 +39,9 @@ Wie viele Supermärkte können von einem bestimmten Punkt aus innerhalb von 10 G
 
 
 ##### 2 Fahrradrouting
-###### 2.1 Planning question
+###### 2.1 Planungsfrage
 Wie viele Menschen können den Bahnhof innerhalb von 5 Minuten mit dem Fahrrad erreichen? 
-###### 2.2 Work steps
+###### 2.2 Arbeitsschritte
 1. Ändern Sie den Routingmodi zu „Radfahrer“.  
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/cycling-mode.png" title="Routing mode cycling" style="height:200px;">
 
@@ -64,7 +64,7 @@ Wie viele Menschen können den Bahnhof innerhalb von 5 Minuten mit dem Fahrrad e
 - Wo befinden sich Barrieren im Netzwerk und wie könnten diese behoben werden? 
 
 
-###### 3.2 Work steps
+###### 3.2 Arbeitsschritte
 
 1. Wählen Sie den Routingmodus „Fußgänger“.  
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/walking-mode.png" title="Routing mode walking" style="height:200px;">
