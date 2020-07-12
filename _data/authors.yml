@@ -10,7 +10,7 @@ pajares:
   avatar:             "../uploads/team/pajares.png"
   bio:
     en:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.    
-    de:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.   
+    de:               Als Softwareentwickler und Verkehrswissenschaftler initierte er die Entwicklung von GOAT. Als Verfechter für lebenswerte Städte begeistert er sich für innovative Lösungen und dem Anstoßen von nachhaltigem Wandel.   
   github:             "https://github.com/EPajares"
   website:            "https://www.bgu.tum.de/en/sv/team/msc-elias-pajares/"
   linkedin:           "https://www.linkedin.com/in/eliaspajares/"
@@ -33,10 +33,10 @@ shkurti:
   title:              
     en:               External Core Developer
     de:               Externer Entwickler    
-  avatar:             https://via.placeholder.com/380
+  avatar:             "../uploads/team/shkurti.png"
   bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    en:               As experienced WebGIS-developer he is focusing in the development of the userinterface. His passion lies within maps, visualizations and creating GIS apps that are accessible to everyone.
+    de:               Als erfahrenen WebGIS-Entwickler fokusiert er sich auf die Entwicklung der Benutzeroberfläche. Er begeistert sich für Karten, Viualisierungen und GIS-Anwendungen die jedem zur Verfügung stehen.
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
@@ -54,6 +54,18 @@ hassine:
   facebook:           "#"
   linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
 
+munoz:
+  name:               Rafael Leonardo Munoz Nieto
+  title:              
+    en:               Student Assistant
+    de:               Wissenschaftliche Hilfskraft    
+  avatar:             "../uploads/team/munoz.png"
+  bio:
+    en:               I am a transport consultant and Student Assistant at TUM. GIS, and Smart cities enthusiast. In GOAT, I have contributed to the data refinement and data management.
+    de:               Ich bin Verkehrsexperte und Studentischer Mitarbeiter an der TUM und begeistere mich für GIS und Smart cities. Ich beteilige mich ich im Bereich der Datenaufbereitung und des Datenmanagements.
+  linkedin:           "https://www.linkedin.com/in/rlmunoz"
+  github:             "https://github.com/rafleo2008"
+
 ramirez:
   name:               German Santiago Linares Ramirez
   title:              
@@ -66,18 +78,6 @@ ramirez:
   twitter:            "#"
   facebook:           "#"
   linkedin:           "#"
-
-munoz:
-  name:               Rafael Leonardo Munoz Nieto
-  title:              
-    en:               Student Assistant
-    de:               Wissenschaftliche Hilfskraft    
-  avatar:             "../uploads/team/munoz.png"
-  bio:
-    en:               I am a transport consultant and Student Assistant at TUM. GIS, and Smart cities enthusiast. In GOAT, I have contributed to the input refinement and data management.
-    de:               I am a transport consultant and Student Assistant at TUM. GIS, and Smart cities enthusiast. In GOAT, I have contributed to the input refinement and data management.
-  linkedin:           "https://www.linkedin.com/in/rlmunoz"
-  github:             "https://github.com/rafleo2008"
 
 # All author available settings
 # handle:
