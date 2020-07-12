@@ -4,8 +4,8 @@ author: [pajares]
 lang: en
 tags: [en]
 categories: [news]
-thumbnail: blog/goat_goes_public/isochrone.png
-image: blog/goat_goes_public/isochrone.png
+thumbnail: blog/goat_goes_public/isochrone.jpg
+image: blog/goat_goes_public/isochrone.jpg
 ---
 I am happy to announce that time has come for the first official release of Geo Open Accessibility Tool (GOAT). This first version is labelled GOAT.
 

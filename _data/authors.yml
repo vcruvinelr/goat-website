@@ -10,7 +10,7 @@ pajares:
   avatar:             "../uploads/team/pajares.png"
   bio:
     en:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.    
-    de:               Als Softwareentwickler und Verkehrswissenschaftler initierte er die Entwicklung von GOAT. Als Verfechter für lebenswerte Städte begeistert er sich für innovative Lösungen und dem Anstoßen von nachhaltigem Wandel.   
+    de:               Als Softwareentwickler und Verkehrswissenschaftler initierte Er die Entwicklung von GOAT. Als Verfechter für lebenswerte Städte begeistert Er sich für innovative Lösungen und dem Anstoßen von nachhaltigem Wandel.   
   github:             "https://github.com/EPajares"
   website:            "https://www.bgu.tum.de/en/sv/team/msc-elias-pajares/"
   linkedin:           "https://www.linkedin.com/in/eliaspajares/"
@@ -22,8 +22,8 @@ jehle:
     de:               Wissenschaftlerin & Entwicklerin   
   avatar:             "../uploads/team/jehle.jpg"
   bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+    en:               Co-developer, traffic planner and open data enthusiast. To meet the challenges of urban mobility, it is particularly engaged in strengthening active forms of mobility. 
+    de:               Mitentwicklerin, Verkehrsplanerin und Open-Data-Fan. Um eine nachhaltige Verkehrslandschaft zu gestalten, setzt Sie sich vor allem für die Steigerung der aktiven Mobiliätsformen ein. 
   github:             "https://github.com/UJehle"
   website:            "https://www.bgu.tum.de/en/sv/team/msc-ulrike-jehle/"
   linkedin:           "https://www.linkedin.com/in/ulrike-jehle/"
@@ -36,21 +36,21 @@ shkurti:
   avatar:             "../uploads/team/shkurti.png"
   bio:
     en:               As experienced WebGIS-developer he is focusing in the development of the userinterface. His passion lies within maps, visualizations and creating GIS apps that are accessible to everyone.
-    de:               Als erfahrenen WebGIS-Entwickler fokusiert er sich auf die Entwicklung der Benutzeroberfläche. Er begeistert sich für Karten, Viualisierungen und GIS-Anwendungen die jedem zur Verfügung stehen.
+    de:               Als erfahrenen WebGIS-Entwickler fokusiert Er sich auf die Entwicklung der Benutzeroberfläche. Er begeistert sich für Karten, Viualisierungen und GIS-Anwendungen die jedem zur Verfügung stehen.
 
 
-hassine:
-  name:               Emna Ben Hassine
-  title:              
-    en:               Student Assistant
-    de:               Wissenschaftliche Hilfskraft   
-  avatar:             https://via.placeholder.com/380
-  bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-  twitter:            "#"
-  facebook:           "#"
-  linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
+# hassine:
+#   name:               Emna Ben Hassine
+#   title:              
+#     en:               Student Assistant
+#     de:               Wissenschaftliche Hilfskraft   
+#   avatar:             https://via.placeholder.com/380
+#   bio:
+#     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+#     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+#   twitter:            "#"
+#   facebook:           "#"
+#   linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
 
 munoz:
   name:               Rafael Leonardo Munoz Nieto
@@ -60,22 +60,22 @@ munoz:
   avatar:             "../uploads/team/munoz.png"
   bio:
     en:               He is a transport consultant and Student Assistant at TUM. GIS, and Smart cities enthusiast. In GOAT, he has contributed to the data refinement and data management.
-    de:               Rafael ist Verkehrsplaner und Studentischer Mitarbeiter an der TUM und begeistert sich für GIS und Smart cities. In GOAT beteiligt er sich im Bereich der Datenaufbereitung und des Datenmanagements.
+    de:               Rafael ist Verkehrsplaner und Studentischer Mitarbeiter an der TUM und begeistert sich für GIS und Smart cities. In GOAT beteiligt Er sich im Bereich der Datenaufbereitung und des Datenmanagements.
   linkedin:           "https://www.linkedin.com/in/rlmunoz"
   github:             "https://github.com/rafleo2008"
 
-ramirez:
-  name:               German Santiago Linares Ramirez
-  title:              
-    en:               Student Assistant
-    de:               Wissenschaftliche Hilfskraft  
-  avatar:             https://via.placeholder.com/380
-  bio:
-    en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-    de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-  twitter:            "#"
-  facebook:           "#"
-  linkedin:           "#"
+# ramirez:
+#   name:               German Santiago Linares Ramirez
+#   title:              
+#     en:               Student Assistant
+#     de:               Wissenschaftliche Hilfskraft  
+#   avatar:             https://via.placeholder.com/380
+#   bio:
+#     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+#     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+#   twitter:            "#"
+#   facebook:           "#"
+#   linkedin:           "#"
 
 # All author available settings
 # handle:

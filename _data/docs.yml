@@ -1,13 +1,9 @@
 - category: About
   docs:
-  - subcategory: Subcategory One
   - background
   - about
   - technicalarchitecture
-  - subcategory: Subcategory Two
-  - background
-  - about
-  - technicalarchitecture
+  #-subcategory: Subcategory Two
 
 - category: Technical Documentation
   docs:
@@ -28,10 +24,3 @@
   docs:
   - contribute_docs
 
-- category: Training Materials
-  docs: 
-  - isochrone 
-  - multiisochrones
-  - scenario_ways
-  - scenario_pois
-  - scenario_buildings
