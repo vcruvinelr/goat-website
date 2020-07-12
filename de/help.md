@@ -1,6 +1,6 @@
 ---
 title: Hilfe
-subtitle: Authoritatively coordinate sticky synergy through distributed synergy. Assertively extend just in time action items with competitive results. 
+subtitle: Auf den folgenden drei Unterseiten finden Sie Hilfestellungen zur Nutzung von GOAT und detaillierte Informationen zum technischen Hintergrund.
 width: full
 layout: help
 lang: de
@@ -8,13 +8,13 @@ boxes:
   - icon: settings
     title: Tutorials
     url: tutorials/isochrone/
-    description: User friendly technologies via economically sound bandwidth target for paralle synergy. 
+    description: Erklärung der einzelnen Funktionen von GOAT und Schritt-für-Schritt Anleitungen zur Bearbeitung typischer Planungsfragen.
   - icon: play-circle
     title: Videos
     url: videos/
-    description: Globally morph user friendly technologies via sound bandwidth target for paralle synergy. 
+    description: Videos zum Schnelleinstieg. Hier werden die Funktionen von GOAT exemplarisch vorgeführt. 
   - icon: file-text
     title: Docs
     url: docs/background/
-    description: Dorph user friendly technologies via economically sound bandwidth target for paralle synergy. 
+    description: Detaillierte Informationen zum technischen Hintergrund und Anleitungen zur Beteiligung am Open Source Projekt GOAT.
 ---
