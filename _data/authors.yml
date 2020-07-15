@@ -38,19 +38,17 @@ shkurti:
     en:               As experienced WebGIS-developer he is focusing in the development of the userinterface. His passion lies within maps, visualizations and creating GIS apps that are accessible to everyone.
     de:               Als erfahrenen WebGIS-Entwickler fokusiert Er sich auf die Entwicklung der Benutzeroberfläche. Er begeistert sich für Karten, Viualisierungen und GIS-Anwendungen die jedem zur Verfügung stehen.
 
-
 # hassine:
 #   name:               Emna Ben Hassine
 #   title:              
 #     en:               Student Assistant
 #     de:               Wissenschaftliche Hilfskraft   
-#   avatar:             https://via.placeholder.com/380
+#   avatar:             "../uploads/team/hassine.jpg"
 #   bio:
 #     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-#     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-#   twitter:            "#"
-#   facebook:           "#"
+#     de:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
 #   linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
+#   github:             "https://github.com/EmnaBH"
 
 munoz:
   name:               Rafael Leonardo Munoz Nieto
@@ -64,18 +62,18 @@ munoz:
   linkedin:           "https://www.linkedin.com/in/rlmunoz"
   github:             "https://github.com/rafleo2008"
 
-# ramirez:
-#   name:               German Santiago Linares Ramirez
-#   title:              
-#     en:               Student Assistant
-#     de:               Wissenschaftliche Hilfskraft  
-#   avatar:             https://via.placeholder.com/380
-#   bio:
-#     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-#     de:               De Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-#   twitter:            "#"
-#   facebook:           "#"
-#   linkedin:           "#"
+ramirez:
+  name:               German Santiago Linares Ramirez
+  title:              
+    en:               Student Assistant
+    de:               Wissenschaftliche Hilfskraft  
+  avatar:             "../uploads/team/ramirez.jpg"
+  bio:
+    en:               He is a Civil and Industrial Engineer with passion for active mobility, cities, and sustainability. In GOAT he contributes to documentation, communications, and improvement of data quality.
+    de:               Bau- und Wirtschaftsingenieur mit einer Leidenschaft für aktive Mobilität, Städte und Nachhaltigkeit. In GOAT trägt er zur Dokumentation, Kommunikation und Verbesserung der Datenqualität bei.
+  linkedin:           "https://www.linkedin.com/in/santiago-linares-895b1634/"
+  twitter:            "https://twitter.com/SantiLinares04"
+
 
 # All author available settings
 # handle:
