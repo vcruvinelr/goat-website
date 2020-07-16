@@ -26,10 +26,11 @@ How many supermarkets can be reached from a certain point in 10 minutes walking?
 
 2. Zoom in into the area where you want to calculate the isochrone.
 
-3. Set the isochrone range to 10 minutes.  {% include image.html src="../uploads/training materials/Isochrone/isochrone_range_walking.png" alt="Adjusting isochrone range" maxheight="200px" %} 
+3. Set the isochrone range to 10 minutes.  {% include image.html src="../uploads/training materials/Isochrone/isochrone_range_walking.png" alt="choose isochrone range" maxheight="200px" %} 
 
 4. Place the starting point for the isochrone.  
-<img class="img-responsive" src="../../img/Docs/training materials/Isochrone/starting-point-isochrone.png" title="Starting point isochrone" style="height:150px;">
+{% include image.html src="../uploads/training materials/Isochrone/starting-point-isochrone.png" alt="Starting point isochrone" maxheight="150px" %} 
+
 
 5. After the calculation has been carried out, a window with the results opens automatically. From this window you can see the number of supermarkets that can be reached within 10 minutes.  
 <img class="img-responsive" src="../../img/Docs/training materials/Isochrone/isochrone_supermarkets.png" title="Reached supermarkets">
