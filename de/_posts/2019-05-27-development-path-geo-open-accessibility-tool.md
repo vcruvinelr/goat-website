@@ -4,6 +4,8 @@ title:  "Development path of GOAT"
 author: [pajares]
 lang: de
 tags: [de]
+thumbnail: blog/development_path/thumbnail.png
+image: blog/development_path/thumbnail.png
 ---
 
 Geo Open Accessibility Tool (GOAT) is by far not where it should be. Apart from the on-going professionalization which is seen as crucial to provide a truly useful and stable accessibility instrument, additional features will be implemented on a regular basis.
