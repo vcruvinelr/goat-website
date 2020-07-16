@@ -29,7 +29,7 @@ goat:
 what:
   title: Was ist GOAT?
   image: heatmap.png
-  description: GOAT steht für Geo Open Accessibility Tool. Als Webtool kann GOAT eingesetzt werden um interaktiv Erreichbarkeiten und die Qualität für den Fuß- und Radverkehr aufzuzeigen. Gegenwärtig wird das Tool an der [Professur für Siedlungsstruktur und Verkehrsplanung - TUM](https://www.bgu.tum.de/sv/startseite/) entwickelt. Es kommen regelmäßig Neuerungen und Verbesserungen hinzu. Verschiedene Version von GOAT können [hier](/versions) getestet werden. 
+  description: GOAT steht für Geo Open Accessibility Tool. Als Webtool kann GOAT eingesetzt werden, um interaktiv Erreichbarkeiten und die Qualität für den Fuß- und Radverkehr aufzuzeigen. Gegenwärtig wird das Tool an der [Professur für Siedlungsstruktur und Verkehrsplanung - TUM](https://www.bgu.tum.de/sv/startseite/) entwickelt. Es kommen regelmäßig Neuerungen und Verbesserungen hinzu. Verschiedene Version von GOAT können [hier](/versions) getestet werden. 
 
 why:
   title: Warum GOAT?
@@ -39,6 +39,6 @@ why:
 features:
   title: Welche sind die wesentlichen Funktionen?
   image: draw_bridge.png
-  description: Der Fokus von GOAT besteht darin, dynamische Erreichbarkeitsanalysen auf Straßen-, Quartiers- und Stadtteilebene zu erstellen. Mit GOAT können Sie verschiedene Erreichbarkeitsindikatoren wie Isochronen und Heatmaps verwenden. Das Besondere an GOAT ist, dass Sie Ihre eigenen Szenarien entwickeln können (z.B. Bau einer Radfahrerbrücke oder einer neuen Wohnsiedlung) und Änderungen in der Erreichbarkeit aufzeigen können. [Hier] [https://www.open-accessibility.org/videos] können Sie GOAT in Aktion sehen.
+  description: Der Fokus von GOAT besteht darin, dynamische Erreichbarkeitsanalysen auf Straßen-, Quartiers- und Stadtteilebene zu erstellen. Mit GOAT können Sie verschiedene Erreichbarkeitsindikatoren wie Isochronen und Heatmaps verwenden. Das Besondere an GOAT ist, dass Sie Ihre eigenen Szenarien entwickeln können (z.B. Bau einer Radfahrerbrücke oder einer neuen Wohnsiedlung) und Änderungen in der Erreichbarkeit aufzeigen können. [Hier](https://www.open-accessibility.org/videos) können Sie GOAT in Aktion sehen.
 
 ---
