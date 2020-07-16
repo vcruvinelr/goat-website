@@ -36,19 +36,20 @@ shkurti:
   avatar:             "../uploads/team/shkurti.png"
   bio:
     en:               As experienced WebGIS-developer he is focusing in the development of the userinterface. His passion lies within maps, visualizations and creating GIS apps that are accessible to everyone.
-    de:               Als erfahrenen WebGIS-Entwickler fokusiert Er sich auf die Entwicklung der Benutzeroberfläche. Er begeistert sich für Karten, Viualisierungen und GIS-Anwendungen die jedem zur Verfügung stehen.
+    de:               Als erfahrener WebGIS-Entwickler fokusiert Er sich auf die Entwicklung der Benutzeroberfläche. Er begeistert sich für Karten, Viualisierungen und GIS-Anwendungen die jedem zur Verfügung stehen.
+  github:             "https://github.com/majkshkurti"
 
-# hassine:
-#   name:               Emna Ben Hassine
-#   title:              
-#     en:               Student Assistant
-#     de:               Wissenschaftliche Hilfskraft   
-#   avatar:             "../uploads/team/hassine.jpg"
-#   bio:
-#     en:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-#     de:               En Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
-#   linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
-#   github:             "https://github.com/EmnaBH"
+hassine:
+  name:               Emna Ben Hassine
+  title:              
+    en:               Student Assistant
+    de:               Wissenschaftliche Hilfskraft   
+  avatar:             "../uploads/team/hassine.jpg"
+  bio:
+    en:               Student assistant and environmental engineer with enthusiasm for Sustainable Urban Mobility. She believes that active mobility is the key to bring back the livability the cities have lost in the last few decades.
+    de:               Studentische Hilfskraft und Umweltingenieur mit Begeisterung für nachhaltige urbane Mobilität. Sie glaubt, dass aktive Mobilität der Schlüssel ist, um den Städten die in den letzten Jahrzehnten verloren gegangene Lebensqualität zurückzugeben.
+  linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
+  github:             "https://github.com/EmnaBH"
 
 munoz:
   name:               Rafael Leonardo Munoz Nieto
