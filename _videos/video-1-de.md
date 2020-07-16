@@ -1,5 +1,5 @@
 ---
-title: Berechnung von fußläufigen Isochronen
+title: Berechnung von Isochronen
 image: videos/basic_isochrones.png
 vimeo: 311547681
 lang: de

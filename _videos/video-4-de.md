@@ -1,8 +1,8 @@
 ---
-title: Use GOAT for location planning
+title: Verwende GOAT in der Standortplanung
 image: videos/scenario_new_station.png
 vimeo: 411721219
 lang: de
 ---
 
-You can add, modify and delete points of interest and assess the effects on accessibility on the fly within a few seconds. 
+Du kannst Points of Interest hinzufügen, modifizieren und löschen, die Veränderung in der Erreichbarkeit wird dir dynamisch aufgezeigt. 

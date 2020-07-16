@@ -1,8 +1,8 @@
 ---
-title: Interactive network modifications
+title: Interaktive Veränderung des Netzwerks
 image: videos/isochrones_scenario.png
 vimeo: 311550100
 lang: de
 ---
 
-Perform your own scenarios by drawing, modifying or deleting links in the routing network within seconds and assess changes in accessibility.
+Entwickle eigene Szenarien durch Veränderungen im Routingnetzwerk innerhalb von Sekunden und visualisiere die Veränderung in der Erreichbarkeit.
