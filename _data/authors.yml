@@ -10,7 +10,7 @@ pajares:
   avatar:             "../uploads/team/pajares.png"
   bio:
     en:               As core developer and transport researcher he initiated the development of GOAT. As advocate for liveable cities he loves to develop innovative solutions and trigger sustainable change.    
-    de:               Als Softwareentwickler und Verkehrswissenschaftler initierte Er die Entwicklung von GOAT. Als Verfechter für lebenswerte Städte begeistert Er sich für innovative Lösungen und dem Anstoßen von nachhaltigem Wandel.   
+    de:               Als Softwareentwickler und Verkehrswissenschaftler initierte Er die Entwicklung von GOAT. Als Verfechter für lebenswerte Städte begeistert er sich für innovative Lösungen und dem Anstoßen von nachhaltigem Wandel.   
   github:             "https://github.com/EPajares"
   website:            "https://www.bgu.tum.de/en/sv/team/msc-elias-pajares/"
   linkedin:           "https://www.linkedin.com/in/eliaspajares/"
@@ -22,8 +22,8 @@ jehle:
     de:               Wissenschaftlerin & Entwicklerin   
   avatar:             "../uploads/team/jehle.jpg"
   bio:
-    en:               Co-developer, traffic planner and open data enthusiast. To meet the challenges of urban mobility, she is particularly engaged in strengthening active forms of mobility. 
-    de:               Mitentwicklerin, Verkehrsplanerin und Open-Data-Fan. Um eine nachhaltige Verkehrslandschaft zu gestalten, setzt Sie sich vor allem für die Steigerung der aktiven Mobiliätsformen ein. 
+    en:               Core developer, traffic planner and open data enthusiast. To meet the challenges of urban mobility, she is particularly engaged in strengthening active forms of mobility. 
+    de:               Entwicklerin, Verkehrsplanerin und Open-Data-Fan. Um eine nachhaltige Verkehrslandschaft zu gestalten, setzt Sie sich vor allem für die Förderung von aktiven Mobiliätsformen ein. 
   github:             "https://github.com/UJehle"
   website:            "https://www.bgu.tum.de/en/sv/team/msc-ulrike-jehle/"
   linkedin:           "https://www.linkedin.com/in/ulrike-jehle/"
@@ -35,9 +35,12 @@ shkurti:
     de:               Externer Entwickler    
   avatar:             "../uploads/team/shkurti.png"
   bio:
-    en:               As experienced WebGIS-developer he is focusing in the development of the userinterface. His passion lies within maps, visualizations and creating GIS apps that are accessible to everyone.
+    en:               As experienced WebGIS-developer he is focusing on the development of the userinterface. His passion lies within maps, visualizations and creating GIS apps that are accessible to everyone.
     de:               Als erfahrener WebGIS-Entwickler fokusiert Er sich auf die Entwicklung der Benutzeroberfläche. Er begeistert sich für Karten, Viualisierungen und GIS-Anwendungen die jedem zur Verfügung stehen.
   github:             "https://github.com/majkshkurti"
+  website:            "https://majk.me/"
+  linkedin:           "https://www.linkedin.com/in/majkshkurti/"
+  
 
 hassine:
   name:               Emna Ben Hassine
@@ -48,8 +51,9 @@ hassine:
   bio:
     en:               Student assistant and environmental engineer with enthusiasm for Sustainable Urban Mobility. She believes that active mobility is the key to bring back the livability the cities have lost in the last few decades.
     de:               Studentische Hilfskraft und Umweltingenieur mit Begeisterung für nachhaltige urbane Mobilität. Sie glaubt, dass aktive Mobilität der Schlüssel ist, um den Städten die in den letzten Jahrzehnten verloren gegangene Lebensqualität zurückzugeben.
-  linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
   github:             "https://github.com/EmnaBH"
+  linkedin:           "https://www.linkedin.com/in/emna-ben-hassine-832730107/"
+  
 
 munoz:
   name:               Rafael Leonardo Munoz Nieto
@@ -60,8 +64,9 @@ munoz:
   bio:
     en:               He is a transport consultant and Student Assistant at TUM. GIS, and Smart cities enthusiast. In GOAT, he has contributed to the data refinement and data management.
     de:               Rafael ist Verkehrsplaner und Studentischer Mitarbeiter an der TUM und begeistert sich für GIS und Smart cities. In GOAT beteiligt Er sich im Bereich der Datenaufbereitung und des Datenmanagements.
-  linkedin:           "https://www.linkedin.com/in/rlmunoz"
   github:             "https://github.com/rafleo2008"
+  linkedin:           "https://www.linkedin.com/in/rlmunoz"
+  
 
 ramirez:
   name:               German Santiago Linares Ramirez
