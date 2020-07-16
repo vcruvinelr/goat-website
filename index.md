@@ -22,7 +22,7 @@ header:
 what:
   title: What is GOAT?
   image: heatmap.png
-  description: GOAT stands for Geo Open Accessibility Tool. This web-tool is meant to be open source, interactive, flexible and useful for accessibility planning. It is under development at the [Chair for Urban Structure and Transport Planning at TUM](https://www.bgu.tum.de/sv/startseite/). Currently, GOAT is designed to model walking accessibility, however frequent enhancements and extensions will be made on a regular basis. At the moment you can test the demo version of GOAT for the city of Munich [here](https://goat.open-accessibility.org/).
+  description: GOAT stands for Geo Open Accessibility Tool. This web-tool is meant to be open source, interactive, flexible and useful for accessibility planning. It is under development at the [Chair for Urban Structure and Transport Planning at TUM](https://www.bgu.tum.de/sv/startseite/). Currently, GOAT is designed to model walking and cycling accessibility and frequent enhancements are done. You can test different versions of GOAT [here](/versions).
 
 why:
   title: Why to use GOAT?
@@ -32,6 +32,6 @@ why:
 features:
   title: What are the main features?
   image: draw_bridge.png
-  description: The main focus of GOAT is to offer dynamic accessibility analysis at the neighborhood level. At the moment, only the walking mode is supported but soon cycling will follow. With GOAT, you can calculate different accessibility indicators such as isochrones and gravity-based heat-maps. What is more special about GOAT is that you can develop your own case scenarios, for instance you can model a new bridge over a river, and examine corresponding changes in accessibility. You can view GOAT in action in the videos [here](https://www.open-accessibility.org/videos).
+  description: The main focus of GOAT is to offer dynamic accessibility analysis at the street,neighborhood and district level. With GOAT, you can calculate different accessibility indicators such as isochrones and gravity-based heatmaps. What is more special about GOAT is that you can develop your own case scenarios. For instance you can model the effects of a new bridge or new housing development on accessibility. You can view GOAT in action in the videos [here](https://www.open-accessibility.org/videos).
 ---
 
