@@ -1,8 +1,8 @@
 ---
-title: Compute and visualize walkability
+title: Heatmap zur fußläufigen Erreichbarkeit
 image: videos/walkability_heatmap.png
 vimeo: 311549509
 lang: de
 ---
 
-The dynamic heatmap makes use of gravity-based accessibility measures and allows you to show accessiblity levels for many amenities on a grid level.
+Die dynamische Heatmap berechnet die gravitationsbasierte Erreichbarkeit und erlaubt es, die Erreichbarkeit von verschiedenen Points-of-Interest auf einer Rasterebene darzustellen.
