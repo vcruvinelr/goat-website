@@ -39,6 +39,6 @@ why:
 features:
   title: Welche sind die wesentlichen Funktionen?
   image: draw_bridge.png
-  description: Der Fokus von GOAT besteht darin, dynamische Erreichbarkeitsanalysen auf Straßen-, Quartiers- und Stadtteilebene zu erstellen. Mit GOAT können Sie verschiedene Erreichbarkeitsindikatoren wie Isochronen und Heatmaps verwenden. Das Besondere an GOAT ist, dass Sie Ihre eigenen Szenarien entwickeln können (z.B. Bau einer Radfahrerbrücke oder einer neuen Wohnsiedlung) und Änderungen in der Erreichbarkeit aufzeigen können. [Hier](https://www.open-accessibility.org/videos) können Sie GOAT in Aktion sehen.
+  description: Der Fokus von GOAT besteht darin, dynamische Erreichbarkeitsanalysen auf Straßen-, Quartiers- und Stadtteilebene zu erstellen. Mit GOAT können Sie verschiedene Erreichbarkeitsindikatoren wie Isochronen und Heatmaps verwenden. Das Besondere an GOAT ist, dass Sie Ihre eigenen Szenarien entwickeln können (z.B. Bau einer Radfahrerbrücke oder einer neuen Wohnsiedlung) und Änderungen in der Erreichbarkeit aufzeigen können. [Hier](/videos) können Sie GOAT in Aktion sehen.
 
 ---

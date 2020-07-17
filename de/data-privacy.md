@@ -4,6 +4,20 @@ title: Imprint & Privacy
 width: small
 ---
 
+#### Betreiber
+Technische Universität München  
+Professur für Siedlungsstruktur und Verkehrsplanung
+
+#### Addresse
+Arcisstraße 21  
+80333 München  
+Deutschland
+
+#### Kontakt
+Email: elias.pajares@tum.de  
+Telefon: +49 89 289 22538
+
+
 ## Datenschutzerklärung
 Personenbezogene Daten (nachfolgend zumeist nur „Daten“ genannt) werden von uns nur im Rahmen der Erforderlichkeit sowie zum Zwecke der Bereitstellung eines funktionsfähigen und nutzerfreundlichen Internetauftritts, inklusive seiner Inhalte und der dort angebotenen Leistungen, verarbeitet.
 
@@ -20,28 +34,16 @@ III. Informationen zur Datenverarbeitung
 ### I. Informationen über uns als Verantwortliche  
 Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:
 
-Musterfirma/Musterunternehmer  
-Musterstraße 1  
-12345 Musterstadt  
-Deutschland
-
-Telefon: Telefonnummer  
-Telefax: Faxnummer  
-E-Mail: muster@mustermail.xy
+Technische Universität München  
+Professur für Siedlungsstruktur und Verkehrsplanung
+Arcisstraße 21  
+80333 München  
+Germany
 
 Datenschutzbeauftragte/r beim Anbieter ist:
 
-Maxie Musterfrau 
-
-[nachfolgende Angaben sind zu ergänzen, sofern ein Externer Datenschutzbeauftragter bestellt ist]
-
-Musterstraße 1  
-12345 Musterstadt  
-Deutschland
-
-Telefon: Telefonnummer  
-Telefax: Faxnummer  
-E-Mail: datenschutz@mustermail.xy
+Email: elias.pajares@tum.de  
+Elias Pajares 
 
 ### II. Rechte der Nutzer und Betroffenen
 Mit Blick auf die nachfolgend noch näher beschriebene Datenverarbeitung haben die Nutzer und Betroffenen das Recht

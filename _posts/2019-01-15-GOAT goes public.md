@@ -7,7 +7,7 @@ categories: [news]
 thumbnail: blog/goat_goes_public/isochrone.jpg
 image: blog/goat_goes_public/isochrone.jpg
 ---
-I am happy to announce that time has come for the first official release of Geo Open Accessibility Tool (GOAT). This first version is labelled GOAT.
+I am happy to announce that time has come for the first official release of Geo Open Accessibility Tool (GOAT). This first version already unifies some key features but much more will follow.
 
 The people who have followed the GOAT project know that the development started way back with my Master thesis one and half years ago. Meanwhile the development became an important part of the PhD that I want to start taking soon and my daily work at the [Chair for Urban Structure and Transport Planning at the Technical University of Munich](https://www.sv.bgu.tum.de).
 

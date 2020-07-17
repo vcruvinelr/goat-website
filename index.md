@@ -32,6 +32,6 @@ why:
 features:
   title: What are the main features?
   image: draw_bridge.png
-  description: The main focus of GOAT is to offer dynamic accessibility analysis at the street,neighborhood and district level. With GOAT, you can calculate different accessibility indicators such as isochrones and gravity-based heatmaps. What is more special about GOAT is that you can develop your own case scenarios. For instance you can model the effects of a new bridge or new housing development on accessibility. You can view GOAT in action in the videos [here](https://www.open-accessibility.org/videos).
+  description: The main focus of GOAT is to offer dynamic accessibility analysis at the street,neighborhood and district level. With GOAT, you can calculate different accessibility indicators such as isochrones and gravity-based heatmaps. What is more special about GOAT is that you can develop your own case scenarios. For instance you can model the effects of a new bridge or new housing development on accessibility. You can view GOAT in action in the videos [here](/videos).
 ---
 
