@@ -17,6 +17,7 @@
 
 - category: Contribute to OSM
   docs:
+  - mapping_mode
   - osm_tutorial
   - complete_pois
 
