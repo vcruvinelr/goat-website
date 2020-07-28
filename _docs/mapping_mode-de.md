@@ -3,7 +3,7 @@ title: Mapping Mode
 permalink: de/docs/mapping_mode/
 lang: de
 ---
-Welcome and thank you for your interest in contributing to the quality of open data. With this feature, we are organizing and setting the mapping tasks that are necessary to improve the OSM data used by the GOAT tool. This feature is available in our GOAT versions for Munich, Fürstenfeldbruck and Freising. For Freising and Fürstenfeldbruck we as well created some [MapRoulette challenges](https://maproulette.org/browse/challenges/13812) where you are highly welcome to contribute.
+Welcome and thank you for your interest in contributing to the quality of open data. With this feature, we are organizing and setting the mapping tasks that are necessary to improve some of the OSM data used by the GOAT tool. The focus is on rather simple mapping tasks, such as adding attributes. This feature is available in our GOAT versions for Munich, Fürstenfeldbruck and Freising. For Freising and Fürstenfeldbruck we as well created some [MapRoulette challenges](https://maproulette.org/browse/challenges/13812) where you are highly welcome to contribute.
 
 In the following, you will find the steps to use GOAT’s editing tool “OSM Mapping Mode”.
 
@@ -23,8 +23,7 @@ Now, on the OSM Mapping Tasks menu you will see our tasks available (highlighted
 
 #### 3.	What to do?
 
-We have set up different tasks for objects with missing information, which can be completed using the iD-Editor or other OSM editors such as JOSM. Remember always to follow the standards and characteristics established in OSM-Wiki for each task. If you have questions on how to edit objects in OSM you can visit our page [Making changes in OSM](../osm_tutorial/) for further information.
-
+We have set up different tasks for objects with missing information, which can be completed using the iD-Editor or other OSM editors such as JOSM. This list of tasks will be frequently updated. Remember always to follow the standards and characteristics established in the OSM-Wiki for each task as this data will be updated for all OSM users. 
 <table class="table table-striped table-hover">
   <thead>
     <tr>
@@ -67,13 +66,15 @@ We have set up different tasks for objects with missing information, which can b
   </tbody>
 </table>
 
+If you have questions on how to edit objects in OSM you can visit our page [Making changes in OSM](../osm_tutorial/) for further information. In case you are still not sure how to map a dedicated feature it is better to just leave the task open. 
+
 #### 4.	How to edit?
 
 Once you select the task you want to work on, the map will show the objects that have missing information about the selected feature (e.g. building type).
 
 {% include image.html src="docs/mapping_mode/building_types.png" alt="All buildings with missing information are displayed" title="Mapping task on missing building types" %}
 
-Now you can select one of the elements from the map, this will open a pop-up window showing the current information available. To edit the element and add additional information click on “Edit with OSM”. 
+Now you can click one of the elements from the map, this will open a pop-up window showing the current information available. To edit the element and add additional information click on “Edit with OSM”. 
 
 {% include image.html src="docs/mapping_mode/edit_building_types.png" alt="Edit one of the displayed buildings" title="Edit one of the displayed buildings" %}
 
@@ -101,4 +102,4 @@ After you finished editing, just go to the saving button in the top right corner
 
 {% include image.html src="docs/mapping_mode/osm_save_changes.jpg" alt="Save your changes" title="Save your changes" %}
 
-If you now go back to the OSM Mapping Mode of GOAT, you will see your changes in about 10 minutes.
+If you now go back to the OSM Mapping Mode of GOAT, you will see in around 10 minutes that the task for this building is completed
