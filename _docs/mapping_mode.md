@@ -93,7 +93,7 @@ Click in any of the green points available to see the street view imagery. Try t
 
 {% include image.html src="docs/mapping_mode/street_view.png" alt="Street View" title="Street View" %}
 
-In our case the building of interest is pink in the left corner and from the picture is possible to update the number of levels of the building. Additionally, from previous visits to the area it is possible to know that the first floor has a Müller (commercial) and the other floors are residential. Thus, the building type is set to the main use “residential”. In addition, the tag “building:use” can be given and filled with all usages, which in this case would be “residential, commercial”. 
+In our case, the building of interest is the pink one on the right side. From the picture is possible to classify the building type as "residential". In addition, it is possible to add the number of levels of the building. If the building usage is not homogeneous, the tag “building:use” can be given and filled with all usages (e.g. “residential, commercial”). 
 
 {% include image.html src="docs/mapping_mode/fill_missing_tags.png" alt="Fill the missing tags" title="Fill the missing tags" %}
 
@@ -101,4 +101,4 @@ After you finished editing, just go to the saving button in the top right corner
 
 {% include image.html src="docs/mapping_mode/osm_save_changes.jpg" alt="Save your changes" title="Save your changes" %}
 
-If you now go back to the OSM Mapping Mode of GOAT, you will see in around 10 minutes that the task for this building is completed
+If you now go back to the OSM Mapping Mode of GOAT, you will see in around 10 minutes that the task for this building is completed.
