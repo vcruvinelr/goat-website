@@ -5,7 +5,7 @@
       {% assign logo_url = site.data.languages[page_lang].url | relative_url %}
       <a class="uk-navbar-item uk-logo" href="{{ logo_url }}">
         <img class="uk-margin-small-right" src="{{ site.uploads | absolute_url }}{{ site.logo }}" alt="{{ site.title }}">
-        {{ site.title }}
+        <span class="uk-visible@s">{{ site.title }}</span>
       </a>
     </div>
 
