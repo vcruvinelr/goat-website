@@ -1,6 +1,6 @@
 ---
 title:  "Using GOAT in planning practice"
-author: [pajares, jehle, hassine]
+author: [hassine, jehle, pajares]
 lang: en
 tags: [en]
 categories: [news]
@@ -15,11 +15,7 @@ The three planning workshops were conducted in the municipalities of Fürstenfel
 All three planning workshops were conducted according to the same agenda. First, the GOAT team and the participants introduced themselves briefly. This was followed by an introduction to GOAT and its main features for those who were not familiar with the tool before. The project team then presented the planning questions that had been prepared for the local context in consultation with the local planners to the participants, who could then choose which question they wanted to tackle based on their interests. The participants worked on the planning questions in small groups and presented their results at the end of the workshop.
 
 
-{% include image.html src="blog/planning_workshops/FFB.png" alt="Presentation of the results of the planning questions"%} 
-
-{% include image.html src="blog/planning_workshops/FR.png" alt="Processing the planning questions in small groups" %}
-
-
+{% include image.html src="blog/planning_workshops/images_FR_FFB.png" alt="Presentation of the results of the planning questions" %} 
 
 
 The planning questions were based on real planning tasks from each municipality. Among them:
@@ -30,7 +26,7 @@ The planning questions were based on real planning tasks from each municipality.
 
 The following illustration shows, based on an exemplary planning question about the densification of a village close to Freising, how the planning questions were processed during the workshops and how GOAT can be used to answer common questions in urban and transport planning:  
 
-{% include image.html src="blog/planning_workshops/Blogpost_Planungsworkshop_Graphik.png" alt="Processing of an exemlery planning queszion" %}
+{% include image.html src="blog/planning_workshops/Blogpost_planning_workshop_graphic.png" alt="Processing of an exemplary planning question" %}
 
 While processing the planning questions and during the feedback round, the participants suggested many good ideas for improvements, for example:
 - Integration of further data (aircraft noise map, trees)
