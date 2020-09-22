@@ -49,6 +49,27 @@ We have set up different tasks for objects with missing information, which can b
       <td><a href="https://wiki.openstreetmap.org/wiki/Key:surface">https://wiki.openstreetmap.org/wiki/Key:surface</a></td>
     </tr>
     <tr class="success">
+      <td><b>Ways – Cycleway Segregated</b></td>
+      <td>Segregation between cycleway and footpath (e.g. yes, no)</td>
+      <td>• Mapillary Street View <br>
+          • Personal Site Visit</td>
+      <td><a href="https://wiki.openstreetmap.org/wiki/Key:segregated">https://wiki.openstreetmap.org/wiki/Key:segregated</a></td>
+    </tr>
+    <tr class="success">
+      <td><b>Ways – Cycleway Width</b></td>
+      <td>Width of the cycleway in meters (e.g. 1.0, 1.5, 2.0)</td>
+      <td>• Personal Site Visit</td>
+      <td><a href="https://wiki.openstreetmap.org/wiki/Key:width">https://wiki.openstreetmap.org/wiki/Key:width</a></td>
+    </tr>
+    <tr class="success">
+      <td><b>Ways – Parking Lanes</b></td>
+      <td>Value of the parking lane (e.g. parallel, diagonal, perpendicular, no_parking)</td>
+      <td>•	Aerial images or photos <br>
+          • Mapillary Street View <br>
+          • Personal Site Visit</td>
+      <td><a href="https://wiki.openstreetmap.org/wiki/Key:parking:lane">https://wiki.openstreetmap.org/wiki/Key:parking:lane</a></td>
+    </tr>
+    <tr class="success">
       <td><b>Ways – Maxspeed</b></td>
       <td>Maximum Speed Limit (e.g. 30, 50, 100)</td>
       <td>•	Mapillary Street View <br>
