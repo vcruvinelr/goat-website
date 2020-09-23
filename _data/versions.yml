@@ -16,6 +16,15 @@
           enthält erste Ansätze für das Fahrradrouting und Flächennutzungsänderungen.
   url: https://ffb.open-accessibility.org/
 
+- image: versions/bogota.png
+  title: Bogota
+  text: 
+    en: Bogota is our first trial in Latin-America and is developed in a Master thesis project. 
+        Special attention was given on customizing GOAT to the local context.
+    de: Bogota ist ein erster Versuch in Lateinamerika. Diese Version wird im Rahmen einer 
+      Masterarbeit entwicklelt und wurde auf die lokalen Gegebenheiten angepasst.  
+  url: https://bogota.open-accessibility.org/
+
 - image: versions/freising.png
   title: Freising
   text: 
