@@ -1,28 +1,28 @@
 ---
-lang: pt
+lang: en
 layout: home
 width: full
 alert:
-  content: "[Ajude-nos a melhorar a plataforma GOAT participando desta pesquisa](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
+  content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
 
 header:
   background_color: "rgb(228, 255, 224)"
   header_size: large
   heading_size: small
-  title: Análise dinâmica de acessibilidade para o planejamento sustentável
+  title: Dynamic accessibility analysis for sustainable planning
   subtitle:
   image: isochrone_amenities.png
   button:
-    text: Experimente o GOAT
+    text: Try GOAT
     url: versions/
   button_2:
     text: Videos
     url: videos/
 
 what:
-  title: O que é o GOAT?
+  title: What is GOAT?
   image: heatmap.png
-  description: Geo Open Accessibility Tool, ou simplesmente GOAT, is an open-source web tool that is interactive, flexible, and practical for accessibility planning. Currently under development at the [Chair for Urban Structure and Transport Planning at TUM](https://www.bgu.tum.de/sv/startseite/), GOAT is capable of modeling walking and cycling accessibility. Frequent enhancements are made to improve its performance and add additional functionality. You can test different versions of GOAT [here](/versions).
+  description: Geo Open Accessibility Tool, or simply GOAT, is an open-source web tool that is interactive, flexible, and practical for accessibility planning. Currently under development at the [Chair for Urban Structure and Transport Planning at TUM](https://www.bgu.tum.de/sv/startseite/), GOAT is capable of modeling walking and cycling accessibility. Frequent enhancements are made to improve its performance and add additional functionality. You can test different versions of GOAT [here](/versions).
 
 why:
   title: Why to use GOAT?
